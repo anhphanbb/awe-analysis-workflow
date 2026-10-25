@@ -1,0 +1,132 @@
+{
+  "start": 475,
+  "end": 524,
+  "reference_frame": 500,
+  "reference_epoch": 1384667539.0078125,
+  "bounds": [
+    1976,
+    2316,
+    86,
+    386
+  ],
+  "status": "fit",
+  "duration_seconds": 56.10546875,
+  "modes": [
+    {
+      "velocity": [
+        0.04364614036246187,
+        0.008816431572028667
+      ],
+      "support": 428,
+      "median_ncc": 0.594659209678459,
+      "pair_count": 9
+    },
+    {
+      "velocity": [
+        0.7269941884603212,
+        -0.025396924830690015
+      ],
+      "support": 63,
+      "median_ncc": 0.6398954803561598,
+      "pair_count": 9
+    }
+  ],
+  "model_components": 2,
+  "history": [
+    {
+      "iteration": 1,
+      "heldout_rmse_kR": 0.3715633153915405,
+      "training_rmse_kR": 0.3536697030067444,
+      "heldout_pixels": 1844580
+    },
+    {
+      "iteration": 2,
+      "heldout_rmse_kR": 0.364124059677124,
+      "training_rmse_kR": 0.34537655115127563,
+      "heldout_pixels": 1844580
+    },
+    {
+      "iteration": 4,
+      "heldout_rmse_kR": 0.3574478030204773,
+      "training_rmse_kR": 0.337970107793808,
+      "heldout_pixels": 1844580
+    },
+    {
+      "iteration": 8,
+      "heldout_rmse_kR": 0.3524497151374817,
+      "training_rmse_kR": 0.3325004279613495,
+      "heldout_pixels": 1844580
+    },
+    {
+      "iteration": 16,
+      "heldout_rmse_kR": 0.34961098432540894,
+      "training_rmse_kR": 0.3294769823551178,
+      "heldout_pixels": 1844580
+    },
+    {
+      "iteration": 32,
+      "heldout_rmse_kR": 0.3484984040260315,
+      "training_rmse_kR": 0.32830652594566345,
+      "heldout_pixels": 1844580
+    }
+  ],
+  "slow_only_heldout_rmse_kR": 0.5091409087181091,
+  "heldout_improvement_fraction": 0.31551678904870506,
+  "training_frames": [
+    475,
+    477,
+    479,
+    481,
+    483,
+    485,
+    487,
+    489,
+    491,
+    493,
+    495,
+    497,
+    499,
+    501,
+    503,
+    505,
+    507,
+    509,
+    511,
+    513,
+    515,
+    517,
+    519,
+    521,
+    523
+  ],
+  "heldout_frames": [
+    476,
+    478,
+    480,
+    482,
+    484,
+    486,
+    488,
+    490,
+    492,
+    494,
+    496,
+    498,
+    500,
+    502,
+    504,
+    506,
+    508,
+    510,
+    512,
+    514,
+    516,
+    518,
+    520,
+    522,
+    524
+  ],
+  "minimum_template_support": 8,
+  "quality": "pilot_supported",
+  "checkpoint_iteration": 32
+}

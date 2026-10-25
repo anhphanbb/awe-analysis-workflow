@@ -1,0 +1,24 @@
+{
+  "frames": [
+    1650,
+    1699
+  ],
+  "max_gap_cells": 16,
+  "max_bounding_box_cells": 5,
+  "connectivity": 8,
+  "method": "4-neighbor discrete harmonic interpolation using unchanged finite boundary samples",
+  "total_interpolated_frame_pixels": 5781,
+  "per_frame_filled_range": [
+    39,
+    1648
+  ],
+  "total_components": 1034,
+  "gap_size_range": [
+    1,
+    16
+  ],
+  "original_valid_texture_pixels": 2530175,
+  "filled_valid_texture_pixels": 2764082,
+  "checks": "PASS: original finite measurements unchanged; filled pixels only inside valid geometry; finite footprint expands only by marked cells; interpolation within boundary range; 50 animation frames",
+  "note": "Counts sum across 50 frames, not unique map cells. Filled values remain flagged and original source data are untouched."
+}

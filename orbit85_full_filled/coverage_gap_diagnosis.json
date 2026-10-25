@@ -1,0 +1,45 @@
+{
+  "missing_pixels": 13245,
+  "no_accepted_spatial_window": 207,
+  "accepted_spatial_but_no_time_window": 337,
+  "no_window_even_rejected": 183,
+  "time_covered_but_no_finite_prediction": 9786,
+  "finite_prediction_but_insufficient_support": 2915,
+  "unexpected_pass": 0,
+  "ambiguous_windows": [
+    {
+      "start": 600,
+      "modes": [
+        {
+          "velocity": [
+            0.7227781537574439,
+            -0.016141710736757398
+          ],
+          "support": 173,
+          "median_ncc": 0.6878362043894896,
+          "pair_count": 9
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "modes": [
+        {
+          "velocity": [
+            0.6873788019002957,
+            -0.006172004503344973
+          ],
+          "support": 127,
+          "median_ncc": 0.5781873100308446,
+          "pair_count": 9
+        }
+      ]
+    }
+  ],
+  "missing_bounds": [
+    261,
+    7581,
+    51,
+    512
+  ]
+}

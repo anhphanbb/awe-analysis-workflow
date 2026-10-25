@@ -1,0 +1,10 @@
+{
+  "iterations": 8,
+  "seed": 42,
+  "noise_sigma": 0.06,
+  "frames": 50,
+  "cadence_seconds": 1.1,
+  "min_support": 10,
+  "evaluation_region": "[40:120,40:120]",
+  "boundary_rule": "retain previous unsupported values"
+}

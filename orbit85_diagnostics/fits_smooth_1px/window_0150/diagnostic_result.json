@@ -1,0 +1,134 @@
+{
+  "start": 150,
+  "end": 199,
+  "reference_frame": 175,
+  "reference_epoch": 1384667179.2851562,
+  "bounds": [
+    725,
+    1065,
+    161,
+    461
+  ],
+  "status": "fit",
+  "duration_seconds": 53.90234375,
+  "modes": [
+    {
+      "velocity": [
+        0.04475340097356142,
+        0.023356085235937157
+      ],
+      "support": 127,
+      "median_ncc": 0.4771337408214737,
+      "pair_count": 9
+    },
+    {
+      "velocity": [
+        0.6525892358302704,
+        -0.07532849479945083
+      ],
+      "support": 22,
+      "median_ncc": 0.4629949699850371,
+      "pair_count": 9
+    }
+  ],
+  "model_components": 2,
+  "history": [
+    {
+      "iteration": 1,
+      "heldout_rmse_kR": 0.32493582367897034,
+      "training_rmse_kR": 0.31376543641090393,
+      "heldout_pixels": 1792936
+    },
+    {
+      "iteration": 2,
+      "heldout_rmse_kR": 0.3202541470527649,
+      "training_rmse_kR": 0.30818459391593933,
+      "heldout_pixels": 1792936
+    },
+    {
+      "iteration": 4,
+      "heldout_rmse_kR": 0.3166719675064087,
+      "training_rmse_kR": 0.3040827512741089,
+      "heldout_pixels": 1792936
+    },
+    {
+      "iteration": 8,
+      "heldout_rmse_kR": 0.31452593207359314,
+      "training_rmse_kR": 0.3017396032810211,
+      "heldout_pixels": 1792936
+    },
+    {
+      "iteration": 16,
+      "heldout_rmse_kR": 0.3134770095348358,
+      "training_rmse_kR": 0.30058684945106506,
+      "heldout_pixels": 1792936
+    },
+    {
+      "iteration": 32,
+      "heldout_rmse_kR": 0.3130408525466919,
+      "training_rmse_kR": 0.300027996301651,
+      "heldout_pixels": 1792936
+    }
+  ],
+  "slow_only_heldout_rmse_kR": 0.3410475552082062,
+  "heldout_improvement_fraction": 0.08211964060090227,
+  "training_frames": [
+    150,
+    152,
+    154,
+    156,
+    158,
+    160,
+    162,
+    164,
+    166,
+    168,
+    170,
+    172,
+    174,
+    176,
+    178,
+    180,
+    182,
+    184,
+    186,
+    188,
+    190,
+    192,
+    194,
+    196,
+    198
+  ],
+  "heldout_frames": [
+    151,
+    153,
+    155,
+    157,
+    159,
+    161,
+    163,
+    165,
+    167,
+    169,
+    171,
+    173,
+    175,
+    177,
+    179,
+    181,
+    183,
+    185,
+    187,
+    189,
+    191,
+    193,
+    195,
+    197,
+    199
+  ],
+  "minimum_template_support": 8,
+  "quality": "pilot_supported",
+  "checkpoint_iteration": 32,
+  "selected_model": "two_motion",
+  "variant": "smooth_1px"
+}

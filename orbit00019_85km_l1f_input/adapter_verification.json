@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Planar radiance reconstruction and orientation",
+    "Missing-corner exclusion and no extrapolation",
+    "Dateline wrapping",
+    "Inverse mapping on curved rotated camera geometry"
+  ]
+}

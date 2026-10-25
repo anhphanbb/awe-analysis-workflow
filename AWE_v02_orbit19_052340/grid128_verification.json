@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "iterations": 128,
+  "grid_runs": 6,
+  "thresholds": [
+    0.02,
+    0.05
+  ],
+  "angle_steps": [
+    5,
+    10,
+    20
+  ],
+  "same_crop_all_runs": true,
+  "wavelengths_strictly_below_80": true,
+  "power_spectrum_line_removed": true
+}

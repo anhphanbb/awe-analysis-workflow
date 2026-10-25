@@ -1,0 +1,15 @@
+{
+  "start": 150,
+  "end": 199,
+  "reference_frame": 175,
+  "reference_epoch": 1384667179.2851562,
+  "bounds": [
+    725,
+    1065,
+    161,
+    461
+  ],
+  "status": "unresolved",
+  "duration_seconds": 53.90234375,
+  "reason": "No supported motion mode was resolved"
+}

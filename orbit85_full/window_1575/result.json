@@ -1,0 +1,15 @@
+{
+  "start": 1575,
+  "end": 1624,
+  "reference_frame": 1600,
+  "reference_epoch": 1384668756.7890625,
+  "bounds": [
+    6244,
+    6584,
+    81,
+    381
+  ],
+  "status": "unresolved",
+  "duration_seconds": 55.00390625,
+  "reason": "Too few motion candidates"
+}

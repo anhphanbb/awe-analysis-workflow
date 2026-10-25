@@ -1,0 +1,305 @@
+{
+  "start": 1625,
+  "rejected": true,
+  "source": {
+    "finite_source_pixels": 3603520,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      6437,
+      6777,
+      83,
+      383
+    ],
+    "radiance_percentiles_kR": [
+      2.2239999771118164,
+      3.5969998836517334,
+      3.996000051498413,
+      6.053999900817871,
+      8.220000267028809,
+      9.329000473022461,
+      29.73200035095215
+    ],
+    "finite_fraction_in_analysis_cube": 0.6542333333333333
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 552,
+        "candidate_positions": 1016792,
+        "valid_candidate_positions": 426177,
+        "correlation_below_threshold": 390,
+        "reference_missing": 534,
+        "no_valid_search_position": 156,
+        "patches_with_matches": 5,
+        "peaks_on_search_boundary": 1,
+        "boundary_only_patch": 1,
+        "retained_candidates": 8
+      },
+      "modes": [],
+      "reason": "fewer_than_20_candidates",
+      "peak_stats": [
+        {
+          "center": [
+            -0.7300000000000001,
+            0.29000000000000004
+          ],
+          "support": 1
+        },
+        {
+          "center": [
+            -0.010000000000000018,
+            0.01
+          ],
+          "support": 2
+        },
+        {
+          "center": [
+            0.1299999999999999,
+            -0.05000000000000005
+          ],
+          "support": 1
+        },
+        {
+          "center": [
+            -0.21000000000000008,
+            0.06999999999999983
+          ],
+          "support": 1
+        }
+      ],
+      "median_noise_proxy_kR": 0.19184962113553125,
+      "texture_std_percentiles_kR": [
+        0.24518766009002135,
+        0.27693771181828897,
+        0.3060638556296172,
+        0.33972474807634917,
+        0.8367040006669322
+      ],
+      "best_ncc_percentiles": [
+        0.01286646061631834,
+        0.14110764197237874,
+        0.19800026885552469,
+        0.2719759793444345,
+        0.4644636319301611
+      ]
+    },
+    "lower_texture": {
+      "variant": "lower_texture",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.04
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 552,
+        "candidate_positions": 1016792,
+        "valid_candidate_positions": 426177,
+        "correlation_below_threshold": 390,
+        "reference_missing": 534,
+        "no_valid_search_position": 156,
+        "patches_with_matches": 5,
+        "peaks_on_search_boundary": 1,
+        "boundary_only_patch": 1,
+        "retained_candidates": 8
+      },
+      "modes": [],
+      "reason": "fewer_than_20_candidates",
+      "peak_stats": [
+        {
+          "center": [
+            -0.7300000000000001,
+            0.29000000000000004
+          ],
+          "support": 1
+        },
+        {
+          "center": [
+            -0.010000000000000018,
+            0.01
+          ],
+          "support": 2
+        },
+        {
+          "center": [
+            0.1299999999999999,
+            -0.05000000000000005
+          ],
+          "support": 1
+        },
+        {
+          "center": [
+            -0.21000000000000008,
+            0.06999999999999983
+          ],
+          "support": 1
+        }
+      ],
+      "median_noise_proxy_kR": 0.19184962113553125,
+      "texture_std_percentiles_kR": [
+        0.24518766009002135,
+        0.27693771181828897,
+        0.3060638556296172,
+        0.33972474807634917,
+        0.8367040006669322
+      ],
+      "best_ncc_percentiles": [
+        0.01286646061631834,
+        0.14110764197237874,
+        0.19800026885552469,
+        0.2719759793444345,
+        0.4644636319301611
+      ]
+    },
+    "smooth_1px": {
+      "variant": "smooth_1px",
+      "parameters": {
+        "half": 12,
+        "smooth": 1,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 473,
+        "candidate_positions": 866913,
+        "valid_candidate_positions": 303745,
+        "correlation_below_threshold": 138,
+        "reference_missing": 613,
+        "patches_with_matches": 174,
+        "no_valid_search_position": 153,
+        "peaks_on_search_boundary": 34,
+        "boundary_only_patch": 8,
+        "retained_candidates": 298
+      },
+      "modes": [
+        {
+          "velocity": [
+            -0.02469099272523314,
+            -0.10137049216636704
+          ],
+          "support": 21,
+          "median_ncc": 0.40836887010509826,
+          "pair_count": 8
+        }
+      ],
+      "reason": "single_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            -0.010000000000000018,
+            -0.11000000000000011
+          ],
+          "support": 21
+        },
+        {
+          "center": [
+            -0.010000000000000018,
+            0.01
+          ],
+          "support": 26
+        },
+        {
+          "center": [
+            -0.79,
+            0.31000000000000005
+          ],
+          "support": 2
+        },
+        {
+          "center": [
+            -0.21000000000000008,
+            0.10999999999999986
+          ],
+          "support": 3
+        },
+        {
+          "center": [
+            0.29000000000000004,
+            -0.05000000000000005
+          ],
+          "support": 5
+        },
+        {
+          "center": [
+            0.5700000000000001,
+            -0.3700000000000001
+          ],
+          "support": 4
+        },
+        {
+          "center": [
+            0.47,
+            -0.07000000000000008
+          ],
+          "support": 2
+        },
+        {
+          "center": [
+            0.55,
+            0.6299999999999999
+          ],
+          "support": 1
+        }
+      ],
+      "median_noise_proxy_kR": 0.19184962113553125,
+      "texture_std_percentiles_kR": [
+        0.11143009299677656,
+        0.14106265801736112,
+        0.1674097949055391,
+        0.20611556905072118,
+        0.5877132018376988
+      ],
+      "best_ncc_percentiles": [
+        -0.21114221540599248,
+        0.21970224425977358,
+        0.3613721669487834,
+        0.506826544754153,
+        0.7121665308605671
+      ]
+    },
+    "larger_patch": {
+      "variant": "larger_patch",
+      "parameters": {
+        "half": 20,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 960,
+        "reference_missing": 587,
+        "patches_searched": 373,
+        "candidate_positions": 709453,
+        "valid_candidate_positions": 188293,
+        "no_valid_search_position": 153,
+        "correlation_below_threshold": 220,
+        "retained_candidates": 0
+      },
+      "modes": [],
+      "reason": "fewer_than_20_candidates",
+      "peak_stats": [],
+      "median_noise_proxy_kR": 0.19184962113553125,
+      "texture_std_percentiles_kR": [
+        0.26040334736311793,
+        0.28090510367373145,
+        0.3085183635714533,
+        0.3327419405180317,
+        0.5752932052278552
+      ],
+      "best_ncc_percentiles": [
+        -0.04044486398650951,
+        0.09210286624557278,
+        0.1345902668581946,
+        0.20112049859226594,
+        0.2876812590910488
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

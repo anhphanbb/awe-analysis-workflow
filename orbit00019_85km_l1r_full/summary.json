@@ -1,0 +1,39 @@
+{
+  "frames_considered": 1923,
+  "windows": 76,
+  "window_classifications": {
+    "ambiguous_motion": 19,
+    "insufficient_evidence": 22,
+    "single_slow": 22,
+    "two_motion": 13
+  },
+  "l3c_valid_pixels": 2209912,
+  "pixels_by_status": {
+    "0": 2088439,
+    "1": 898067,
+    "2": 767499,
+    "3": 544346
+  },
+  "supported_fraction_of_l3c": 0.5936186599285401,
+  "offset_connected_components": 8,
+  "maximum_l3c_epoch_match_error_seconds": 0.0,
+  "all_frames_in_at_least_one_window": true,
+  "two_motion_holdout_improvement_percent": [
+    23.39754483641362,
+    22.92125620192994,
+    22.926316841024185,
+    12.5384472569115,
+    12.750856630645513,
+    17.195694339225277,
+    21.17144943160104,
+    30.18837849291772,
+    20.424409610033088,
+    22.375893121272817,
+    14.911936890143663,
+    11.581235114222787,
+    5.724332014608979
+  ],
+  "fill_small_gaps": false,
+  "motion_smoothing": 0,
+  "interpolated_window_frame_samples": 0
+}

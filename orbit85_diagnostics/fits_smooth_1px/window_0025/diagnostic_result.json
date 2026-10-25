@@ -1,0 +1,134 @@
+{
+  "start": 25,
+  "end": 74,
+  "reference_frame": 50,
+  "reference_epoch": 1384667041.7773438,
+  "bounds": [
+    249,
+    589,
+    200,
+    500
+  ],
+  "status": "fit",
+  "duration_seconds": 53.90625,
+  "modes": [
+    {
+      "velocity": [
+        0.02860482199489503,
+        -0.017373703373893466
+      ],
+      "support": 57,
+      "median_ncc": 0.4803696302476083,
+      "pair_count": 9
+    },
+    {
+      "velocity": [
+        0.6684457056513887,
+        -0.07405919886823224
+      ],
+      "support": 60,
+      "median_ncc": 0.5856492787595864,
+      "pair_count": 9
+    }
+  ],
+  "model_components": 2,
+  "history": [
+    {
+      "iteration": 1,
+      "heldout_rmse_kR": 0.34830692410469055,
+      "training_rmse_kR": 0.3241569399833679,
+      "heldout_pixels": 1535225
+    },
+    {
+      "iteration": 2,
+      "heldout_rmse_kR": 0.34115758538246155,
+      "training_rmse_kR": 0.31650370359420776,
+      "heldout_pixels": 1535225
+    },
+    {
+      "iteration": 4,
+      "heldout_rmse_kR": 0.33570078015327454,
+      "training_rmse_kR": 0.3107990324497223,
+      "heldout_pixels": 1535225
+    },
+    {
+      "iteration": 8,
+      "heldout_rmse_kR": 0.33207011222839355,
+      "training_rmse_kR": 0.30702465772628784,
+      "heldout_pixels": 1535225
+    },
+    {
+      "iteration": 16,
+      "heldout_rmse_kR": 0.32961228489875793,
+      "training_rmse_kR": 0.304443359375,
+      "heldout_pixels": 1535225
+    },
+    {
+      "iteration": 32,
+      "heldout_rmse_kR": 0.32821109890937805,
+      "training_rmse_kR": 0.303029865026474,
+      "heldout_pixels": 1535225
+    }
+  ],
+  "slow_only_heldout_rmse_kR": 0.3870352506637573,
+  "heldout_improvement_fraction": 0.15198654813352808,
+  "training_frames": [
+    25,
+    27,
+    29,
+    31,
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63,
+    65,
+    67,
+    69,
+    71,
+    73
+  ],
+  "heldout_frames": [
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74
+  ],
+  "minimum_template_support": 8,
+  "quality": "pilot_supported",
+  "checkpoint_iteration": 32,
+  "selected_model": "two_motion",
+  "variant": "smooth_1px"
+}

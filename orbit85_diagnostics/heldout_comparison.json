@@ -1,0 +1,2180 @@
+[
+  {
+    "start": 0,
+    "end": 49,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1470444,
+    "common_fraction_of_observed_holdout": 0.9385325527781111,
+    "rmse_kR": {
+      "stationary": 0.3676116466522217,
+      "original": 0.39938655495643616,
+      "smooth_1px": 0.32522594928741455
+    },
+    "improvement_over_original_or_stationary": 0.18568628500053241,
+    "improvement_over_stationary": 0.11530020267531416,
+    "overlap_checks": [
+      {
+        "neighbor": 25,
+        "layer": "slow",
+        "pixels": 53483,
+        "correlation": 0.9835078034848838,
+        "offset_removed_rmse_kR": 0.23071791231632233,
+        "velocity_difference_cells_s": 0.0865139731771425,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 25,
+        "layer": "fast",
+        "pixels": 51124,
+        "correlation": 0.7147090084361504,
+        "offset_removed_rmse_kR": 0.23981796205043793,
+        "velocity_difference_cells_s": 0.015536979110798248,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 50,
+        "layer": "slow",
+        "pixels": 26024,
+        "correlation": 0.967080824316757,
+        "offset_removed_rmse_kR": 0.23598186671733856,
+        "velocity_difference_cells_s": 0.1015665559754837,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 50,
+        "layer": "fast",
+        "pixels": 27238,
+        "correlation": 0.5562647462019079,
+        "offset_removed_rmse_kR": 0.25808465480804443,
+        "velocity_difference_cells_s": 0.006880010495846436,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 25,
+    "end": 74,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1504727,
+    "common_fraction_of_observed_holdout": 0.9445128285602197,
+    "rmse_kR": {
+      "stationary": 0.39402398467063904,
+      "original": 0.40228599309921265,
+      "smooth_1px": 0.32498201727867126
+    },
+    "improvement_over_original_or_stationary": 0.19216173853081808,
+    "improvement_over_stationary": 0.17522275312676538,
+    "overlap_checks": [
+      {
+        "neighbor": 0,
+        "layer": "slow",
+        "pixels": 53483,
+        "correlation": 0.9835078034848836,
+        "offset_removed_rmse_kR": 0.23071791231632233,
+        "velocity_difference_cells_s": 0.0865139731771425,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 0,
+        "layer": "fast",
+        "pixels": 51124,
+        "correlation": 0.7147090084361503,
+        "offset_removed_rmse_kR": 0.23981796205043793,
+        "velocity_difference_cells_s": 0.015536979110798248,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 50,
+        "layer": "slow",
+        "pixels": 56811,
+        "correlation": 0.9549328961748481,
+        "offset_removed_rmse_kR": 0.2951577305793762,
+        "velocity_difference_cells_s": 0.03393512912912276,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 50,
+        "layer": "fast",
+        "pixels": 53766,
+        "correlation": 0.7565713232384895,
+        "offset_removed_rmse_kR": 0.29629817605018616,
+        "velocity_difference_cells_s": 0.008706789279173947,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 75,
+        "layer": "slow",
+        "pixels": 28513,
+        "correlation": 0.8707668972211403,
+        "offset_removed_rmse_kR": 0.3661085367202759,
+        "velocity_difference_cells_s": 0.03361824837136231,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 75,
+        "layer": "fast",
+        "pixels": 29436,
+        "correlation": 0.5759712679823702,
+        "offset_removed_rmse_kR": 0.45121437311172485,
+        "velocity_difference_cells_s": 0.018465139733073732,
+        "neighbor_source": "original"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 50,
+    "end": 99,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1556729,
+    "common_fraction_of_observed_holdout": 0.9472242775016672,
+    "rmse_kR": {
+      "stationary": 0.4257490932941437,
+      "original": 0.4011768102645874,
+      "smooth_1px": 0.33068934082984924
+    },
+    "improvement_over_original_or_stationary": 0.17570175451629344,
+    "improvement_over_stationary": 0.2232764648511396,
+    "overlap_checks": [
+      {
+        "neighbor": 0,
+        "layer": "slow",
+        "pixels": 26024,
+        "correlation": 0.967080824316757,
+        "offset_removed_rmse_kR": 0.23598186671733856,
+        "velocity_difference_cells_s": 0.1015665559754837,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 0,
+        "layer": "fast",
+        "pixels": 27238,
+        "correlation": 0.5562647462019079,
+        "offset_removed_rmse_kR": 0.25808465480804443,
+        "velocity_difference_cells_s": 0.006880010495846436,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 25,
+        "layer": "slow",
+        "pixels": 56811,
+        "correlation": 0.9549328961748481,
+        "offset_removed_rmse_kR": 0.2951577305793762,
+        "velocity_difference_cells_s": 0.03393512912912276,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 25,
+        "layer": "fast",
+        "pixels": 53766,
+        "correlation": 0.7565713232384895,
+        "offset_removed_rmse_kR": 0.29629817605018616,
+        "velocity_difference_cells_s": 0.008706789279173947,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 75,
+        "layer": "slow",
+        "pixels": 58164,
+        "correlation": 0.9239845692471252,
+        "offset_removed_rmse_kR": 0.2912002503871918,
+        "velocity_difference_cells_s": 0.01594549035747907,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 75,
+        "layer": "fast",
+        "pixels": 54827,
+        "correlation": 0.8336899110471261,
+        "offset_removed_rmse_kR": 0.31900203227996826,
+        "velocity_difference_cells_s": 0.02107003531141962,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 100,
+        "layer": "slow",
+        "pixels": 29634,
+        "correlation": 0.8913503938829244,
+        "offset_removed_rmse_kR": 0.3827146589756012,
+        "velocity_difference_cells_s": 0.039975708895683304,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 100,
+        "layer": "fast",
+        "pixels": 30334,
+        "correlation": 0.5611153314323545,
+        "offset_removed_rmse_kR": 0.49746108055114746,
+        "velocity_difference_cells_s": 0.06255732759003982,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 100,
+    "end": 149,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1636411,
+    "common_fraction_of_observed_holdout": 0.9458979380442172,
+    "rmse_kR": {
+      "stationary": 0.39712315797805786,
+      "original": 0.39712315797805786,
+      "smooth_1px": 0.3241485357284546
+    },
+    "improvement_over_original_or_stationary": 0.1837581636416059,
+    "improvement_over_stationary": 0.1837581636416059,
+    "overlap_checks": [
+      {
+        "neighbor": 50,
+        "layer": "slow",
+        "pixels": 29634,
+        "correlation": 0.8913503938829243,
+        "offset_removed_rmse_kR": 0.3827146589756012,
+        "velocity_difference_cells_s": 0.039975708895683304,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 50,
+        "layer": "fast",
+        "pixels": 30334,
+        "correlation": 0.5611153314323544,
+        "offset_removed_rmse_kR": 0.49746108055114746,
+        "velocity_difference_cells_s": 0.06255732759003982,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 75,
+        "layer": "slow",
+        "pixels": 56822,
+        "correlation": 0.9605704346363625,
+        "offset_removed_rmse_kR": 0.2693136930465698,
+        "velocity_difference_cells_s": 0.038769350727286586,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 75,
+        "layer": "fast",
+        "pixels": 53286,
+        "correlation": 0.8402019192766732,
+        "offset_removed_rmse_kR": 0.2885933816432953,
+        "velocity_difference_cells_s": 0.05179070679011582,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 125,
+        "layer": "slow",
+        "pixels": 61778,
+        "correlation": 0.9873489635708567,
+        "offset_removed_rmse_kR": 0.20659446716308594,
+        "velocity_difference_cells_s": 0.04041091132522546,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 125,
+        "layer": "fast",
+        "pixels": 58395,
+        "correlation": 0.8265392717481864,
+        "offset_removed_rmse_kR": 0.2245422899723053,
+        "velocity_difference_cells_s": 0.02757903563344768,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 150,
+        "layer": "slow",
+        "pixels": 33930,
+        "correlation": 0.99041044288119,
+        "offset_removed_rmse_kR": 0.21676841378211975,
+        "velocity_difference_cells_s": 0.046335821162505224,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 150,
+        "layer": "fast",
+        "pixels": 34795,
+        "correlation": 0.7538074129893487,
+        "offset_removed_rmse_kR": 0.28665709495544434,
+        "velocity_difference_cells_s": 0.06927676712456142,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 125,
+    "end": 174,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1677363,
+    "common_fraction_of_observed_holdout": 0.9467801202269072,
+    "rmse_kR": {
+      "stationary": 0.369064599275589,
+      "original": 0.369064599275589,
+      "smooth_1px": 0.316184937953949
+    },
+    "improvement_over_original_or_stationary": 0.1432802317681885,
+    "improvement_over_stationary": 0.1432802317681885,
+    "overlap_checks": [
+      {
+        "neighbor": 75,
+        "layer": "slow",
+        "pixels": 28538,
+        "correlation": 0.9606450446553009,
+        "offset_removed_rmse_kR": 0.260335236787796,
+        "velocity_difference_cells_s": 0.02716951920881767,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 75,
+        "layer": "fast",
+        "pixels": 29324,
+        "correlation": 0.6316208166647322,
+        "offset_removed_rmse_kR": 0.3665536046028137,
+        "velocity_difference_cells_s": 0.025891194979168097,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 100,
+        "layer": "slow",
+        "pixels": 61778,
+        "correlation": 0.9873489635708567,
+        "offset_removed_rmse_kR": 0.20659446716308594,
+        "velocity_difference_cells_s": 0.04041091132522546,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 100,
+        "layer": "fast",
+        "pixels": 58395,
+        "correlation": 0.8265392717481864,
+        "offset_removed_rmse_kR": 0.2245422899723053,
+        "velocity_difference_cells_s": 0.02757903563344768,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 150,
+        "layer": "slow",
+        "pixels": 61872,
+        "correlation": 0.9924133358251986,
+        "offset_removed_rmse_kR": 0.17972974479198456,
+        "velocity_difference_cells_s": 0.008303323516166531,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 150,
+        "layer": "fast",
+        "pixels": 58668,
+        "correlation": 0.8327066887448988,
+        "offset_removed_rmse_kR": 0.18238145112991333,
+        "velocity_difference_cells_s": 0.050523918809776525,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 175,
+        "layer": "slow",
+        "pixels": 34460,
+        "correlation": 0.968380687246415,
+        "offset_removed_rmse_kR": 0.28052014112472534,
+        "velocity_difference_cells_s": 0.036626797415013304,
+        "neighbor_source": "original"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 150,
+    "end": 199,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1762296,
+    "common_fraction_of_observed_holdout": 0.9627286642826473,
+    "rmse_kR": {
+      "stationary": 0.34844449162483215,
+      "original": 0.34844449162483215,
+      "smooth_1px": 0.3121074438095093
+    },
+    "improvement_over_original_or_stationary": 0.10428360524765223,
+    "improvement_over_stationary": 0.10428360524765223,
+    "overlap_checks": [
+      {
+        "neighbor": 100,
+        "layer": "slow",
+        "pixels": 33930,
+        "correlation": 0.99041044288119,
+        "offset_removed_rmse_kR": 0.21676841378211975,
+        "velocity_difference_cells_s": 0.046335821162505224,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 100,
+        "layer": "fast",
+        "pixels": 34795,
+        "correlation": 0.7538074129893486,
+        "offset_removed_rmse_kR": 0.28665709495544434,
+        "velocity_difference_cells_s": 0.06927676712456142,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 125,
+        "layer": "slow",
+        "pixels": 61872,
+        "correlation": 0.9924133358251985,
+        "offset_removed_rmse_kR": 0.17972974479198456,
+        "velocity_difference_cells_s": 0.008303323516166531,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 125,
+        "layer": "fast",
+        "pixels": 58668,
+        "correlation": 0.8327066887448987,
+        "offset_removed_rmse_kR": 0.18238145112991333,
+        "velocity_difference_cells_s": 0.050523918809776525,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 175,
+        "layer": "slow",
+        "pixels": 67459,
+        "correlation": 0.9761326790070427,
+        "offset_removed_rmse_kR": 0.21098457276821136,
+        "velocity_difference_cells_s": 0.03489214510337296,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 200,
+        "layer": "slow",
+        "pixels": 39206,
+        "correlation": 0.9708667215011182,
+        "offset_removed_rmse_kR": 0.1748201698064804,
+        "velocity_difference_cells_s": 0.015789345317286593,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 200,
+        "layer": "fast",
+        "pixels": 39813,
+        "correlation": 0.09088561445026842,
+        "offset_removed_rmse_kR": 0.22099286317825317,
+        "velocity_difference_cells_s": 0.0638099524193983,
+        "neighbor_source": "original"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 575,
+    "end": 624,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1819332,
+    "common_fraction_of_observed_holdout": 0.9633353383713443,
+    "rmse_kR": {
+      "stationary": 0.4558362364768982,
+      "original": 0.47199851274490356,
+      "smooth_1px": 0.32090798020362854
+    },
+    "improvement_over_original_or_stationary": 0.32010806911786494,
+    "improvement_over_stationary": 0.2960016020580405,
+    "overlap_checks": [
+      {
+        "neighbor": 525,
+        "layer": "slow",
+        "pixels": 39279,
+        "correlation": 0.9078662764255704,
+        "offset_removed_rmse_kR": 0.38320574164390564,
+        "velocity_difference_cells_s": 0.02546211719883795,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 550,
+        "layer": "slow",
+        "pixels": 67483,
+        "correlation": 0.9903720738995485,
+        "offset_removed_rmse_kR": 0.16373613476753235,
+        "velocity_difference_cells_s": 0.025552798754831067,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 550,
+        "layer": "fast",
+        "pixels": 63958,
+        "correlation": 0.9142027347046212,
+        "offset_removed_rmse_kR": 0.1708025187253952,
+        "velocity_difference_cells_s": 0.0020837941030840204,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 625,
+        "layer": "slow",
+        "pixels": 38328,
+        "correlation": 0.988879789378513,
+        "offset_removed_rmse_kR": 0.15133383870124817,
+        "velocity_difference_cells_s": 0.02039096552573747,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 625,
+        "layer": "fast",
+        "pixels": 38972,
+        "correlation": 0.8459269792171422,
+        "offset_removed_rmse_kR": 0.1951972246170044,
+        "velocity_difference_cells_s": 0.00950222792665401,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 625,
+    "end": 674,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1808473,
+    "common_fraction_of_observed_holdout": 0.9633054253788028,
+    "rmse_kR": {
+      "stationary": 0.4067389667034149,
+      "original": 0.4362587630748749,
+      "smooth_1px": 0.33401840925216675
+    },
+    "improvement_over_original_or_stationary": 0.2343571349767034,
+    "improvement_over_stationary": 0.1787892565117185,
+    "overlap_checks": [
+      {
+        "neighbor": 575,
+        "layer": "slow",
+        "pixels": 38328,
+        "correlation": 0.9888797893785131,
+        "offset_removed_rmse_kR": 0.15133383870124817,
+        "velocity_difference_cells_s": 0.02039096552573747,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 575,
+        "layer": "fast",
+        "pixels": 38972,
+        "correlation": 0.8459269792171422,
+        "offset_removed_rmse_kR": 0.1951972246170044,
+        "velocity_difference_cells_s": 0.00950222792665401,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 650,
+        "layer": "slow",
+        "pixels": 67787,
+        "correlation": 0.9833933168056549,
+        "offset_removed_rmse_kR": 0.14923161268234253,
+        "velocity_difference_cells_s": 0.011432780586249075,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 650,
+        "layer": "fast",
+        "pixels": 64650,
+        "correlation": 0.7333411249779832,
+        "offset_removed_rmse_kR": 0.1564539223909378,
+        "velocity_difference_cells_s": 0.013977321514366056,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 675,
+        "layer": "slow",
+        "pixels": 39289,
+        "correlation": 0.9737074547439293,
+        "offset_removed_rmse_kR": 0.13099239766597748,
+        "velocity_difference_cells_s": 0.0075306308158843835,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 650,
+    "end": 699,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1820370,
+    "common_fraction_of_observed_holdout": 0.9641933249010048,
+    "rmse_kR": {
+      "stationary": 0.33929938077926636,
+      "original": 0.41071465611457825,
+      "smooth_1px": 0.31023675203323364
+    },
+    "improvement_over_original_or_stationary": 0.2446416327868124,
+    "improvement_over_stationary": 0.08565482400611757,
+    "overlap_checks": [
+      {
+        "neighbor": 625,
+        "layer": "slow",
+        "pixels": 67787,
+        "correlation": 0.9833933168056549,
+        "offset_removed_rmse_kR": 0.14923161268234253,
+        "velocity_difference_cells_s": 0.011432780586249075,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 625,
+        "layer": "fast",
+        "pixels": 64650,
+        "correlation": 0.7333411249779832,
+        "offset_removed_rmse_kR": 0.1564539223909378,
+        "velocity_difference_cells_s": 0.013977321514366056,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 675,
+        "layer": "slow",
+        "pixels": 67707,
+        "correlation": 0.9827037044592638,
+        "offset_removed_rmse_kR": 0.13319364190101624,
+        "velocity_difference_cells_s": 0.011499122773561452,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 700,
+        "layer": "slow",
+        "pixels": 39292,
+        "correlation": 0.9526001291016205,
+        "offset_removed_rmse_kR": 0.16070130467414856,
+        "velocity_difference_cells_s": 0.018455849537866498,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 700,
+        "layer": "fast",
+        "pixels": 39910,
+        "correlation": -0.17502973212514636,
+        "offset_removed_rmse_kR": 0.19946332275867462,
+        "velocity_difference_cells_s": 0.03837906217672714,
+        "neighbor_source": "original"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 675,
+    "end": 724,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1853546,
+    "common_fraction_of_observed_holdout": 0.9818124225984463,
+    "rmse_kR": {
+      "stationary": 0.3306816518306732,
+      "original": 0.3306816518306732,
+      "smooth_1px": 0.3262827694416046
+    },
+    "improvement_over_original_or_stationary": 0.01330246889936626,
+    "improvement_over_stationary": 0.01330246889936626,
+    "overlap_checks": [
+      {
+        "neighbor": 625,
+        "layer": "slow",
+        "pixels": 39289,
+        "correlation": 0.9737074547439295,
+        "offset_removed_rmse_kR": 0.13099239766597748,
+        "velocity_difference_cells_s": 0.0075306308158843835,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 650,
+        "layer": "slow",
+        "pixels": 67707,
+        "correlation": 0.9827037044592638,
+        "offset_removed_rmse_kR": 0.13319364190101624,
+        "velocity_difference_cells_s": 0.011499122773561452,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 700,
+        "layer": "slow",
+        "pixels": 67809,
+        "correlation": 0.9762375806714421,
+        "offset_removed_rmse_kR": 0.13249891996383667,
+        "velocity_difference_cells_s": 0.026756847257873806,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 725,
+        "layer": "slow",
+        "pixels": 39418,
+        "correlation": 0.9734170978374739,
+        "offset_removed_rmse_kR": 0.1392332762479782,
+        "velocity_difference_cells_s": 0.006185868725124102,
+        "neighbor_source": "original"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 825,
+    "end": 874,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1813274,
+    "common_fraction_of_observed_holdout": 0.9615654656603838,
+    "rmse_kR": {
+      "stationary": 0.5836424827575684,
+      "original": 0.46793296933174133,
+      "smooth_1px": 0.3722081482410431
+    },
+    "improvement_over_original_or_stationary": 0.2045695160727905,
+    "improvement_over_stationary": 0.36226686843896216,
+    "overlap_checks": [
+      {
+        "neighbor": 775,
+        "layer": "slow",
+        "pixels": 39272,
+        "correlation": 0.9666587224947736,
+        "offset_removed_rmse_kR": 0.2018568366765976,
+        "velocity_difference_cells_s": 0.00210197780927635,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 775,
+        "layer": "fast",
+        "pixels": 39929,
+        "correlation": 0.6053667619331673,
+        "offset_removed_rmse_kR": 0.25932714343070984,
+        "velocity_difference_cells_s": 0.005239826299345144,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 800,
+        "layer": "slow",
+        "pixels": 67539,
+        "correlation": 0.9743334667748874,
+        "offset_removed_rmse_kR": 0.17550620436668396,
+        "velocity_difference_cells_s": 0.016977374925222236,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 800,
+        "layer": "fast",
+        "pixels": 64045,
+        "correlation": 0.9055190746571904,
+        "offset_removed_rmse_kR": 0.2088771015405655,
+        "velocity_difference_cells_s": 0.005937504730077017,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 850,
+        "layer": "slow",
+        "pixels": 67448,
+        "correlation": 0.9750727243547994,
+        "offset_removed_rmse_kR": 0.17633499205112457,
+        "velocity_difference_cells_s": 0.012662487961267163,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 850,
+        "layer": "fast",
+        "pixels": 64093,
+        "correlation": 0.9164084089110358,
+        "offset_removed_rmse_kR": 0.19007723033428192,
+        "velocity_difference_cells_s": 0.006783242692637354,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 875,
+        "layer": "slow",
+        "pixels": 39059,
+        "correlation": 0.9707706990012629,
+        "offset_removed_rmse_kR": 0.18645451962947845,
+        "velocity_difference_cells_s": 0.02370450644021446,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 875,
+        "layer": "fast",
+        "pixels": 39752,
+        "correlation": 0.8980871478054003,
+        "offset_removed_rmse_kR": 0.23506498336791992,
+        "velocity_difference_cells_s": 0.015731515533217513,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 850,
+    "end": 899,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1814902,
+    "common_fraction_of_observed_holdout": 0.9626886295294559,
+    "rmse_kR": {
+      "stationary": 0.5539183020591736,
+      "original": 0.44847598671913147,
+      "smooth_1px": 0.3663971424102783
+    },
+    "improvement_over_original_or_stationary": 0.18301725563794102,
+    "improvement_over_stationary": 0.3385357713435201,
+    "overlap_checks": [
+      {
+        "neighbor": 800,
+        "layer": "slow",
+        "pixels": 39120,
+        "correlation": 0.9465905844993158,
+        "offset_removed_rmse_kR": 0.17529721558094025,
+        "velocity_difference_cells_s": 0.014612888298861168,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 800,
+        "layer": "fast",
+        "pixels": 39786,
+        "correlation": 0.8956295374758889,
+        "offset_removed_rmse_kR": 0.2477419674396515,
+        "velocity_difference_cells_s": 0.011775641024584279,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 825,
+        "layer": "slow",
+        "pixels": 67448,
+        "correlation": 0.9750727243547994,
+        "offset_removed_rmse_kR": 0.17633499205112457,
+        "velocity_difference_cells_s": 0.012662487961267163,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 825,
+        "layer": "fast",
+        "pixels": 64093,
+        "correlation": 0.9164084089110358,
+        "offset_removed_rmse_kR": 0.19007723033428192,
+        "velocity_difference_cells_s": 0.006783242692637354,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 875,
+        "layer": "slow",
+        "pixels": 67682,
+        "correlation": 0.9779196413500626,
+        "offset_removed_rmse_kR": 0.13610175251960754,
+        "velocity_difference_cells_s": 0.033260207097787334,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 875,
+        "layer": "fast",
+        "pixels": 64375,
+        "correlation": 0.9355716882731543,
+        "offset_removed_rmse_kR": 0.16538643836975098,
+        "velocity_difference_cells_s": 0.011586039646270217,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 875,
+    "end": 924,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1814268,
+    "common_fraction_of_observed_holdout": 0.9627925562824079,
+    "rmse_kR": {
+      "stationary": 0.45700860023498535,
+      "original": 0.4255773425102234,
+      "smooth_1px": 0.33699914813041687
+    },
+    "improvement_over_original_or_stationary": 0.20813653719753344,
+    "improvement_over_stationary": 0.2625977980345706,
+    "overlap_checks": [
+      {
+        "neighbor": 825,
+        "layer": "slow",
+        "pixels": 39059,
+        "correlation": 0.970770699001263,
+        "offset_removed_rmse_kR": 0.18645451962947845,
+        "velocity_difference_cells_s": 0.02370450644021446,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 825,
+        "layer": "fast",
+        "pixels": 39752,
+        "correlation": 0.8980871478054003,
+        "offset_removed_rmse_kR": 0.23506498336791992,
+        "velocity_difference_cells_s": 0.015731515533217513,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 850,
+        "layer": "slow",
+        "pixels": 67682,
+        "correlation": 0.9779196413500625,
+        "offset_removed_rmse_kR": 0.13610175251960754,
+        "velocity_difference_cells_s": 0.033260207097787334,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 850,
+        "layer": "fast",
+        "pixels": 64375,
+        "correlation": 0.9355716882731543,
+        "offset_removed_rmse_kR": 0.16538643836975098,
+        "velocity_difference_cells_s": 0.011586039646270217,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 925,
+        "layer": "slow",
+        "pixels": 38951,
+        "correlation": 0.9511005771055756,
+        "offset_removed_rmse_kR": 0.21679700911045074,
+        "velocity_difference_cells_s": 0.024125386846129068,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 925,
+        "layer": "fast",
+        "pixels": 39608,
+        "correlation": 0.850902316364424,
+        "offset_removed_rmse_kR": 0.22157762944698334,
+        "velocity_difference_cells_s": 0.06339707410352594,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 925,
+    "end": 974,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1810394,
+    "common_fraction_of_observed_holdout": 0.9624298137332767,
+    "rmse_kR": {
+      "stationary": 0.3929981589317322,
+      "original": 0.3986397087574005,
+      "smooth_1px": 0.31212082505226135
+    },
+    "improvement_over_original_or_stationary": 0.21703528726434984,
+    "improvement_over_stationary": 0.20579570677714054,
+    "overlap_checks": [
+      {
+        "neighbor": 875,
+        "layer": "slow",
+        "pixels": 38951,
+        "correlation": 0.9511005771055756,
+        "offset_removed_rmse_kR": 0.21679700911045074,
+        "velocity_difference_cells_s": 0.024125386846129068,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 875,
+        "layer": "fast",
+        "pixels": 39608,
+        "correlation": 0.8509023163644239,
+        "offset_removed_rmse_kR": 0.22157762944698334,
+        "velocity_difference_cells_s": 0.06339707410352594,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 950,
+        "layer": "slow",
+        "pixels": 66499,
+        "correlation": 0.9821580336950426,
+        "offset_removed_rmse_kR": 0.1392195075750351,
+        "velocity_difference_cells_s": 0.0024727060355512987,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 950,
+        "layer": "fast",
+        "pixels": 63036,
+        "correlation": 0.9174250744228937,
+        "offset_removed_rmse_kR": 0.13700687885284424,
+        "velocity_difference_cells_s": 0.021208178028214543,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 975,
+        "layer": "slow",
+        "pixels": 37691,
+        "correlation": 0.9729448897307448,
+        "offset_removed_rmse_kR": 0.19991226494312286,
+        "velocity_difference_cells_s": 0.015902479971084613,
+        "neighbor_source": "original"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 950,
+    "end": 999,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1804812,
+    "common_fraction_of_observed_holdout": 0.9635757134406386,
+    "rmse_kR": {
+      "stationary": 0.3477593958377838,
+      "original": 0.4141309857368469,
+      "smooth_1px": 0.3054400384426117
+    },
+    "improvement_over_original_or_stationary": 0.26245548156906373,
+    "improvement_over_stationary": 0.1216914852673382,
+    "overlap_checks": [
+      {
+        "neighbor": 925,
+        "layer": "slow",
+        "pixels": 66499,
+        "correlation": 0.9821580336950426,
+        "offset_removed_rmse_kR": 0.1392195075750351,
+        "velocity_difference_cells_s": 0.0024727060355512987,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 925,
+        "layer": "fast",
+        "pixels": 63036,
+        "correlation": 0.9174250744228938,
+        "offset_removed_rmse_kR": 0.13700687885284424,
+        "velocity_difference_cells_s": 0.021208178028214543,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 975,
+        "layer": "slow",
+        "pixels": 67417,
+        "correlation": 0.976614615642249,
+        "offset_removed_rmse_kR": 0.18571031093597412,
+        "velocity_difference_cells_s": 0.013966000121930305,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1000,
+        "layer": "slow",
+        "pixels": 38882,
+        "correlation": 0.9899303028332851,
+        "offset_removed_rmse_kR": 0.12702496349811554,
+        "velocity_difference_cells_s": 0.008598853374179805,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 1000,
+    "end": 1049,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1846585,
+    "common_fraction_of_observed_holdout": 0.9809774048246036,
+    "rmse_kR": {
+      "stationary": 0.30620068311691284,
+      "original": 0.30620068311691284,
+      "smooth_1px": 0.3018765151500702
+    },
+    "improvement_over_original_or_stationary": 0.014122006269958631,
+    "improvement_over_stationary": 0.014122006269958631,
+    "overlap_checks": [
+      {
+        "neighbor": 950,
+        "layer": "slow",
+        "pixels": 38882,
+        "correlation": 0.9899303028332852,
+        "offset_removed_rmse_kR": 0.12702496349811554,
+        "velocity_difference_cells_s": 0.008598853374179805,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 975,
+        "layer": "slow",
+        "pixels": 67878,
+        "correlation": 0.9931925452958964,
+        "offset_removed_rmse_kR": 0.10056902468204498,
+        "velocity_difference_cells_s": 0.005981415354260628,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1025,
+        "layer": "slow",
+        "pixels": 67628,
+        "correlation": 0.9926138952889942,
+        "offset_removed_rmse_kR": 0.0920369103550911,
+        "velocity_difference_cells_s": 0.01253523200083537,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1050,
+        "layer": "slow",
+        "pixels": 38692,
+        "correlation": 0.9851534639315699,
+        "offset_removed_rmse_kR": 0.11373542994260788,
+        "velocity_difference_cells_s": 0.005536423200738462,
+        "neighbor_source": "original"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1025,
+    "end": 1074,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1830326,
+    "common_fraction_of_observed_holdout": 0.9803120907725144,
+    "rmse_kR": {
+      "stationary": 0.3090238571166992,
+      "original": 0.3090238571166992,
+      "smooth_1px": 0.30372318625450134
+    },
+    "improvement_over_original_or_stationary": 0.017152950298578884,
+    "improvement_over_stationary": 0.017152950298578884,
+    "overlap_checks": [
+      {
+        "neighbor": 975,
+        "layer": "slow",
+        "pixels": 38984,
+        "correlation": 0.9902272709098583,
+        "offset_removed_rmse_kR": 0.11613733321428299,
+        "velocity_difference_cells_s": 0.018379240849788654,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1000,
+        "layer": "slow",
+        "pixels": 67628,
+        "correlation": 0.9926138952889942,
+        "offset_removed_rmse_kR": 0.0920369103550911,
+        "velocity_difference_cells_s": 0.01253523200083537,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1050,
+        "layer": "slow",
+        "pixels": 67457,
+        "correlation": 0.9905381783241455,
+        "offset_removed_rmse_kR": 0.08842632919549942,
+        "velocity_difference_cells_s": 0.009625415348847963,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1075,
+        "layer": "slow",
+        "pixels": 37930,
+        "correlation": 0.9808297951110907,
+        "offset_removed_rmse_kR": 0.10814260691404343,
+        "velocity_difference_cells_s": 0.014491761319893008,
+        "neighbor_source": "original"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1275,
+    "end": 1324,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1662052,
+    "common_fraction_of_observed_holdout": 0.9479001986992159,
+    "rmse_kR": {
+      "stationary": 0.3768525719642639,
+      "original": 0.4470331072807312,
+      "smooth_1px": 0.3108161687850952
+    },
+    "improvement_over_original_or_stationary": 0.3047133115581381,
+    "improvement_over_stationary": 0.17523139840858182,
+    "overlap_checks": [
+      {
+        "neighbor": 1225,
+        "layer": "slow",
+        "pixels": 34257,
+        "correlation": 0.9917960491469869,
+        "offset_removed_rmse_kR": 0.19375891983509064,
+        "velocity_difference_cells_s": 0.02718069500278251,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1225,
+        "layer": "fast",
+        "pixels": 35354,
+        "correlation": 0.8970854121546368,
+        "offset_removed_rmse_kR": 0.23976971209049225,
+        "velocity_difference_cells_s": 0.01175006334131799,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1250,
+        "layer": "slow",
+        "pixels": 62860,
+        "correlation": 0.9933312634617475,
+        "offset_removed_rmse_kR": 0.17227371037006378,
+        "velocity_difference_cells_s": 0.026301575645301105,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1250,
+        "layer": "fast",
+        "pixels": 59309,
+        "correlation": 0.9096004292936248,
+        "offset_removed_rmse_kR": 0.17839395999908447,
+        "velocity_difference_cells_s": 0.016955215644196737,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1300,
+        "layer": "slow",
+        "pixels": 64369,
+        "correlation": 0.977882520680327,
+        "offset_removed_rmse_kR": 0.21998506784439087,
+        "velocity_difference_cells_s": 0.03606810881230187,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1325,
+        "layer": "slow",
+        "pixels": 30654,
+        "correlation": 0.9789617728096677,
+        "offset_removed_rmse_kR": 0.18158787488937378,
+        "velocity_difference_cells_s": 0.021028977285649435,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 1300,
+    "end": 1349,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1656400,
+    "common_fraction_of_observed_holdout": 0.9656118816198541,
+    "rmse_kR": {
+      "stationary": 0.3354368805885315,
+      "original": 0.3354368805885315,
+      "smooth_1px": 0.3340100646018982
+    },
+    "improvement_over_original_or_stationary": 0.004253604982642045,
+    "improvement_over_stationary": 0.004253604982642045,
+    "overlap_checks": [
+      {
+        "neighbor": 1250,
+        "layer": "slow",
+        "pixels": 35320,
+        "correlation": 0.9742005866147309,
+        "offset_removed_rmse_kR": 0.2552504539489746,
+        "velocity_difference_cells_s": 0.060416895408545584,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1275,
+        "layer": "slow",
+        "pixels": 64369,
+        "correlation": 0.977882520680327,
+        "offset_removed_rmse_kR": 0.21998506784439087,
+        "velocity_difference_cells_s": 0.03606810881230187,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1325,
+        "layer": "slow",
+        "pixels": 59649,
+        "correlation": 0.9887209175603384,
+        "offset_removed_rmse_kR": 0.13093523681163788,
+        "velocity_difference_cells_s": 0.03806931792882149,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1350,
+        "layer": "slow",
+        "pixels": 34264,
+        "correlation": 0.9730116618718675,
+        "offset_removed_rmse_kR": 0.1904938519001007,
+        "velocity_difference_cells_s": 0.03836608761485335,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1325,
+    "end": 1374,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1646955,
+    "common_fraction_of_observed_holdout": 0.9629485624077295,
+    "rmse_kR": {
+      "stationary": 0.3302004933357239,
+      "original": 0.3302004933357239,
+      "smooth_1px": 0.3258942663669586
+    },
+    "improvement_over_original_or_stationary": 0.013041249349034167,
+    "improvement_over_stationary": 0.013041249349034167,
+    "overlap_checks": [
+      {
+        "neighbor": 1275,
+        "layer": "slow",
+        "pixels": 30654,
+        "correlation": 0.9789617728096678,
+        "offset_removed_rmse_kR": 0.18158787488937378,
+        "velocity_difference_cells_s": 0.021028977285649435,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1300,
+        "layer": "slow",
+        "pixels": 59649,
+        "correlation": 0.9887209175603384,
+        "offset_removed_rmse_kR": 0.13093523681163788,
+        "velocity_difference_cells_s": 0.03806931792882149,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1350,
+        "layer": "slow",
+        "pixels": 63756,
+        "correlation": 0.9730022982510915,
+        "offset_removed_rmse_kR": 0.19322901964187622,
+        "velocity_difference_cells_s": 0.057594387717651276,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1375,
+        "layer": "slow",
+        "pixels": 30305,
+        "correlation": 0.9558201140898124,
+        "offset_removed_rmse_kR": 0.1929309368133545,
+        "velocity_difference_cells_s": 0.03864442546483332,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1350,
+    "end": 1399,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1630688,
+    "common_fraction_of_observed_holdout": 0.9453104846353307,
+    "rmse_kR": {
+      "stationary": 0.3350982964038849,
+      "original": 0.3350982964038849,
+      "smooth_1px": 0.3068598508834839
+    },
+    "improvement_over_original_or_stationary": 0.08426914079672299,
+    "improvement_over_stationary": 0.08426914079672299,
+    "overlap_checks": [
+      {
+        "neighbor": 1300,
+        "layer": "slow",
+        "pixels": 34264,
+        "correlation": 0.9730116618718675,
+        "offset_removed_rmse_kR": 0.1904938519001007,
+        "velocity_difference_cells_s": 0.03836608761485335,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1325,
+        "layer": "slow",
+        "pixels": 63756,
+        "correlation": 0.9730022982510915,
+        "offset_removed_rmse_kR": 0.19322901964187622,
+        "velocity_difference_cells_s": 0.057594387717651276,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1375,
+        "layer": "slow",
+        "pixels": 59148,
+        "correlation": 0.9541336085751694,
+        "offset_removed_rmse_kR": 0.1955580860376358,
+        "velocity_difference_cells_s": 0.04659231202063417,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1375,
+        "layer": "fast",
+        "pixels": 55046,
+        "correlation": 0.7905851481325867,
+        "offset_removed_rmse_kR": 0.19378137588500977,
+        "velocity_difference_cells_s": 0.019307631900818203,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1400,
+        "layer": "slow",
+        "pixels": 32469,
+        "correlation": 0.933626032148725,
+        "offset_removed_rmse_kR": 0.25527361035346985,
+        "velocity_difference_cells_s": 0.06453873909644675,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1400,
+        "layer": "fast",
+        "pixels": 33781,
+        "correlation": 0.5409946986407314,
+        "offset_removed_rmse_kR": 0.32120296359062195,
+        "velocity_difference_cells_s": 0.050122234213056636,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 1375,
+    "end": 1424,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1588817,
+    "common_fraction_of_observed_holdout": 0.9310678451002844,
+    "rmse_kR": {
+      "stationary": 0.3679782450199127,
+      "original": 0.3679782450199127,
+      "smooth_1px": 0.31086865067481995
+    },
+    "improvement_over_original_or_stationary": 0.1551982898934755,
+    "improvement_over_stationary": 0.1551982898934755,
+    "overlap_checks": [
+      {
+        "neighbor": 1325,
+        "layer": "slow",
+        "pixels": 30305,
+        "correlation": 0.9558201140898124,
+        "offset_removed_rmse_kR": 0.1929309368133545,
+        "velocity_difference_cells_s": 0.03864442546483332,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1350,
+        "layer": "slow",
+        "pixels": 59148,
+        "correlation": 0.9541336085751694,
+        "offset_removed_rmse_kR": 0.1955580860376358,
+        "velocity_difference_cells_s": 0.04659231202063417,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1350,
+        "layer": "fast",
+        "pixels": 55046,
+        "correlation": 0.7905851481325867,
+        "offset_removed_rmse_kR": 0.19378137588500977,
+        "velocity_difference_cells_s": 0.019307631900818203,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1400,
+        "layer": "slow",
+        "pixels": 61999,
+        "correlation": 0.9684866084461202,
+        "offset_removed_rmse_kR": 0.2207975685596466,
+        "velocity_difference_cells_s": 0.04815038113837233,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1400,
+        "layer": "fast",
+        "pixels": 58262,
+        "correlation": 0.8233610008666855,
+        "offset_removed_rmse_kR": 0.2383294552564621,
+        "velocity_difference_cells_s": 0.03339026088829097,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 1400,
+    "end": 1449,
+    "original_class": "ambiguous_motion",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "original_single_motion_fit",
+    "common_heldout_samples": 1606075,
+    "common_fraction_of_observed_holdout": 0.9474547045182512,
+    "rmse_kR": {
+      "stationary": 0.37991318106651306,
+      "original": 0.36845773458480835,
+      "smooth_1px": 0.3107817471027374
+    },
+    "improvement_over_original_or_stationary": 0.15653352357241823,
+    "improvement_over_stationary": 0.1819664002436191,
+    "overlap_checks": [
+      {
+        "neighbor": 1350,
+        "layer": "slow",
+        "pixels": 32469,
+        "correlation": 0.9336260321487251,
+        "offset_removed_rmse_kR": 0.25527361035346985,
+        "velocity_difference_cells_s": 0.06453873909644675,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1350,
+        "layer": "fast",
+        "pixels": 33781,
+        "correlation": 0.5409946986407312,
+        "offset_removed_rmse_kR": 0.32120296359062195,
+        "velocity_difference_cells_s": 0.050122234213056636,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1375,
+        "layer": "slow",
+        "pixels": 61999,
+        "correlation": 0.9684866084461203,
+        "offset_removed_rmse_kR": 0.2207975685596466,
+        "velocity_difference_cells_s": 0.04815038113837233,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1375,
+        "layer": "fast",
+        "pixels": 58262,
+        "correlation": 0.8233610008666855,
+        "offset_removed_rmse_kR": 0.2383294552564621,
+        "velocity_difference_cells_s": 0.03339026088829097,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1450,
+        "layer": "slow",
+        "pixels": 35167,
+        "correlation": 0.9025322598098152,
+        "offset_removed_rmse_kR": 0.3028112053871155,
+        "velocity_difference_cells_s": 0.004080285478310116,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  },
+  {
+    "start": 1450,
+    "end": 1499,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1729843,
+    "common_fraction_of_observed_holdout": 0.9731411177061938,
+    "rmse_kR": {
+      "stationary": 0.3206495940685272,
+      "original": 0.3206495940685272,
+      "smooth_1px": 0.3156266510486603
+    },
+    "improvement_over_original_or_stationary": 0.015664897485550777,
+    "improvement_over_stationary": 0.015664897485550777,
+    "overlap_checks": [
+      {
+        "neighbor": 1400,
+        "layer": "slow",
+        "pixels": 35167,
+        "correlation": 0.9025322598098152,
+        "offset_removed_rmse_kR": 0.3028112053871155,
+        "velocity_difference_cells_s": 0.004080285478310116,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1475,
+        "layer": "slow",
+        "pixels": 65307,
+        "correlation": 0.9835130525106552,
+        "offset_removed_rmse_kR": 0.12013000249862671,
+        "velocity_difference_cells_s": 0.05047083891410291,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1500,
+        "layer": "slow",
+        "pixels": 34519,
+        "correlation": 0.9520753103500426,
+        "offset_removed_rmse_kR": 0.18825164437294006,
+        "velocity_difference_cells_s": 0.07662528435379261,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1475,
+    "end": 1524,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1694532,
+    "common_fraction_of_observed_holdout": 0.9678609961954556,
+    "rmse_kR": {
+      "stationary": 0.31669577956199646,
+      "original": 0.31669577956199646,
+      "smooth_1px": 0.31311237812042236
+    },
+    "improvement_over_original_or_stationary": 0.011314964305902953,
+    "improvement_over_stationary": 0.011314964305902953,
+    "overlap_checks": [
+      {
+        "neighbor": 1450,
+        "layer": "slow",
+        "pixels": 65307,
+        "correlation": 0.9835130525106552,
+        "offset_removed_rmse_kR": 0.12013000249862671,
+        "velocity_difference_cells_s": 0.05047083891410291,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1500,
+        "layer": "slow",
+        "pixels": 63579,
+        "correlation": 0.9793874884683864,
+        "offset_removed_rmse_kR": 0.11927953362464905,
+        "velocity_difference_cells_s": 0.11825515482259898,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1525,
+        "layer": "slow",
+        "pixels": 36071,
+        "correlation": 0.9437391924375358,
+        "offset_removed_rmse_kR": 0.17334003746509552,
+        "velocity_difference_cells_s": 0.08438386009987081,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1500,
+    "end": 1549,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1701774,
+    "common_fraction_of_observed_holdout": 0.9725712208704239,
+    "rmse_kR": {
+      "stationary": 0.3174688518047333,
+      "original": 0.3174688518047333,
+      "smooth_1px": 0.314128577709198
+    },
+    "improvement_over_original_or_stationary": 0.010521580547340759,
+    "improvement_over_stationary": 0.010521580547340759,
+    "overlap_checks": [
+      {
+        "neighbor": 1450,
+        "layer": "slow",
+        "pixels": 34519,
+        "correlation": 0.9520753103500426,
+        "offset_removed_rmse_kR": 0.18825164437294006,
+        "velocity_difference_cells_s": 0.07662528435379261,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1475,
+        "layer": "slow",
+        "pixels": 63579,
+        "correlation": 0.9793874884683865,
+        "offset_removed_rmse_kR": 0.11927953362464905,
+        "velocity_difference_cells_s": 0.11825515482259898,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1525,
+        "layer": "slow",
+        "pixels": 65223,
+        "correlation": 0.9758691530177515,
+        "offset_removed_rmse_kR": 0.11909152567386627,
+        "velocity_difference_cells_s": 0.07438849007073677,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1550,
+        "layer": "slow",
+        "pixels": 31900,
+        "correlation": 0.9223539726723203,
+        "offset_removed_rmse_kR": 0.17405083775520325,
+        "velocity_difference_cells_s": 0.01794453772100716,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1525,
+    "end": 1574,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1686033,
+    "common_fraction_of_observed_holdout": 0.9721663721202441,
+    "rmse_kR": {
+      "stationary": 0.3188556730747223,
+      "original": 0.3188556730747223,
+      "smooth_1px": 0.314516544342041
+    },
+    "improvement_over_original_or_stationary": 0.013608441370476787,
+    "improvement_over_stationary": 0.013608441370476787,
+    "overlap_checks": [
+      {
+        "neighbor": 1475,
+        "layer": "slow",
+        "pixels": 36071,
+        "correlation": 0.9437391924375358,
+        "offset_removed_rmse_kR": 0.17334003746509552,
+        "velocity_difference_cells_s": 0.08438386009987081,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1500,
+        "layer": "slow",
+        "pixels": 65223,
+        "correlation": 0.9758691530177515,
+        "offset_removed_rmse_kR": 0.11909152567386627,
+        "velocity_difference_cells_s": 0.07438849007073677,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1550,
+        "layer": "slow",
+        "pixels": 60902,
+        "correlation": 0.9852384979857467,
+        "offset_removed_rmse_kR": 0.12353727966547012,
+        "velocity_difference_cells_s": 0.059079849570816315,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1575,
+        "layer": "slow",
+        "pixels": 33595,
+        "correlation": 0.9534297227305867,
+        "offset_removed_rmse_kR": 0.198395237326622,
+        "velocity_difference_cells_s": 0.06592457102271178,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1550,
+    "end": 1599,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1664216,
+    "common_fraction_of_observed_holdout": 0.9654384256114278,
+    "rmse_kR": {
+      "stationary": 0.3288235068321228,
+      "original": 0.3288235068321228,
+      "smooth_1px": 0.3250850439071655
+    },
+    "improvement_over_original_or_stationary": 0.011369208244792262,
+    "improvement_over_stationary": 0.011369208244792262,
+    "overlap_checks": [
+      {
+        "neighbor": 1500,
+        "layer": "slow",
+        "pixels": 31900,
+        "correlation": 0.9223539726723202,
+        "offset_removed_rmse_kR": 0.17405083775520325,
+        "velocity_difference_cells_s": 0.01794453772100716,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1525,
+        "layer": "slow",
+        "pixels": 60902,
+        "correlation": 0.9852384979857468,
+        "offset_removed_rmse_kR": 0.12353727966547012,
+        "velocity_difference_cells_s": 0.059079849570816315,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1575,
+        "layer": "slow",
+        "pixels": 62285,
+        "correlation": 0.9854568946896403,
+        "offset_removed_rmse_kR": 0.12838494777679443,
+        "velocity_difference_cells_s": 0.007493264805155315,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1600,
+        "layer": "slow",
+        "pixels": 31798,
+        "correlation": 0.9426033343466964,
+        "offset_removed_rmse_kR": 0.21709850430488586,
+        "velocity_difference_cells_s": 0.03584799289878454,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1575,
+    "end": 1624,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1677787,
+    "common_fraction_of_observed_holdout": 0.9716472322201599,
+    "rmse_kR": {
+      "stationary": 0.33449244499206543,
+      "original": 0.33449244499206543,
+      "smooth_1px": 0.3311454951763153
+    },
+    "improvement_over_original_or_stationary": 0.010006055042078854,
+    "improvement_over_stationary": 0.010006055042078854,
+    "overlap_checks": [
+      {
+        "neighbor": 1525,
+        "layer": "slow",
+        "pixels": 33595,
+        "correlation": 0.9534297227305867,
+        "offset_removed_rmse_kR": 0.198395237326622,
+        "velocity_difference_cells_s": 0.06592457102271178,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1550,
+        "layer": "slow",
+        "pixels": 62285,
+        "correlation": 0.9854568946896403,
+        "offset_removed_rmse_kR": 0.12838494777679443,
+        "velocity_difference_cells_s": 0.007493264805155315,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1600,
+        "layer": "slow",
+        "pixels": 61823,
+        "correlation": 0.9806695643454847,
+        "offset_removed_rmse_kR": 0.14112523198127747,
+        "velocity_difference_cells_s": 0.037630481346781416,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1625,
+        "layer": "slow",
+        "pixels": 33968,
+        "correlation": 0.9398773569209501,
+        "offset_removed_rmse_kR": 0.25171101093292236,
+        "velocity_difference_cells_s": 0.05758728824514916,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1600,
+    "end": 1649,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1659575,
+    "common_fraction_of_observed_holdout": 0.9596385977593062,
+    "rmse_kR": {
+      "stationary": 0.3590691089630127,
+      "original": 0.3590691089630127,
+      "smooth_1px": 0.3543311357498169
+    },
+    "improvement_over_original_or_stationary": 0.013195156851222856,
+    "improvement_over_stationary": 0.013195156851222856,
+    "overlap_checks": [
+      {
+        "neighbor": 1550,
+        "layer": "slow",
+        "pixels": 31798,
+        "correlation": 0.9426033343466963,
+        "offset_removed_rmse_kR": 0.21709850430488586,
+        "velocity_difference_cells_s": 0.03584799289878454,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1575,
+        "layer": "slow",
+        "pixels": 61823,
+        "correlation": 0.9806695643454846,
+        "offset_removed_rmse_kR": 0.14112523198127747,
+        "velocity_difference_cells_s": 0.037630481346781416,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1625,
+        "layer": "slow",
+        "pixels": 62550,
+        "correlation": 0.9830331050659203,
+        "offset_removed_rmse_kR": 0.1480138599872589,
+        "velocity_difference_cells_s": 0.08659344755097352,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1650,
+        "layer": "slow",
+        "pixels": 27231,
+        "correlation": 0.9648410211856936,
+        "offset_removed_rmse_kR": 0.1934991478919983,
+        "velocity_difference_cells_s": 0.030564387940490507,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1625,
+    "end": 1674,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1607392,
+    "common_fraction_of_observed_holdout": 0.961922658017259,
+    "rmse_kR": {
+      "stationary": 0.36922743916511536,
+      "original": 0.36922743916511536,
+      "smooth_1px": 0.36757487058639526
+    },
+    "improvement_over_original_or_stationary": 0.004475746933805369,
+    "improvement_over_stationary": 0.004475746933805369,
+    "overlap_checks": [
+      {
+        "neighbor": 1575,
+        "layer": "slow",
+        "pixels": 33968,
+        "correlation": 0.9398773569209501,
+        "offset_removed_rmse_kR": 0.25171101093292236,
+        "velocity_difference_cells_s": 0.05758728824514916,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1600,
+        "layer": "slow",
+        "pixels": 62550,
+        "correlation": 0.9830331050659203,
+        "offset_removed_rmse_kR": 0.1480138599872589,
+        "velocity_difference_cells_s": 0.08659344755097352,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1650,
+        "layer": "slow",
+        "pixels": 55825,
+        "correlation": 0.989228468318188,
+        "offset_removed_rmse_kR": 0.13757364451885223,
+        "velocity_difference_cells_s": 0.11561211049969107,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1675,
+        "layer": "slow",
+        "pixels": 29817,
+        "correlation": 0.9457768331527957,
+        "offset_removed_rmse_kR": 0.22158201038837433,
+        "velocity_difference_cells_s": 0.11529662081312304,
+        "neighbor_source": "diagnostic"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1650,
+    "end": 1699,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "single_slow",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1535644,
+    "common_fraction_of_observed_holdout": 0.9516285854690553,
+    "rmse_kR": {
+      "stationary": 0.42126452922821045,
+      "original": 0.42126452922821045,
+      "smooth_1px": 0.41791966557502747
+    },
+    "improvement_over_original_or_stationary": 0.00794005528856423,
+    "improvement_over_stationary": 0.00794005528856423,
+    "overlap_checks": [
+      {
+        "neighbor": 1600,
+        "layer": "slow",
+        "pixels": 27231,
+        "correlation": 0.9648410211856936,
+        "offset_removed_rmse_kR": 0.1934991478919983,
+        "velocity_difference_cells_s": 0.030564387940490507,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1625,
+        "layer": "slow",
+        "pixels": 55825,
+        "correlation": 0.989228468318188,
+        "offset_removed_rmse_kR": 0.13757364451885223,
+        "velocity_difference_cells_s": 0.11561211049969107,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1675,
+        "layer": "slow",
+        "pixels": 58365,
+        "correlation": 0.9562943906765277,
+        "offset_removed_rmse_kR": 0.28987598419189453,
+        "velocity_difference_cells_s": 0.020087842321167698,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1700,
+        "layer": "slow",
+        "pixels": 30001,
+        "correlation": 0.9080810267003807,
+        "offset_removed_rmse_kR": 0.31422436237335205,
+        "velocity_difference_cells_s": 0.0036456928922034785,
+        "neighbor_source": "original"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "consistent_single_slow"
+  },
+  {
+    "start": 1675,
+    "end": 1724,
+    "original_class": "insufficient_evidence",
+    "variant": "smooth_1px",
+    "selected_model": "two_motion",
+    "comparison_baseline": "stationary_even_frame_median",
+    "common_heldout_samples": 1525981,
+    "common_fraction_of_observed_holdout": 0.940297744119985,
+    "rmse_kR": {
+      "stationary": 0.43159183859825134,
+      "original": 0.43159183859825134,
+      "smooth_1px": 0.3773989975452423
+    },
+    "improvement_over_original_or_stationary": 0.12556502743198217,
+    "improvement_over_stationary": 0.12556502743198217,
+    "overlap_checks": [
+      {
+        "neighbor": 1625,
+        "layer": "slow",
+        "pixels": 29817,
+        "correlation": 0.9457768331527956,
+        "offset_removed_rmse_kR": 0.22158201038837433,
+        "velocity_difference_cells_s": 0.11529662081312304,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1650,
+        "layer": "slow",
+        "pixels": 58365,
+        "correlation": 0.9562943906765276,
+        "offset_removed_rmse_kR": 0.28987598419189453,
+        "velocity_difference_cells_s": 0.020087842321167698,
+        "neighbor_source": "diagnostic"
+      },
+      {
+        "neighbor": 1700,
+        "layer": "slow",
+        "pixels": 58329,
+        "correlation": 0.9846692326514722,
+        "offset_removed_rmse_kR": 0.20098119974136353,
+        "velocity_difference_cells_s": 0.018185845020442546,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1700,
+        "layer": "fast",
+        "pixels": 54451,
+        "correlation": 0.8585491181791279,
+        "offset_removed_rmse_kR": 0.19173474609851837,
+        "velocity_difference_cells_s": 0.019711124605716095,
+        "neighbor_source": "original"
+      },
+      {
+        "neighbor": 1725,
+        "layer": "slow",
+        "pixels": 30433,
+        "correlation": 0.9434325958599659,
+        "offset_removed_rmse_kR": 0.35868921875953674,
+        "velocity_difference_cells_s": 0.01950430777103863,
+        "neighbor_source": "original"
+      }
+    ],
+    "has_consistent_neighbor": true,
+    "diagnostic_outcome": "promising"
+  }
+]

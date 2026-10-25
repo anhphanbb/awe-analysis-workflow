@@ -1,0 +1,24 @@
+{
+  "source": "E:\\soc\\l1r\\2023\\11\\awe_l1r_q20_2023326T0542_00004_v02.nc",
+  "frames": [
+    1650,
+    1699
+  ],
+  "bounds": [
+    6533,
+    6873,
+    84,
+    384
+  ],
+  "radiance_limits_kR": [
+    4.334000110626221,
+    9.194000244140625
+  ],
+  "texture_limits_kR": [
+    -0.8638148307800293,
+    0.8638148307800293
+  ],
+  "gif_frames": 50,
+  "verification": "50 GIF frames; all packed interactive masks exactly match arrays; fixed scales across time",
+  "note": "Mask separates coordinate footprint, missing radiance, and baseline filter-support exclusion. No physical cloud classification."
+}

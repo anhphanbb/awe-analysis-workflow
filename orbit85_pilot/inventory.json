@@ -1,0 +1,70 @@
+{
+  "l1r": "E:\\soc\\l1r\\2023\\11\\awe_l1r_q20_2023326T0542_00004_v02.nc",
+  "l3c": "E:\\soc\\l3c\\2023\\11\\awe_l3c_q20_2023326T0542_00004_v02.nc",
+  "master": "E:\\soc\\l1r\\2023\\11\\Master00004.mgf",
+  "frames": 1908,
+  "duration_seconds": 2112.13671875,
+  "metadata": {
+    "OH_layer_altitude": "85.00 km",
+    "Date_Start": "2023-11-22T05:42:35.570Z",
+    "Date_End": "2023-11-22T06:18:13.011Z",
+    "Horizontal_Resolution": "2.0"
+  },
+  "master_shape_y_x": [
+    551,
+    7801
+  ],
+  "master_max_l1r_coordinate_error_deg": 7.629373726558697e-06,
+  "master_max_l3c_coordinate_error_deg": 7.629373726558697e-06,
+  "gaps": [
+    {
+      "after_frame": 469,
+      "seconds": 2.19921875
+    },
+    {
+      "after_frame": 479,
+      "seconds": 2.19921875
+    },
+    {
+      "after_frame": 507,
+      "seconds": 2.19921875
+    },
+    {
+      "after_frame": 646,
+      "seconds": 2.19921875
+    },
+    {
+      "after_frame": 968,
+      "seconds": 2.19921875
+    },
+    {
+      "after_frame": 1149,
+      "seconds": 2.19921875
+    },
+    {
+      "after_frame": 1181,
+      "seconds": 2.19921875
+    },
+    {
+      "after_frame": 1437,
+      "seconds": 2.19921875
+    },
+    {
+      "after_frame": 1593,
+      "seconds": 2.19921875
+    },
+    {
+      "after_frame": 1811,
+      "seconds": 3.30078125
+    },
+    {
+      "after_frame": 1834,
+      "seconds": 2.19921875
+    },
+    {
+      "after_frame": 1859,
+      "seconds": 2.19921875
+    }
+  ],
+  "note": "Inventory covers the available orbit product (nighttime acquisition), not an assumed 90-minute continuous sequence. Native Master cells are nominally 2 km. No spatial reinterpolation is needed: all valid L1R coordinate pairs were checked against exact grid placements."
+}

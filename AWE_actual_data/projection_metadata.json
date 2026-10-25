@@ -1,0 +1,22 @@
+{
+  "source": "Y:\\soc\\l1r\\2023\\11\\awe_l1r_q20_2023326T0547_00004_v01.nc",
+  "frames_zero_based": [
+    930,
+    979
+  ],
+  "reference_frame": 955,
+  "duration_seconds": 53.90625,
+  "grid_spacing_degrees": 0.02,
+  "reference_altitude": "87.00 km",
+  "radiance_limits_kR": [
+    6.6191329002380375,
+    12.414883422851561
+  ],
+  "residual_limit_kR": 1.7441440582275405,
+  "common_pixels": 19794,
+  "grid_shape": [
+    309,
+    317
+  ],
+  "spatial_smoothing_sigma_grid_pixels": 10
+}

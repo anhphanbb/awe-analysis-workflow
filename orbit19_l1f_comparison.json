@@ -1,0 +1,27 @@
+{
+  "epoch_match": "exact",
+  "samples": [
+    {
+      "frame": 0,
+      "compared_pixels": 69832,
+      "median_difference_kR": 0.000476837158203125,
+      "rmse_kR": 0.06042818320636904,
+      "correlation": 0.9975547278365762
+    },
+    {
+      "frame": 960,
+      "compared_pixels": 82004,
+      "median_difference_kR": 0.0005731582641601562,
+      "rmse_kR": 0.04023075266010484,
+      "correlation": 0.9991839351961062
+    },
+    {
+      "frame": 1922,
+      "compared_pixels": 62539,
+      "median_difference_kR": 0.0004706382751464844,
+      "rmse_kR": 0.05410127707969439,
+      "correlation": 0.9988450112651291
+    }
+  ],
+  "note": "Methods differ: inverse bilinear interpolation in float versus legacy mapping and integer quantization."
+}

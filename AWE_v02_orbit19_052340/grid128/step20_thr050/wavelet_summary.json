@@ -1,0 +1,83 @@
+{
+  "source": "Concentric-wave crop of fitted slow component, frame 1467 at iteration 128",
+  "footprint": "all_finite_slow",
+  "finite_pixels": 21854,
+  "missing_pixels": 947,
+  "clusters": [
+    {
+      "rank": 1,
+      "peak_normalized_amplitude": 0.2719079554080963,
+      "weighted_wavelength_km": 36.902726444083605,
+      "selected_coefficients": 280225,
+      "spatial_pixels": 20947,
+      "wave_normal_axis_degrees": 53.431370042131284,
+      "peak_wavelength_km": 28.540970760065306,
+      "peak_axis_degrees": 59.99999999999999,
+      "peak_longitude": -57.46,
+      "peak_latitude": -2.32,
+      "peak_edge_distance_km": 60.04526038806172,
+      "search_edge": false
+    },
+    {
+      "rank": 2,
+      "peak_normalized_amplitude": 0.2562277019023895,
+      "weighted_wavelength_km": 31.394879316500244,
+      "selected_coefficients": 109747,
+      "spatial_pixels": 14299,
+      "wave_normal_axis_degrees": 127.05541265730537,
+      "peak_wavelength_km": 31.12414931162423,
+      "peak_axis_degrees": 119.99999999999999,
+      "peak_longitude": -57.68,
+      "peak_latitude": -4.2,
+      "peak_edge_distance_km": 68.94085451962643,
+      "search_edge": false
+    }
+  ],
+  "cluster_expansion": {
+    "baseline": {
+      "threshold": 0.1,
+      "clusters": 2,
+      "selected_coefficients": 72742,
+      "spatial_pixels": 10381
+    },
+    "selected_coefficients": 389972,
+    "spatial_pixels": 21442
+  },
+  "settings": {
+    "separation_iterations": 128,
+    "min_wavelength_km": 12.0,
+    "max_wavelength_km": 74.02611961958115,
+    "scale_step_octaves": 0.125,
+    "angle_step_degrees": 20,
+    "dx_km": 2.220210901291848,
+    "dy_km": 2.223898532891175,
+    "taper_km": 40,
+    "min_amplitude": 0.25,
+    "cluster_threshold": 0.05,
+    "max_wavelength_exclusive_km": 80.0,
+    "wavelength_steps": 22,
+    "angle_steps": 9,
+    "mode": "scaled",
+    "normalization_std_kR": 0.5796585720887472
+  },
+  "checks": [
+    "Synthetic 48 km / 30 degree wave recovered within scale and angle resolution"
+  ],
+  "transform_sha256": "226aa342c42ffc932dccf95fbd8eb3dc815e3e314cb96a494777d057606f4b3b",
+  "notes": "Plane removed; cosine taper over 40 km from missing-data edges; zero outside valid footprint for FFT. Up to four strongest coefficient clusters, not significance-tested independent waves. Wavelength uses local geographic spacing. Axis is wave normal counterclockwise from east modulo 180 degrees; no travel direction or speed inferred.",
+  "input_shape": [
+    151,
+    151
+  ],
+  "analysis_scope": "Crop only; plane, taper and normalization recomputed within crop.",
+  "crop_bounds": {
+    "longitude": [
+      -59.4,
+      -56.4
+    ],
+    "latitude": [
+      -4.8,
+      -1.8
+    ]
+  }
+}

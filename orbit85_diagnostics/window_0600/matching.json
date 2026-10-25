@@ -1,0 +1,253 @@
+{
+  "start": 600,
+  "rejected": true,
+  "source": {
+    "finite_source_pixels": 4137909,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      2459,
+      2799,
+      69,
+      369
+    ],
+    "radiance_percentiles_kR": [
+      4.078999996185303,
+      5.265999794006348,
+      5.89300012588501,
+      7.98199987411499,
+      11.38700008392334,
+      12.85200023651123,
+      32.84400177001953
+    ],
+    "finite_fraction_in_analysis_cube": 0.7395517647058824
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "reference_missing": 329,
+        "patches_searched": 757,
+        "candidate_positions": 1414493,
+        "valid_candidate_positions": 1094093,
+        "patches_with_matches": 213,
+        "correlation_below_threshold": 478,
+        "peaks_on_search_boundary": 14,
+        "boundary_only_patch": 2,
+        "no_valid_search_position": 64,
+        "retained_candidates": 318
+      },
+      "modes": [
+        {
+          "velocity": [
+            0.7298120643791172,
+            -0.01778399386040813
+          ],
+          "support": 145,
+          "median_ncc": 0.5659132359249837,
+          "pair_count": 9
+        }
+      ],
+      "reason": "only_non_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            0.73,
+            -0.010000000000000018
+          ],
+          "support": 145
+        }
+      ],
+      "median_noise_proxy_kR": 0.18765649274110416,
+      "texture_std_percentiles_kR": [
+        0.26299911549153876,
+        0.2971416015224879,
+        0.3318975849849145,
+        0.5193245686093063,
+        1.329370754183838
+      ],
+      "best_ncc_percentiles": [
+        0.07561049083215773,
+        0.1951322777557944,
+        0.2724792995044714,
+        0.6126882158380547,
+        0.8637910796470629
+      ]
+    },
+    "lower_texture": {
+      "variant": "lower_texture",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.04
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "reference_missing": 329,
+        "patches_searched": 757,
+        "candidate_positions": 1414493,
+        "valid_candidate_positions": 1094093,
+        "patches_with_matches": 213,
+        "correlation_below_threshold": 478,
+        "peaks_on_search_boundary": 14,
+        "boundary_only_patch": 2,
+        "no_valid_search_position": 64,
+        "retained_candidates": 318
+      },
+      "modes": [
+        {
+          "velocity": [
+            0.7298120643791172,
+            -0.01778399386040813
+          ],
+          "support": 145,
+          "median_ncc": 0.5659132359249837,
+          "pair_count": 9
+        }
+      ],
+      "reason": "only_non_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            0.73,
+            -0.010000000000000018
+          ],
+          "support": 145
+        }
+      ],
+      "median_noise_proxy_kR": 0.18765649274110416,
+      "texture_std_percentiles_kR": [
+        0.26299911549153876,
+        0.2971416015224879,
+        0.3318975849849145,
+        0.5193245686093063,
+        1.329370754183838
+      ],
+      "best_ncc_percentiles": [
+        0.07561049083215773,
+        0.1951322777557944,
+        0.2724792995044714,
+        0.6126882158380547,
+        0.8637910796470629
+      ]
+    },
+    "smooth_1px": {
+      "variant": "smooth_1px",
+      "parameters": {
+        "half": 12,
+        "smooth": 1,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "reference_missing": 343,
+        "patches_searched": 743,
+        "candidate_positions": 1398039,
+        "valid_candidate_positions": 1064723,
+        "patches_with_matches": 594,
+        "peaks_on_search_boundary": 149,
+        "correlation_below_threshold": 62,
+        "boundary_only_patch": 15,
+        "no_valid_search_position": 72,
+        "retained_candidates": 1200
+      },
+      "modes": [
+        {
+          "velocity": [
+            0.7227781537574439,
+            -0.016141710736757398
+          ],
+          "support": 173,
+          "median_ncc": 0.6878362043894896,
+          "pair_count": 9
+        }
+      ],
+      "reason": "only_non_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            0.73,
+            -0.010000000000000018
+          ],
+          "support": 173
+        }
+      ],
+      "median_noise_proxy_kR": 0.18765649274110416,
+      "texture_std_percentiles_kR": [
+        0.12714364409127846,
+        0.16076335309029868,
+        0.20409821237243403,
+        0.38634101456481196,
+        0.910529762712621
+      ],
+      "best_ncc_percentiles": [
+        0.12146907462774624,
+        0.35131013249383636,
+        0.4925668447196977,
+        0.7655187420421549,
+        0.9586117259590704
+      ]
+    },
+    "larger_patch": {
+      "variant": "larger_patch",
+      "parameters": {
+        "half": 20,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 960,
+        "reference_missing": 300,
+        "patches_searched": 660,
+        "candidate_positions": 1258412,
+        "valid_candidate_positions": 929354,
+        "patches_with_matches": 230,
+        "correlation_below_threshold": 366,
+        "no_valid_search_position": 64,
+        "retained_candidates": 240
+      },
+      "modes": [
+        {
+          "velocity": [
+            0.7318628538900781,
+            -0.02150494679123776
+          ],
+          "support": 189,
+          "median_ncc": 0.5429148221197903,
+          "pair_count": 9
+        }
+      ],
+      "reason": "only_non_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            0.73,
+            -0.030000000000000034
+          ],
+          "support": 189
+        }
+      ],
+      "median_noise_proxy_kR": 0.18765649274110416,
+      "texture_std_percentiles_kR": [
+        0.2852315423663289,
+        0.30934927172052396,
+        0.36048120871258027,
+        0.5828581824627571,
+        0.8541478557322145
+      ],
+      "best_ncc_percentiles": [
+        0.033606148831938756,
+        0.15821500966505217,
+        0.27641491188970657,
+        0.6472450690566944,
+        0.7871764733995436
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

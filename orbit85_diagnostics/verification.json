@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Known slow translation recovered after smoothing without forced second mode",
+    "Three independent-noise controls produce no supported mode",
+    "Rejection accounting exhaustively partitions considered patches",
+    "Lowering texture gate leaves rejected-window candidate arrays identical",
+    "Refits use training-only diagnostic velocities and disjoint heldout frames",
+    "Common-sample comparison arithmetic and coverage"
+  ],
+  "noise_controls": [
+    {
+      "seed": 12,
+      "reason": "no_cluster_with_15_candidates",
+      "retained_candidates": 39,
+      "modes": []
+    },
+    {
+      "seed": 35,
+      "reason": "no_cluster_with_15_candidates",
+      "retained_candidates": 46,
+      "modes": []
+    },
+    {
+      "seed": 81,
+      "reason": "no_cluster_with_15_candidates",
+      "retained_candidates": 52,
+      "modes": []
+    }
+  ],
+  "limitation": "Synthetic controls are limited tests and do not establish physical layer correctness."
+}

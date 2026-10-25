@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Analytic perfect, partial, zero and worse predictions; clipping retains negative raw diagnostic",
+    "Weak energy, missing centers, missing neighborhoods and image edges remain unavailable",
+    "Saved q recomputes from energies; threshold, support, and unavailable masks consistent",
+    "Every scored pixel uses an exact heldout epoch of its dominant two-motion model and a genuine finite source observation",
+    "All-frame diagnostic preserves every heldout score, adds directly evaluated timestamps, and retains observation/threshold provenance",
+    "Combined radiance, q, masked observed radiance and four enlarged swath plots exist"
+  ]
+}

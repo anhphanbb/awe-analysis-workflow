@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Single-slow selection, ambiguous single-fast rejection, and predictive-benefit selection",
+    "Offset alignment sign and exact reconstruction invariance",
+    "Independent gauges for disconnected overlap groups"
+  ]
+}

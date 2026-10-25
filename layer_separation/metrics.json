@@ -1,0 +1,40 @@
+{
+  "slow_velocity_pixels_per_s": [
+    0.1268746881081187,
+    0.07543848650269458
+  ],
+  "fast_velocity_pixels_per_s": [
+    0.4676518107539647,
+    -0.3969872308629059
+  ],
+  "slow_apparent_velocity_east_north_km_s": [
+    0.27401133028893526,
+    0.16795624634959921
+  ],
+  "fast_apparent_velocity_east_north_km_s": [
+    1.0099878603644306,
+    -0.8838523707931736
+  ],
+  "slow_peak_support": 258,
+  "fast_peak_support": 253,
+  "slow_median_ncc": 0.5810703303015259,
+  "fast_median_ncc": 0.6725926129914106,
+  "iterations_rmse_kR": [
+    0.5199043853105707,
+    0.4903047758765352,
+    0.4709717255063538,
+    0.4567912441446751,
+    0.44570744113008554,
+    0.4373515332866121,
+    0.42899381872293796,
+    0.42198487951926866
+  ],
+  "heldout_odd_frames_two_layer_rmse_kR": 0.42320586860679243,
+  "heldout_odd_frames_slow_only_rmse_kR": 0.6686023143560467,
+  "heldout_pixels": 1074100,
+  "frame_indices_zero_based": [
+    930,
+    979
+  ],
+  "model": "Two constant-velocity translated templates; alternating temporal medians; signed fast contrast with median zero."
+}

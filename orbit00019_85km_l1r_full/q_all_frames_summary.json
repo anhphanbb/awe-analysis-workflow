@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "threshold": 0.6,
+    "gaussian_sigma_native_cells": 3.0,
+    "min_local_coverage": 0.95,
+    "min_weighted_residual_energy_kR2": 0.04,
+    "min_training_support": 8,
+    "strict_threshold": true,
+    "definition": "clip(1 - G[(I-S-F)^2 valid] / G[(I-S)^2 valid],0,1)",
+    "evaluation": "All prepared input observations at exact L3C Pixel_Epoch, using dominant accepted two-motion model. Includes training frames: descriptive fit diagnostic, not withheld validation. No temporal score interpolation.",
+    "gauge": "Uses offset-aligned dominant window templates. The denominator and fast sign depend on the brightness-split gauge; q is not gauge-invariant. The total reconstruction error is invariant.",
+    "interpretation": "Candidate fast-feature mask, not cloud probability. Both signs of fast contrast can qualify. Single-slow and unevaluable pixels remain unavailable.",
+    "defaults": "Exploratory, not calibrated. Sigma=3 native cells is nominally 6 km, not identical to three pixels on the old latitude/longitude grid."
+  },
+  "two_motion_windows": 13,
+  "eligible_pixels": 524989,
+  "candidate_pixels": 118223,
+  "status_counts": {
+    "0": 2088439,
+    "1": 1665566,
+    "2": 0,
+    "3": 19229,
+    "4": 128,
+    "5": 524989
+  }
+}

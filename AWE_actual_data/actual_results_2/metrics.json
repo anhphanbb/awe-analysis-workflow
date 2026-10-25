@@ -1,0 +1,12 @@
+[
+  {
+    "iteration": 1,
+    "reconstruction_rmse_kR": 0.5349829138425332,
+    "evaluation_pixels_per_frame": 19794
+  },
+  {
+    "iteration": 2,
+    "reconstruction_rmse_kR": 0.47438689436920556,
+    "evaluation_pixels_per_frame": 19794
+  }
+]

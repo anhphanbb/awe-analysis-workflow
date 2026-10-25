@@ -1,0 +1,23 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const path='AWE_v02_orbit19_052340/orbit19_052340.html';
+const html=fs.readFileSync(path,'utf8');
+const script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const elements={};
+for(const id of ['frame','play','map0','map1','map2','map3','timestamp','frame-label','reference','speed'])
+  elements[id]={value:id==='speed'?'300':'',setAttribute(name,value){this[name]=value;}};
+let callback=null;
+const context={document:{hidden:false,getElementById:id=>elements[id],addEventListener(){}},setInterval:fn=>{callback=fn;return 1;},clearInterval:()=>{callback=null;}};
+vm.createContext(context);vm.runInContext(script,context);
+assert(elements['frame-label'].textContent.includes('1467'));
+assert.equal(elements.timestamp.textContent,'05:23:40.527 UTC');
+assert(elements.map0.src.startsWith('data:image/png;base64,'));
+elements.frame.value='0';elements.frame.oninput();assert(elements['frame-label'].textContent.includes('1442'));
+elements.frame.value='49';elements.frame.oninput();assert(elements['frame-label'].textContent.includes('1491'));
+elements.reference.onclick();assert(elements['frame-label'].textContent.includes('1467'));
+elements.play.onclick();assert.equal(elements.play.textContent,'Pause');callback();assert(elements['frame-label'].textContent.includes('1468'));
+elements.play.onclick();assert.equal(elements.play.textContent,'Play');assert.equal(callback,null);
+assert(!html.match(/__[A-Z]+__/));
+assert(!html.match(/(?:src|href)="https?:/));
+assert(html.includes('computed on this crop alone'));assert(html.includes('Spatial waves in the cropped region'));assert(html.includes('Concentric waves near the top'));
+assert(html.includes('128 iterations'));assert(html.includes('Threshold × angular-step grid search'));assert(html.includes('threshold is 0.02'));
+console.log('PASS: initial time, first/last frame selection, reference reset, playback advancement, pause, embedded assets, edge-sensitive label.');

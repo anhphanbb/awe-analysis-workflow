@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+netCDF4
+Pillow
+numba
+# Install juwavelet separately from its upstream source checkout.

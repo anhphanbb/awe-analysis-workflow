@@ -1,0 +1,235 @@
+{
+  "start": 1350,
+  "rejected": true,
+  "source": {
+    "finite_source_pixels": 3731918,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      5367,
+      5707,
+      68,
+      368
+    ],
+    "radiance_percentiles_kR": [
+      2.7190001010894775,
+      3.5980000495910645,
+      3.996000051498413,
+      5.61899995803833,
+      7.681000232696533,
+      8.194999694824219,
+      10.892000198364258
+    ],
+    "finite_fraction_in_analysis_cube": 0.6774950980392157
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 544,
+        "candidate_positions": 1007504,
+        "valid_candidate_positions": 476017,
+        "correlation_below_threshold": 422,
+        "reference_missing": 542,
+        "patches_with_matches": 21,
+        "no_valid_search_position": 101,
+        "retained_candidates": 25
+      },
+      "modes": [],
+      "reason": "no_cluster_with_15_candidates",
+      "peak_stats": [
+        {
+          "center": [
+            0.6699999999999999,
+            0.03000000000000002
+          ],
+          "support": 9
+        }
+      ],
+      "median_noise_proxy_kR": 0.18765649274110416,
+      "texture_std_percentiles_kR": [
+        0.23476862377162147,
+        0.2782999693476384,
+        0.3085046644701934,
+        0.34395389302308466,
+        0.5406939548256969
+      ],
+      "best_ncc_percentiles": [
+        -0.031247610688589902,
+        0.14702557864087756,
+        0.21653997322068955,
+        0.3044587221345366,
+        0.6953423275000686
+      ]
+    },
+    "lower_texture": {
+      "variant": "lower_texture",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.04
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 544,
+        "candidate_positions": 1007504,
+        "valid_candidate_positions": 476017,
+        "correlation_below_threshold": 422,
+        "reference_missing": 542,
+        "patches_with_matches": 21,
+        "no_valid_search_position": 101,
+        "retained_candidates": 25
+      },
+      "modes": [],
+      "reason": "no_cluster_with_15_candidates",
+      "peak_stats": [
+        {
+          "center": [
+            0.6699999999999999,
+            0.03000000000000002
+          ],
+          "support": 9
+        }
+      ],
+      "median_noise_proxy_kR": 0.18765649274110416,
+      "texture_std_percentiles_kR": [
+        0.23476862377162147,
+        0.2782999693476384,
+        0.3085046644701934,
+        0.34395389302308466,
+        0.5406939548256969
+      ],
+      "best_ncc_percentiles": [
+        -0.031247610688589902,
+        0.14702557864087756,
+        0.21653997322068955,
+        0.3044587221345366,
+        0.6953423275000686
+      ]
+    },
+    "smooth_1px": {
+      "variant": "smooth_1px",
+      "parameters": {
+        "half": 12,
+        "smooth": 1,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 447,
+        "candidate_positions": 833207,
+        "valid_candidate_positions": 319105,
+        "patches_with_matches": 209,
+        "reference_missing": 639,
+        "correlation_below_threshold": 124,
+        "no_valid_search_position": 107,
+        "peaks_on_search_boundary": 41,
+        "boundary_only_patch": 7,
+        "retained_candidates": 377
+      },
+      "modes": [
+        {
+          "velocity": [
+            -0.09837045797509604,
+            -0.024603070055791088
+          ],
+          "support": 45,
+          "median_ncc": 0.47132078494095575,
+          "pair_count": 8
+        },
+        {
+          "velocity": [
+            0.6504507438916829,
+            0.022055805258061723
+          ],
+          "support": 15,
+          "median_ncc": 0.6846587596542568,
+          "pair_count": 8
+        }
+      ],
+      "reason": "two_modes",
+      "peak_stats": [
+        {
+          "center": [
+            0.6499999999999999,
+            0.03000000000000002
+          ],
+          "support": 15
+        },
+        {
+          "center": [
+            -0.11000000000000011,
+            -0.030000000000000034
+          ],
+          "support": 45
+        }
+      ],
+      "median_noise_proxy_kR": 0.18765649274110416,
+      "texture_std_percentiles_kR": [
+        0.1249980434673225,
+        0.14814753855790097,
+        0.1760560208982133,
+        0.2219449661192883,
+        0.43215793041711714
+      ],
+      "best_ncc_percentiles": [
+        -0.12118173976501434,
+        0.23241855768573394,
+        0.3926391795859108,
+        0.5734789975748823,
+        0.8906351897000697
+      ]
+    },
+    "larger_patch": {
+      "variant": "larger_patch",
+      "parameters": {
+        "half": 20,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 960,
+        "reference_missing": 601,
+        "patches_searched": 359,
+        "candidate_positions": 679519,
+        "valid_candidate_positions": 214699,
+        "no_valid_search_position": 119,
+        "correlation_below_threshold": 225,
+        "patches_with_matches": 15,
+        "retained_candidates": 15
+      },
+      "modes": [],
+      "reason": "fewer_than_20_candidates",
+      "peak_stats": [
+        {
+          "center": [
+            0.6299999999999999,
+            0.01
+          ],
+          "support": 13
+        }
+      ],
+      "median_noise_proxy_kR": 0.18765649274110416,
+      "texture_std_percentiles_kR": [
+        0.26195977703882206,
+        0.283867138929659,
+        0.31319315618549987,
+        0.3540297849303157,
+        0.4080831895042033
+      ],
+      "best_ncc_percentiles": [
+        0.015041005300078496,
+        0.0852066473523479,
+        0.15538295655507506,
+        0.2760515544507446,
+        0.49859232264452363
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

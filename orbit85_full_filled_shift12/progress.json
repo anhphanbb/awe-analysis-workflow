@@ -1,0 +1,10 @@
+{
+  "completed": 76,
+  "total": 76,
+  "elapsed_seconds": 279.9059999999881,
+  "counts": {
+    "ambiguous_motion": 4,
+    "single_slow": 38,
+    "two_motion": 34
+  }
+}

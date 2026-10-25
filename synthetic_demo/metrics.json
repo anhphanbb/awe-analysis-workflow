@@ -1,0 +1,37 @@
+[
+  {
+    "iteration": 0,
+    "slow_contrast_rmse": 0.5417861126738531,
+    "fast_contrast_rmse": 0.6441002124829159,
+    "observation_rmse": 0.3914400184314007,
+    "shared_offset_for_truth_comparison": 0.4231566494312156
+  },
+  {
+    "iteration": 1,
+    "slow_contrast_rmse": 0.5156760158227532,
+    "fast_contrast_rmse": 0.5260594552257525,
+    "observation_rmse": 0.2873490641349668,
+    "shared_offset_for_truth_comparison": 0.40879302302648957
+  },
+  {
+    "iteration": 2,
+    "slow_contrast_rmse": 0.4971694620518038,
+    "fast_contrast_rmse": 0.5059828697336997,
+    "observation_rmse": 0.2695238440153454,
+    "shared_offset_for_truth_comparison": 0.3973903569861916
+  },
+  {
+    "iteration": 4,
+    "slow_contrast_rmse": 0.4659675673149797,
+    "fast_contrast_rmse": 0.4730803805532628,
+    "observation_rmse": 0.24156872309356278,
+    "shared_offset_for_truth_comparison": 0.37661797529350666
+  },
+  {
+    "iteration": 8,
+    "slow_contrast_rmse": 0.4157840648582777,
+    "fast_contrast_rmse": 0.42114154122809483,
+    "observation_rmse": 0.20057284879050788,
+    "shared_offset_for_truth_comparison": 0.3421159448637521
+  }
+]

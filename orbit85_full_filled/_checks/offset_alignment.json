@@ -1,0 +1,26 @@
+{
+  "components": [
+    {
+      "id": 0,
+      "window_starts": [
+        0
+      ],
+      "offsets_kR": [
+        0.0
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 1,
+      "window_starts": [
+        100
+      ],
+      "offsets_kR": [
+        0.0
+      ],
+      "gauge": "zero mean offset within this connected component"
+    }
+  ],
+  "edges": [],
+  "note": "Fast += offset; slow -= offset. Reconstruction is unchanged. Disconnected components have independent arbitrary absolute offsets."
+}

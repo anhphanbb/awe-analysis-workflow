@@ -1,0 +1,40 @@
+[
+  {
+    "windows": [
+      200,
+      225
+    ],
+    "comparison_epoch": 1384667248.0390625,
+    "slow": {
+      "pixels": 67168,
+      "median_offset_kR": -0.13009405136108398,
+      "offset_removed_rmse_kR": 0.21564166404312476,
+      "correlation": 0.9725528279841781
+    },
+    "fast": {
+      "pixels": 64176,
+      "median_offset_kR": 0.16488833911716938,
+      "offset_removed_rmse_kR": 0.21345474434542236,
+      "correlation": 0.8641185684765703
+    }
+  },
+  {
+    "windows": [
+      1154,
+      1179
+    ],
+    "comparison_epoch": 1384668304.6601562,
+    "slow": {
+      "pixels": 66038,
+      "median_offset_kR": -0.08073186874389648,
+      "offset_removed_rmse_kR": 0.27944312068750793,
+      "correlation": 0.9548968265441996
+    },
+    "fast": {
+      "pixels": 62635,
+      "median_offset_kR": 0.10215330123901367,
+      "offset_removed_rmse_kR": 0.2533635538407565,
+      "correlation": 0.9493751473926464
+    }
+  }
+]

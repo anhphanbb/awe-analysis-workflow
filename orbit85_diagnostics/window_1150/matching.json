@@ -1,0 +1,100 @@
+{
+  "start": 1150,
+  "rejected": false,
+  "source": {
+    "finite_source_pixels": 3980502,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      4590,
+      4930,
+      57,
+      357
+    ],
+    "radiance_percentiles_kR": [
+      4.301000118255615,
+      6.208000183105469,
+      6.666999816894531,
+      8.508000373840332,
+      12.87600040435791,
+      14.017000198364258,
+      18.641000747680664
+    ],
+    "finite_fraction_in_analysis_cube": 0.7147354901960784
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 691,
+        "candidate_positions": 1319915,
+        "valid_candidate_positions": 931978,
+        "correlation_below_threshold": 198,
+        "patches_with_matches": 426,
+        "reference_missing": 395,
+        "peaks_on_search_boundary": 72,
+        "no_valid_search_position": 65,
+        "boundary_only_patch": 2,
+        "retained_candidates": 807
+      },
+      "modes": [
+        {
+          "velocity": [
+            -0.009731513754778567,
+            0.018524411998731796
+          ],
+          "support": 145,
+          "median_ncc": 0.49453653106283596,
+          "pair_count": 9
+        },
+        {
+          "velocity": [
+            0.6512776307475979,
+            0.015006500834771426
+          ],
+          "support": 143,
+          "median_ncc": 0.6416545761564176,
+          "pair_count": 9
+        }
+      ],
+      "reason": "two_modes",
+      "peak_stats": [
+        {
+          "center": [
+            0.6499999999999999,
+            0.01
+          ],
+          "support": 143
+        },
+        {
+          "center": [
+            -0.010000000000000018,
+            0.01
+          ],
+          "support": 145
+        }
+      ],
+      "median_noise_proxy_kR": 0.1970915315246541,
+      "texture_std_percentiles_kR": [
+        0.2451872092180943,
+        0.304953929615237,
+        0.38165874947067785,
+        0.637797905436629,
+        1.0015826176468015
+      ],
+      "best_ncc_percentiles": [
+        -0.05588358338972359,
+        0.23935593747360967,
+        0.4207894777423673,
+        0.6959563941687996,
+        0.8932676303257717
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

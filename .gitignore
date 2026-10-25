@@ -1,0 +1,10 @@
+.packages/
+.mplcache*/
+__pycache__/
+*.pyc
+*.nc
+*.mgf
+*.npz
+*.npy
+*.zip
+*.log

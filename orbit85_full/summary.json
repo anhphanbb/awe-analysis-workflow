@@ -1,0 +1,41 @@
+{
+  "frames_considered": 1908,
+  "windows": 76,
+  "window_classifications": {
+    "ambiguous_motion": 15,
+    "insufficient_evidence": 21,
+    "single_slow": 22,
+    "two_motion": 18
+  },
+  "l3c_valid_pixels": 2196725,
+  "pixels_by_status": {
+    "0": 2101626,
+    "1": 902466,
+    "2": 679342,
+    "3": 614917
+  },
+  "supported_fraction_of_l3c": 0.5891766151885193,
+  "offset_connected_components": 7,
+  "maximum_l3c_epoch_match_error_seconds": 0.0,
+  "all_frames_in_at_least_one_window": true,
+  "two_motion_holdout_improvement_percent": [
+    21.458575843901183,
+    8.309364586888746,
+    11.421907703329804,
+    34.35109443567953,
+    31.551678904870506,
+    26.28727062812525,
+    5.851612946030949,
+    12.955471958564935,
+    15.426508704206377,
+    17.66916688057708,
+    30.029046687400516,
+    34.37565949327544,
+    46.498467059266616,
+    42.130110301920034,
+    28.471786654085207,
+    24.436065840371125,
+    27.478591247315553,
+    11.831077418738023
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "source": "Concentric-wave crop of fitted slow component, frame 1467 at iteration 64",
+  "footprint": "all_finite_slow",
+  "finite_pixels": 21854,
+  "missing_pixels": 947,
+  "clusters": [
+    {
+      "rank": 1,
+      "peak_normalized_amplitude": 0.2616938054561615,
+      "weighted_wavelength_km": 37.87606808698555,
+      "selected_coefficients": 267098,
+      "spatial_pixels": 20332,
+      "wave_normal_axis_degrees": 52.82857624058501,
+      "peak_wavelength_km": 28.540970760065306,
+      "peak_axis_degrees": 59.99999999999999,
+      "peak_longitude": -57.46,
+      "peak_latitude": -2.32,
+      "peak_edge_distance_km": 60.04526038806172,
+      "search_edge": false
+    }
+  ],
+  "cluster_expansion": {
+    "baseline": {
+      "threshold": 0.1,
+      "clusters": 1,
+      "selected_coefficients": 51184,
+      "spatial_pixels": 6345
+    },
+    "selected_coefficients": 267098,
+    "spatial_pixels": 20332
+  },
+  "settings": {
+    "min_wavelength_km": 12.0,
+    "max_wavelength_km": 74.02611961958115,
+    "scale_step_octaves": 0.125,
+    "angle_step_degrees": 20,
+    "dx_km": 2.220210901291848,
+    "dy_km": 2.223898532891175,
+    "taper_km": 40,
+    "min_amplitude": 0.25,
+    "cluster_threshold": 0.05,
+    "max_wavelength_exclusive_km": 80.0,
+    "wavelength_steps": 22,
+    "angle_steps": 9,
+    "mode": "scaled",
+    "normalization_std_kR": 0.6023914492224947
+  },
+  "checks": [
+    "Synthetic 48 km / 30 degree wave recovered within scale and angle resolution"
+  ],
+  "transform_sha256": "226aa342c42ffc932dccf95fbd8eb3dc815e3e314cb96a494777d057606f4b3b",
+  "notes": "Plane removed; cosine taper over 40 km from missing-data edges; zero outside valid footprint for FFT. Up to four strongest coefficient clusters, not significance-tested independent waves. Wavelength uses local geographic spacing. Axis is wave normal counterclockwise from east modulo 180 degrees; no travel direction or speed inferred.",
+  "crop_bounds": {
+    "longitude": [
+      -59.4,
+      -56.4
+    ],
+    "latitude": [
+      -4.8,
+      -1.8
+    ]
+  },
+  "input_shape": [
+    151,
+    151
+  ],
+  "analysis_scope": "Crop only; plane removal, edge taper and normalization computed on the crop before juwavelet."
+}

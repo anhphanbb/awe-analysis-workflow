@@ -1,0 +1,194 @@
+{
+  "iterations": 128,
+  "runs": [
+    {
+      "angle_step": 5,
+      "threshold": 0.02,
+      "folder": "C:\\Users\\domin\\OneDrive\\Documents\\ChatGPT\\Cloud_advanced\\AWE_v02_orbit19_052340\\grid128\\step05_thr020",
+      "clusters": [
+        {
+          "rank": 1,
+          "peak_normalized_amplitude": 0.2719079554080963,
+          "weighted_wavelength_km": 37.49773231285307,
+          "selected_coefficients": 5762456,
+          "spatial_pixels": 22801,
+          "wave_normal_axis_degrees": 57.089387570907924,
+          "peak_wavelength_km": 28.540970760065306,
+          "peak_axis_degrees": 59.99999999999999,
+          "peak_longitude": -57.46,
+          "peak_latitude": -2.32,
+          "peak_edge_distance_km": 60.04526038806172,
+          "search_edge": false
+        },
+        {
+          "rank": 2,
+          "peak_normalized_amplitude": 0.2576294541358948,
+          "weighted_wavelength_km": 38.162174492159885,
+          "selected_coefficients": 2375390,
+          "spatial_pixels": 22413,
+          "wave_normal_axis_degrees": 143.16250799841112,
+          "peak_wavelength_km": 31.12414931162423,
+          "peak_axis_degrees": 124.99999999999999,
+          "peak_longitude": -57.64,
+          "peak_latitude": -4.2,
+          "peak_edge_distance_km": 68.94085451962643,
+          "search_edge": false
+        }
+      ],
+      "spatial_pixels": 22801
+    },
+    {
+      "angle_step": 5,
+      "threshold": 0.05,
+      "folder": "C:\\Users\\domin\\OneDrive\\Documents\\ChatGPT\\Cloud_advanced\\AWE_v02_orbit19_052340\\grid128\\step05_thr050",
+      "clusters": [
+        {
+          "rank": 1,
+          "peak_normalized_amplitude": 0.2719079554080963,
+          "weighted_wavelength_km": 36.979639206951134,
+          "selected_coefficients": 1038232,
+          "spatial_pixels": 21465,
+          "wave_normal_axis_degrees": 53.23062267646928,
+          "peak_wavelength_km": 28.540970760065306,
+          "peak_axis_degrees": 59.99999999999999,
+          "peak_longitude": -57.46,
+          "peak_latitude": -2.32,
+          "peak_edge_distance_km": 60.04526038806172,
+          "search_edge": false
+        },
+        {
+          "rank": 2,
+          "peak_normalized_amplitude": 0.2576294541358948,
+          "weighted_wavelength_km": 42.024221557314235,
+          "selected_coefficients": 773678,
+          "spatial_pixels": 21801,
+          "wave_normal_axis_degrees": 123.22678282159738,
+          "peak_wavelength_km": 31.12414931162423,
+          "peak_axis_degrees": 124.99999999999999,
+          "peak_longitude": -57.64,
+          "peak_latitude": -4.2,
+          "peak_edge_distance_km": 68.94085451962643,
+          "search_edge": false
+        }
+      ],
+      "spatial_pixels": 22429
+    },
+    {
+      "angle_step": 10,
+      "threshold": 0.02,
+      "folder": "C:\\Users\\domin\\OneDrive\\Documents\\ChatGPT\\Cloud_advanced\\AWE_v02_orbit19_052340\\grid128\\step10_thr020",
+      "clusters": [
+        {
+          "rank": 1,
+          "peak_normalized_amplitude": 0.2719079554080963,
+          "weighted_wavelength_km": 37.16239872292788,
+          "selected_coefficients": 3602044,
+          "spatial_pixels": 22801,
+          "wave_normal_axis_degrees": 59.382090968582894,
+          "peak_wavelength_km": 28.540970760065306,
+          "peak_axis_degrees": 59.99999999999999,
+          "peak_longitude": -57.46,
+          "peak_latitude": -2.32,
+          "peak_edge_distance_km": 60.04526038806172,
+          "search_edge": false
+        }
+      ],
+      "spatial_pixels": 22801
+    },
+    {
+      "angle_step": 10,
+      "threshold": 0.05,
+      "folder": "C:\\Users\\domin\\OneDrive\\Documents\\ChatGPT\\Cloud_advanced\\AWE_v02_orbit19_052340\\grid128\\step10_thr050",
+      "clusters": [
+        {
+          "rank": 1,
+          "peak_normalized_amplitude": 0.2719079554080963,
+          "weighted_wavelength_km": 36.23738285978387,
+          "selected_coefficients": 515494,
+          "spatial_pixels": 21479,
+          "wave_normal_axis_degrees": 53.67350291708912,
+          "peak_wavelength_km": 28.540970760065306,
+          "peak_axis_degrees": 59.99999999999999,
+          "peak_longitude": -57.46,
+          "peak_latitude": -2.32,
+          "peak_edge_distance_km": 60.04526038806172,
+          "search_edge": false
+        },
+        {
+          "rank": 2,
+          "peak_normalized_amplitude": 0.2562277019023895,
+          "weighted_wavelength_km": 34.35030079024601,
+          "selected_coefficients": 260664,
+          "spatial_pixels": 19558,
+          "wave_normal_axis_degrees": 124.493013064144,
+          "peak_wavelength_km": 31.12414931162423,
+          "peak_axis_degrees": 119.99999999999999,
+          "peak_longitude": -57.68,
+          "peak_latitude": -4.2,
+          "peak_edge_distance_km": 68.94085451962643,
+          "search_edge": false
+        }
+      ],
+      "spatial_pixels": 22350
+    },
+    {
+      "angle_step": 20,
+      "threshold": 0.02,
+      "folder": "C:\\Users\\domin\\OneDrive\\Documents\\ChatGPT\\Cloud_advanced\\AWE_v02_orbit19_052340\\grid128\\step20_thr020",
+      "clusters": [
+        {
+          "rank": 1,
+          "peak_normalized_amplitude": 0.2719079554080963,
+          "weighted_wavelength_km": 37.02978619804728,
+          "selected_coefficients": 1850620,
+          "spatial_pixels": 22801,
+          "wave_normal_axis_degrees": 57.103808768935394,
+          "peak_wavelength_km": 28.540970760065306,
+          "peak_axis_degrees": 59.99999999999999,
+          "peak_longitude": -57.46,
+          "peak_latitude": -2.32,
+          "peak_edge_distance_km": 60.04526038806172,
+          "search_edge": false
+        }
+      ],
+      "spatial_pixels": 22801
+    },
+    {
+      "angle_step": 20,
+      "threshold": 0.05,
+      "folder": "C:\\Users\\domin\\OneDrive\\Documents\\ChatGPT\\Cloud_advanced\\AWE_v02_orbit19_052340\\grid128\\step20_thr050",
+      "clusters": [
+        {
+          "rank": 1,
+          "peak_normalized_amplitude": 0.2719079554080963,
+          "weighted_wavelength_km": 36.902726444083605,
+          "selected_coefficients": 280225,
+          "spatial_pixels": 20947,
+          "wave_normal_axis_degrees": 53.431370042131284,
+          "peak_wavelength_km": 28.540970760065306,
+          "peak_axis_degrees": 59.99999999999999,
+          "peak_longitude": -57.46,
+          "peak_latitude": -2.32,
+          "peak_edge_distance_km": 60.04526038806172,
+          "search_edge": false
+        },
+        {
+          "rank": 2,
+          "peak_normalized_amplitude": 0.2562277019023895,
+          "weighted_wavelength_km": 31.394879316500244,
+          "selected_coefficients": 109747,
+          "spatial_pixels": 14299,
+          "wave_normal_axis_degrees": 127.05541265730537,
+          "peak_wavelength_km": 31.12414931162423,
+          "peak_axis_degrees": 119.99999999999999,
+          "peak_longitude": -57.68,
+          "peak_latitude": -4.2,
+          "peak_edge_distance_km": 68.94085451962643,
+          "search_edge": false
+        }
+      ],
+      "spatial_pixels": 21442
+    }
+  ],
+  "selection": "5 degree / 0.02 is the requested default, not an optimized or independently validated winner."
+}

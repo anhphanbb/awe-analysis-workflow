@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": [
+    "All agreement categories, strict threshold boundary and pass-swap symmetry",
+    "Shifted layouts cover every frame and share only endpoint starts",
+    "Combined q fields preserved exactly; categories and eligibility recompute from both inputs",
+    "Same-window endpoint agreement flagged separately; summary and output plots verified"
+  ]
+}

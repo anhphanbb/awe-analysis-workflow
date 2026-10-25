@@ -1,0 +1,84 @@
+{
+  "start": 275,
+  "rejected": false,
+  "source": {
+    "finite_source_pixels": 4153990,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      1202,
+      1542,
+      128,
+      428
+    ],
+    "radiance_percentiles_kR": [
+      4.544000148773193,
+      6.863999843597412,
+      7.4079999923706055,
+      9.336000442504883,
+      12.767999649047852,
+      14.270999908447266,
+      16.89699935913086
+    ],
+    "finite_fraction_in_analysis_cube": 0.7403809803921568
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "reference_missing": 328,
+        "patches_searched": 758,
+        "candidate_positions": 1404878,
+        "valid_candidate_positions": 1098125,
+        "correlation_below_threshold": 349,
+        "patches_with_matches": 344,
+        "peaks_on_search_boundary": 26,
+        "boundary_only_patch": 2,
+        "no_valid_search_position": 63,
+        "retained_candidates": 578
+      },
+      "modes": [
+        {
+          "velocity": [
+            0.01123643001776888,
+            -0.0010847914129394685
+          ],
+          "support": 188,
+          "median_ncc": 0.4848554900084088,
+          "pair_count": 9
+        }
+      ],
+      "reason": "single_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            0.01,
+            -0.010000000000000018
+          ],
+          "support": 188
+        }
+      ],
+      "median_noise_proxy_kR": 0.18870477483971093,
+      "texture_std_percentiles_kR": [
+        0.24287248989940596,
+        0.28823518649952573,
+        0.3582414924460111,
+        0.4472811121804041,
+        0.5639691336328305
+      ],
+      "best_ncc_percentiles": [
+        0.09342158987678306,
+        0.22020606339718943,
+        0.34733032657419344,
+        0.560663712320695,
+        0.697004336622403
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

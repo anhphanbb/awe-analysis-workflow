@@ -1,0 +1,134 @@
+{
+  "start": 50,
+  "end": 99,
+  "reference_frame": 75,
+  "reference_epoch": 1384667069.2773438,
+  "bounds": [
+    344,
+    684,
+    192,
+    492
+  ],
+  "status": "fit",
+  "duration_seconds": 53.90234375,
+  "modes": [
+    {
+      "velocity": [
+        0.006820089767689593,
+        0.0086458744627893
+      ],
+      "support": 72,
+      "median_ncc": 0.4775080842516899,
+      "pair_count": 9
+    },
+    {
+      "velocity": [
+        0.6606160979891774,
+        -0.07025060025354725
+      ],
+      "support": 76,
+      "median_ncc": 0.5818975418388252,
+      "pair_count": 9
+    }
+  ],
+  "model_components": 2,
+  "history": [
+    {
+      "iteration": 1,
+      "heldout_rmse_kR": 0.3718322515487671,
+      "training_rmse_kR": 0.3509550392627716,
+      "heldout_pixels": 1587751
+    },
+    {
+      "iteration": 2,
+      "heldout_rmse_kR": 0.3608039617538452,
+      "training_rmse_kR": 0.3388567566871643,
+      "heldout_pixels": 1587751
+    },
+    {
+      "iteration": 4,
+      "heldout_rmse_kR": 0.35161083936691284,
+      "training_rmse_kR": 0.32891884446144104,
+      "heldout_pixels": 1587751
+    },
+    {
+      "iteration": 8,
+      "heldout_rmse_kR": 0.34433087706565857,
+      "training_rmse_kR": 0.32115304470062256,
+      "heldout_pixels": 1587751
+    },
+    {
+      "iteration": 16,
+      "heldout_rmse_kR": 0.33770522475242615,
+      "training_rmse_kR": 0.314130961894989,
+      "heldout_pixels": 1587751
+    },
+    {
+      "iteration": 32,
+      "heldout_rmse_kR": 0.33139073848724365,
+      "training_rmse_kR": 0.307542085647583,
+      "heldout_pixels": 1587751
+    }
+  ],
+  "slow_only_heldout_rmse_kR": 0.4212731420993805,
+  "heldout_improvement_fraction": 0.21335896982232283,
+  "training_frames": [
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92,
+    94,
+    96,
+    98
+  ],
+  "heldout_frames": [
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63,
+    65,
+    67,
+    69,
+    71,
+    73,
+    75,
+    77,
+    79,
+    81,
+    83,
+    85,
+    87,
+    89,
+    91,
+    93,
+    95,
+    97,
+    99
+  ],
+  "minimum_template_support": 8,
+  "quality": "pilot_supported",
+  "checkpoint_iteration": 32,
+  "selected_model": "two_motion",
+  "variant": "smooth_1px"
+}

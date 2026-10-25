@@ -1,0 +1,91 @@
+{
+  "start": 1075,
+  "rejected": false,
+  "source": {
+    "finite_source_pixels": 4012140,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      4297,
+      4637,
+      54,
+      354
+    ],
+    "radiance_percentiles_kR": [
+      4.497000217437744,
+      6.229000091552734,
+      6.860000133514404,
+      8.741000175476074,
+      11.19687961578358,
+      11.772000312805176,
+      15.541999816894531
+    ],
+    "finite_fraction_in_analysis_cube": 0.7230937254901961
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 739,
+        "candidate_positions": 1356619,
+        "valid_candidate_positions": 1000649,
+        "correlation_below_threshold": 558,
+        "reference_missing": 347,
+        "patches_with_matches": 117,
+        "no_valid_search_position": 63,
+        "peaks_on_search_boundary": 4,
+        "boundary_only_patch": 1,
+        "retained_candidates": 140
+      },
+      "modes": [
+        {
+          "velocity": [
+            0.012929009338744097,
+            0.008097434475448417
+          ],
+          "support": 68,
+          "median_ncc": 0.38244725883458186,
+          "pair_count": 9
+        }
+      ],
+      "reason": "single_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            0.01,
+            0.01
+          ],
+          "support": 68
+        },
+        {
+          "center": [
+            -0.2300000000000001,
+            -0.33000000000000007
+          ],
+          "support": 1
+        }
+      ],
+      "median_noise_proxy_kR": 0.18660821064249739,
+      "texture_std_percentiles_kR": [
+        0.2416744456194779,
+        0.28238922691118373,
+        0.3216532172332118,
+        0.35829849700701377,
+        0.5585151784921798
+      ],
+      "best_ncc_percentiles": [
+        0.0357268482465188,
+        0.20221436676711269,
+        0.27959843125172446,
+        0.37843563786535395,
+        0.4877148376129686
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

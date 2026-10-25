@@ -1,0 +1,120 @@
+{
+  "start": 1700,
+  "rejected": false,
+  "source": {
+    "finite_source_pixels": 3496228,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      6726,
+      7066,
+      85,
+      385
+    ],
+    "radiance_percentiles_kR": [
+      4.994999885559082,
+      5.737044985294342,
+      6.251999855041504,
+      8.87399959564209,
+      11.79800033569336,
+      12.649999618530273,
+      31.844999313354492
+    ],
+    "finite_fraction_in_analysis_cube": 0.6387445098039216
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "reference_missing": 540,
+        "patches_searched": 546,
+        "candidate_positions": 1009986,
+        "valid_candidate_positions": 555991,
+        "correlation_below_threshold": 377,
+        "no_valid_search_position": 64,
+        "patches_with_matches": 105,
+        "peaks_on_search_boundary": 2,
+        "retained_candidates": 126
+      },
+      "modes": [
+        {
+          "velocity": [
+            0.03535181089559098,
+            -0.0062647751193881645
+          ],
+          "support": 30,
+          "median_ncc": 0.39698939205515976,
+          "pair_count": 8
+        },
+        {
+          "velocity": [
+            0.6473875235477172,
+            0.000634689657151363
+          ],
+          "support": 19,
+          "median_ncc": 0.44385172981660037,
+          "pair_count": 7
+        }
+      ],
+      "reason": "two_modes",
+      "peak_stats": [
+        {
+          "center": [
+            0.6499999999999999,
+            -0.010000000000000018
+          ],
+          "support": 19
+        },
+        {
+          "center": [
+            0.27,
+            -0.05000000000000005
+          ],
+          "support": 9
+        },
+        {
+          "center": [
+            0.03000000000000002,
+            -0.030000000000000034
+          ],
+          "support": 30
+        },
+        {
+          "center": [
+            0.9099999999999999,
+            0.95
+          ],
+          "support": 1
+        },
+        {
+          "center": [
+            -0.8700000000000001,
+            -0.17000000000000004
+          ],
+          "support": 1
+        }
+      ],
+      "median_noise_proxy_kR": 0.20967141660402439,
+      "texture_std_percentiles_kR": [
+        0.288921183102552,
+        0.3386708861354539,
+        0.3859626571577145,
+        0.44297727501320083,
+        0.7408135725883522
+      ],
+      "best_ncc_percentiles": [
+        -0.13614542151082376,
+        0.18754616578176164,
+        0.2788073939606358,
+        0.41485216969211114,
+        0.7163584825473379
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

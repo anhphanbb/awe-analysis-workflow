@@ -1,0 +1,136 @@
+{
+  "start": 1179,
+  "end": 1228,
+  "reference_frame": 1204,
+  "reference_epoch": 1384668318.9609375,
+  "bounds": [
+    4706,
+    5046,
+    58,
+    358
+  ],
+  "status": "fit",
+  "duration_seconds": 55.00390625,
+  "modes": [
+    {
+      "velocity": [
+        -0.002110887080937274,
+        0.019831099278145112
+      ],
+      "support": 231,
+      "median_ncc": 0.4949605866385361,
+      "pair_count": 9
+    },
+    {
+      "velocity": [
+        0.6514460614777796,
+        0.019156454215355653
+      ],
+      "support": 154,
+      "median_ncc": 0.6589271638631267,
+      "pair_count": 9
+    }
+  ],
+  "history": [
+    {
+      "iteration": 1,
+      "heldout_rmse_kR": 0.39794787764549255,
+      "training_rmse_kR": 0.3858385980129242,
+      "heldout_pixels": 1778917
+    },
+    {
+      "iteration": 2,
+      "heldout_rmse_kR": 0.37564417719841003,
+      "training_rmse_kR": 0.3617163896560669,
+      "heldout_pixels": 1778917
+    },
+    {
+      "iteration": 4,
+      "heldout_rmse_kR": 0.35070300102233887,
+      "training_rmse_kR": 0.33447888493537903,
+      "heldout_pixels": 1778917
+    },
+    {
+      "iteration": 8,
+      "heldout_rmse_kR": 0.32994788885116577,
+      "training_rmse_kR": 0.3114897906780243,
+      "heldout_pixels": 1778917
+    },
+    {
+      "iteration": 16,
+      "heldout_rmse_kR": 0.3194161057472229,
+      "training_rmse_kR": 0.2997744679450989,
+      "heldout_pixels": 1778917
+    },
+    {
+      "iteration": 32,
+      "heldout_rmse_kR": 0.31487035751342773,
+      "training_rmse_kR": 0.29480457305908203,
+      "heldout_pixels": 1778917
+    },
+    {
+      "iteration": 64,
+      "heldout_rmse_kR": 0.31324502825737,
+      "training_rmse_kR": 0.29298123717308044,
+      "heldout_pixels": 1778917
+    }
+  ],
+  "slow_only_heldout_rmse_kR": 0.5240098834037781,
+  "heldout_improvement_fraction": 0.4022154196355153,
+  "training_frames": [
+    1179,
+    1181,
+    1183,
+    1185,
+    1187,
+    1189,
+    1191,
+    1193,
+    1195,
+    1197,
+    1199,
+    1201,
+    1203,
+    1205,
+    1207,
+    1209,
+    1211,
+    1213,
+    1215,
+    1217,
+    1219,
+    1221,
+    1223,
+    1225,
+    1227
+  ],
+  "heldout_frames": [
+    1180,
+    1182,
+    1184,
+    1186,
+    1188,
+    1190,
+    1192,
+    1194,
+    1196,
+    1198,
+    1200,
+    1202,
+    1204,
+    1206,
+    1208,
+    1210,
+    1212,
+    1214,
+    1216,
+    1218,
+    1220,
+    1222,
+    1224,
+    1226,
+    1228
+  ],
+  "minimum_template_support": 8,
+  "quality": "pilot_supported"
+}

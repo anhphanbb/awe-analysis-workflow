@@ -1,0 +1,71 @@
+{
+  "source": "Fitted slow reference template, frame 1467 at iteration 64",
+  "clusters": [
+    {
+      "rank": 1,
+      "peak_normalized_amplitude": 0.3362707495689392,
+      "weighted_wavelength_km": 38.06659354327922,
+      "wave_normal_axis_degrees": 75.7938828065979,
+      "peak_wavelength_km": 37.013059809790576,
+      "peak_axis_degrees": 80.0,
+      "peak_longitude": -59.86,
+      "peak_latitude": -4.48,
+      "peak_edge_distance_km": 72.17861872801454,
+      "search_edge": false
+    },
+    {
+      "rank": 2,
+      "peak_normalized_amplitude": 0.3226597309112549,
+      "weighted_wavelength_km": 92.64922808317135,
+      "wave_normal_axis_degrees": 64.47566395544631,
+      "peak_wavelength_km": 67.88225099390857,
+      "peak_axis_degrees": 80.0,
+      "peak_longitude": -58.620000000000005,
+      "peak_latitude": -5.6000000000000005,
+      "peak_edge_distance_km": 17.915382498241126,
+      "search_edge": false
+    },
+    {
+      "rank": 3,
+      "peak_normalized_amplitude": 0.2821761667728424,
+      "weighted_wavelength_km": 132.88012403520094,
+      "wave_normal_axis_degrees": 34.58152224188836,
+      "peak_wavelength_km": 104.68874233586473,
+      "peak_axis_degrees": 29.999999999999996,
+      "peak_longitude": -57.82,
+      "peak_latitude": -3.48,
+      "peak_edge_distance_km": 46.17646262003723,
+      "search_edge": false
+    },
+    {
+      "rank": 4,
+      "peak_normalized_amplitude": 0.2732771635055542,
+      "weighted_wavelength_km": 39.037206053673856,
+      "wave_normal_axis_degrees": 10.738030734376727,
+      "peak_wavelength_km": 37.013059809790576,
+      "peak_axis_degrees": 10.0,
+      "peak_longitude": -57.480000000000004,
+      "peak_latitude": -5.18,
+      "peak_edge_distance_km": 138.27504842622687,
+      "search_edge": false
+    }
+  ],
+  "settings": {
+    "min_wavelength_km": 12.0,
+    "max_wavelength_km": 192.0,
+    "scale_step_octaves": 0.125,
+    "angle_step_degrees": 5,
+    "dx_km": 2.216703922960619,
+    "dy_km": 2.223898532891175,
+    "taper_km": 40,
+    "min_amplitude": 0.25,
+    "cluster_threshold": 0.1,
+    "mode": "scaled",
+    "normalization_std_kR": 0.6517665647133566
+  },
+  "checks": [
+    "Synthetic 48 km / 30 degree wave recovered within scale and angle resolution"
+  ],
+  "transform_sha256": "226aa342c42ffc932dccf95fbd8eb3dc815e3e314cb96a494777d057606f4b3b",
+  "notes": "Plane removed; cosine taper over 40 km from missing-data edges; zero outside valid footprint for FFT. Four strongest coefficient clusters, not significance-tested independent waves. Wavelength uses local geographic spacing. Axis is wave normal counterclockwise from east modulo 180 degrees; no travel direction or speed inferred."
+}

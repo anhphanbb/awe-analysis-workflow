@@ -1,0 +1,94 @@
+{
+  "start": 375,
+  "end": 424,
+  "reference_frame": 400,
+  "reference_epoch": 1384667426.8007812,
+  "bounds": [
+    1585,
+    1925,
+    105,
+    405
+  ],
+  "status": "fit",
+  "duration_seconds": 53.90234375,
+  "modes": [
+    {
+      "velocity": [
+        0.041480338819657396,
+        0.008233790342359498
+      ],
+      "support": 493,
+      "median_ncc": 0.6432134988004625,
+      "pair_count": 9
+    }
+  ],
+  "model_components": 1,
+  "quality": "single_slow_motion",
+  "history": [
+    {
+      "iteration": 1,
+      "heldout_rmse_kR": 0.371995747089386,
+      "training_rmse_kR": 0.3572634160518646,
+      "heldout_pixels": 1856083
+    }
+  ],
+  "slow_only_heldout_rmse_kR": 0.371995747089386,
+  "heldout_improvement_fraction": 0.0,
+  "training_frames": [
+    375,
+    377,
+    379,
+    381,
+    383,
+    385,
+    387,
+    389,
+    391,
+    393,
+    395,
+    397,
+    399,
+    401,
+    403,
+    405,
+    407,
+    409,
+    411,
+    413,
+    415,
+    417,
+    419,
+    421,
+    423
+  ],
+  "heldout_frames": [
+    376,
+    378,
+    380,
+    382,
+    384,
+    386,
+    388,
+    390,
+    392,
+    394,
+    396,
+    398,
+    400,
+    402,
+    404,
+    406,
+    408,
+    410,
+    412,
+    414,
+    416,
+    418,
+    420,
+    422,
+    424
+  ],
+  "minimum_template_support": 8,
+  "checkpoint_iteration": 1,
+  "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence."
+}

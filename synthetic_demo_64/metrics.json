@@ -1,0 +1,58 @@
+[
+  {
+    "iteration": 0,
+    "slow_contrast_rmse": 0.5417861126738531,
+    "fast_contrast_rmse": 0.6441002124829159,
+    "observation_rmse": 0.3914400184314007,
+    "shared_offset_for_truth_comparison": 0.4231566494312156
+  },
+  {
+    "iteration": 1,
+    "slow_contrast_rmse": 0.5156760158227532,
+    "fast_contrast_rmse": 0.5260594552257525,
+    "observation_rmse": 0.2873490641349668,
+    "shared_offset_for_truth_comparison": 0.4088140547320739
+  },
+  {
+    "iteration": 2,
+    "slow_contrast_rmse": 0.4971694620518038,
+    "fast_contrast_rmse": 0.5059828697336997,
+    "observation_rmse": 0.26952384401534535,
+    "shared_offset_for_truth_comparison": 0.39750070020113726
+  },
+  {
+    "iteration": 4,
+    "slow_contrast_rmse": 0.46596754150306474,
+    "fast_contrast_rmse": 0.47308038247627004,
+    "observation_rmse": 0.2415687337120069,
+    "shared_offset_for_truth_comparison": 0.3771375801193541
+  },
+  {
+    "iteration": 8,
+    "slow_contrast_rmse": 0.41578286127054176,
+    "fast_contrast_rmse": 0.42114057330931803,
+    "observation_rmse": 0.200573625573314,
+    "shared_offset_for_truth_comparison": 0.3424696641185115
+  },
+  {
+    "iteration": 16,
+    "slow_contrast_rmse": 0.3383674751816049,
+    "fast_contrast_rmse": 0.3424878180927872,
+    "observation_rmse": 0.14391951827729213,
+    "shared_offset_for_truth_comparison": 0.2893999029729095
+  },
+  {
+    "iteration": 32,
+    "slow_contrast_rmse": 0.2286318468368484,
+    "fast_contrast_rmse": 0.23087733537419317,
+    "observation_rmse": 0.07696117752784834,
+    "shared_offset_for_truth_comparison": 0.22570779391852736
+  },
+  {
+    "iteration": 64,
+    "slow_contrast_rmse": 0.1609423296569244,
+    "fast_contrast_rmse": 0.1609438579072414,
+    "observation_rmse": 0.06047952353408405,
+    "shared_offset_for_truth_comparison": 0.17827790268348642
+  }
+]

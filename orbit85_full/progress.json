@@ -1,0 +1,11 @@
+{
+  "completed": 76,
+  "total": 76,
+  "elapsed_seconds": 147.9529999999795,
+  "counts": {
+    "ambiguous_motion": 15,
+    "insufficient_evidence": 21,
+    "single_slow": 22,
+    "two_motion": 18
+  }
+}

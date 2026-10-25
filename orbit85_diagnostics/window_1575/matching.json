@@ -1,0 +1,259 @@
+{
+  "start": 1575,
+  "rejected": true,
+  "source": {
+    "finite_source_pixels": 3772421,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      6244,
+      6584,
+      81,
+      381
+    ],
+    "radiance_percentiles_kR": [
+      2.5759999752044678,
+      3.4539999961853027,
+      3.8570001125335693,
+      5.620999813079834,
+      7.626999855041504,
+      8.166000366210938,
+      21.399999618530273
+    ],
+    "finite_fraction_in_analysis_cube": 0.6772227450980393
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 515,
+        "candidate_positions": 994051,
+        "valid_candidate_positions": 531056,
+        "correlation_below_threshold": 444,
+        "reference_missing": 571,
+        "no_valid_search_position": 70,
+        "patches_with_matches": 1,
+        "retained_candidates": 1
+      },
+      "modes": [],
+      "reason": "fewer_than_20_candidates",
+      "peak_stats": [
+        {
+          "center": [
+            0.77,
+            0.10999999999999986
+          ],
+          "support": 1
+        }
+      ],
+      "median_noise_proxy_kR": 0.18975255704222874,
+      "texture_std_percentiles_kR": [
+        0.24717304736053522,
+        0.27722171506690146,
+        0.3061682605230559,
+        0.33822156628442496,
+        0.4305293196764457
+      ],
+      "best_ncc_percentiles": [
+        -0.055811489821185584,
+        0.15078013765060724,
+        0.2046537824993008,
+        0.26273681180037683,
+        0.40447225642526075
+      ]
+    },
+    "lower_texture": {
+      "variant": "lower_texture",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.04
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 515,
+        "candidate_positions": 994051,
+        "valid_candidate_positions": 531056,
+        "correlation_below_threshold": 444,
+        "reference_missing": 571,
+        "no_valid_search_position": 70,
+        "patches_with_matches": 1,
+        "retained_candidates": 1
+      },
+      "modes": [],
+      "reason": "fewer_than_20_candidates",
+      "peak_stats": [
+        {
+          "center": [
+            0.77,
+            0.10999999999999986
+          ],
+          "support": 1
+        }
+      ],
+      "median_noise_proxy_kR": 0.18975255704222874,
+      "texture_std_percentiles_kR": [
+        0.24717304736053522,
+        0.27722171506690146,
+        0.3061682605230559,
+        0.33822156628442496,
+        0.4305293196764457
+      ],
+      "best_ncc_percentiles": [
+        -0.055811489821185584,
+        0.15078013765060724,
+        0.2046537824993008,
+        0.26273681180037683,
+        0.40447225642526075
+      ]
+    },
+    "smooth_1px": {
+      "variant": "smooth_1px",
+      "parameters": {
+        "half": 12,
+        "smooth": 1,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "reference_missing": 663,
+        "patches_searched": 423,
+        "candidate_positions": 830999,
+        "valid_candidate_positions": 389176,
+        "correlation_below_threshold": 123,
+        "patches_with_matches": 225,
+        "peaks_on_search_boundary": 52,
+        "no_valid_search_position": 71,
+        "boundary_only_patch": 4,
+        "retained_candidates": 397
+      },
+      "modes": [
+        {
+          "velocity": [
+            -0.018381064362442048,
+            -0.044129942103615726
+          ],
+          "support": 42,
+          "median_ncc": 0.4677440756212812,
+          "pair_count": 9
+        }
+      ],
+      "reason": "single_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            -0.010000000000000018,
+            -0.05000000000000005
+          ],
+          "support": 42
+        },
+        {
+          "center": [
+            -0.15000000000000002,
+            -0.030000000000000034
+          ],
+          "support": 17
+        },
+        {
+          "center": [
+            0.22999999999999998,
+            0.05000000000000004
+          ],
+          "support": 3
+        },
+        {
+          "center": [
+            0.03000000000000002,
+            0.16999999999999993
+          ],
+          "support": 15
+        },
+        {
+          "center": [
+            -0.13000000000000012,
+            -0.19000000000000006
+          ],
+          "support": 6
+        },
+        {
+          "center": [
+            0.75,
+            1.09
+          ],
+          "support": 1
+        },
+        {
+          "center": [
+            0.6499999999999999,
+            0.03000000000000002
+          ],
+          "support": 7
+        },
+        {
+          "center": [
+            -0.79,
+            -0.93
+          ],
+          "support": 1
+        }
+      ],
+      "median_noise_proxy_kR": 0.18975255704222874,
+      "texture_std_percentiles_kR": [
+        0.12233681372966368,
+        0.14254617462212174,
+        0.17223168027557414,
+        0.2053951396262184,
+        0.26741369588473896
+      ],
+      "best_ncc_percentiles": [
+        -0.1265196648125575,
+        0.24620097257254348,
+        0.386372773758361,
+        0.5179329408930423,
+        0.6581539668774997
+      ]
+    },
+    "larger_patch": {
+      "variant": "larger_patch",
+      "parameters": {
+        "half": 20,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 960,
+        "reference_missing": 636,
+        "patches_searched": 324,
+        "candidate_positions": 632636,
+        "valid_candidate_positions": 245531,
+        "correlation_below_threshold": 247,
+        "no_valid_search_position": 77,
+        "retained_candidates": 0
+      },
+      "modes": [],
+      "reason": "fewer_than_20_candidates",
+      "peak_stats": [],
+      "median_noise_proxy_kR": 0.18975255704222874,
+      "texture_std_percentiles_kR": [
+        0.2725682574889458,
+        0.28390708812199933,
+        0.3058995868201034,
+        0.32850276582450605,
+        0.3611645506343633
+      ],
+      "best_ncc_percentiles": [
+        -0.0278577507701712,
+        0.09238153804360309,
+        0.14424158836901177,
+        0.1891497207393573,
+        0.26389626930742477
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

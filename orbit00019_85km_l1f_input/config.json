@@ -1,0 +1,9 @@
+{
+  "orbit": 19,
+  "prefix": "orbit00019_85km_l1f",
+  "source_label": "projected L1F",
+  "input": "C:\\Users\\domin\\OneDrive\\Documents\\ChatGPT\\Cloud_advanced\\orbit00019_85km_l1f_input\\projected_l1f.nc",
+  "l1f": "E:\\soc\\l1f\\2023\\11\\awe_l1f_q20_2023327T0456_00019_v02.nc",
+  "l3c": "E:\\soc\\l3c\\2023\\11\\awe_l3c_q20_2023327T0456_00019_v02.nc",
+  "master": "E:\\soc\\l1r\\2023\\11\\Master00019.mgf"
+}

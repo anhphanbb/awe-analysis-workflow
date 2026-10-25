@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "angle_steps": [
+    5,
+    10,
+    20
+  ],
+  "same_crop": true,
+  "same_taper": true,
+  "wavelength_max_km": 74.02611961958115,
+  "min_peak_amplitude": 0.25,
+  "cluster_threshold": 0.05
+}

@@ -1,0 +1,67 @@
+{
+  "pass_A": "C:\\Users\\domin\\OneDrive\\Documents\\ChatGPT\\Cloud_advanced\\orbit85_full_filled",
+  "pass_B": "C:\\Users\\domin\\OneDrive\\Documents\\ChatGPT\\Cloud_advanced\\orbit85_full_filled_shift12",
+  "threshold": 0.6,
+  "common_window_starts": [
+    0,
+    1858
+  ],
+  "same_window_pixels": 43187,
+  "paired_withheld_prediction_errors": {
+    "all_common": {
+      "samples": 230423,
+      "rmse_A_kR": 0.3259946161924294,
+      "rmse_B_kR": 0.3258516122814436
+    },
+    "distinct_windows_only": {
+      "samples": 221116,
+      "rmse_A_kR": 0.3261832267611081,
+      "rmse_B_kR": 0.32603428850246774
+    }
+  },
+  "modes": {
+    "withheld": {
+      "eligible_A": 529863,
+      "eligible_B": 506579,
+      "eligible_either": 806019,
+      "newly_eligible_from_B": 276156,
+      "categories": {
+        "Outside": 2101626,
+        "Neither eligible": 1390706,
+        "One eligible, below": 437838,
+        "Both below": 147728,
+        "A only candidate": 75324,
+        "B only candidate": 62434,
+        "Both candidate": 57569,
+        "Disagreement": 25126
+      },
+      "both_candidate_distinct_windows": 51437,
+      "both_candidate_shared_window": 6132
+    },
+    "all_frames": {
+      "eligible_A": 1045077,
+      "eligible_B": 1002731,
+      "eligible_either": 1174509,
+      "newly_eligible_from_B": 129432,
+      "categories": {
+        "Outside": 2101626,
+        "Neither eligible": 1022216,
+        "One eligible, below": 245188,
+        "Both below": 564178,
+        "A only candidate": 34763,
+        "B only candidate": 21259,
+        "Both candidate": 214522,
+        "Disagreement": 94599
+      },
+      "both_candidate_distinct_windows": 201775,
+      "both_candidate_shared_window": 12747
+    }
+  },
+  "supported_component_coverage": {
+    "valid_l3c_pixels": 2196725,
+    "A_fraction": 0.9939705698255358,
+    "B_fraction": 0.9812325165871923,
+    "either_fraction": 0.9958242383548237,
+    "newly_supported_from_B": 4072
+  }
+}

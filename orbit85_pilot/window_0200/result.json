@@ -1,0 +1,136 @@
+{
+  "start": 200,
+  "end": 249,
+  "reference_frame": 225,
+  "reference_epoch": 1384667234.2890625,
+  "bounds": [
+    916,
+    1256,
+    147,
+    447
+  ],
+  "status": "fit",
+  "duration_seconds": 53.90234375,
+  "modes": [
+    {
+      "velocity": [
+        0.05828237909185009,
+        0.03149673487975468
+      ],
+      "support": 113,
+      "median_ncc": 0.4161115110353792,
+      "pair_count": 9
+    },
+    {
+      "velocity": [
+        0.705850663152876,
+        -0.04018691846422262
+      ],
+      "support": 25,
+      "median_ncc": 0.4148466803201658,
+      "pair_count": 9
+    }
+  ],
+  "history": [
+    {
+      "iteration": 1,
+      "heldout_rmse_kR": 0.33081427216529846,
+      "training_rmse_kR": 0.30861780047416687,
+      "heldout_pixels": 1854078
+    },
+    {
+      "iteration": 2,
+      "heldout_rmse_kR": 0.3280292749404907,
+      "training_rmse_kR": 0.3052777051925659,
+      "heldout_pixels": 1854078
+    },
+    {
+      "iteration": 4,
+      "heldout_rmse_kR": 0.3255429267883301,
+      "training_rmse_kR": 0.3024957776069641,
+      "heldout_pixels": 1854078
+    },
+    {
+      "iteration": 8,
+      "heldout_rmse_kR": 0.3234119713306427,
+      "training_rmse_kR": 0.30017444491386414,
+      "heldout_pixels": 1854078
+    },
+    {
+      "iteration": 16,
+      "heldout_rmse_kR": 0.32158181071281433,
+      "training_rmse_kR": 0.2982522249221802,
+      "heldout_pixels": 1854078
+    },
+    {
+      "iteration": 32,
+      "heldout_rmse_kR": 0.32015886902809143,
+      "training_rmse_kR": 0.2968127131462097,
+      "heldout_pixels": 1854078
+    },
+    {
+      "iteration": 64,
+      "heldout_rmse_kR": 0.3193722069263458,
+      "training_rmse_kR": 0.2960229814052582,
+      "heldout_pixels": 1854078
+    }
+  ],
+  "slow_only_heldout_rmse_kR": 0.3491729199886322,
+  "heldout_improvement_fraction": 0.08534657574034255,
+  "training_frames": [
+    200,
+    202,
+    204,
+    206,
+    208,
+    210,
+    212,
+    214,
+    216,
+    218,
+    220,
+    222,
+    224,
+    226,
+    228,
+    230,
+    232,
+    234,
+    236,
+    238,
+    240,
+    242,
+    244,
+    246,
+    248
+  ],
+  "heldout_frames": [
+    201,
+    203,
+    205,
+    207,
+    209,
+    211,
+    213,
+    215,
+    217,
+    219,
+    221,
+    223,
+    225,
+    227,
+    229,
+    231,
+    233,
+    235,
+    237,
+    239,
+    241,
+    243,
+    245,
+    247,
+    249
+  ],
+  "minimum_template_support": 8,
+  "quality": "pilot_supported"
+}

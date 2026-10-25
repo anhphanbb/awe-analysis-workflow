@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "frames": 50,
+  "reference_frame": 1467,
+  "clusters": 2,
+  "reconstruction_identity": "PASS",
+  "analysis_scope": "concentric-wave crop only",
+  "wavelet_input_shape": [
+    151,
+    151
+  ],
+  "standalone": true,
+  "bytes": 29479552,
+  "iterations": 128,
+  "grid_runs": 6,
+  "same_crop_and_taper_all_runs": true,
+  "embedded_images_verified": 207,
+  "player_logic": "PASS",
+  "browser_visual_check": "Unavailable; local browser policy restriction; scientific plots inspected separately"
+}

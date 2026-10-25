@@ -1,0 +1,107 @@
+{
+  "start": 800,
+  "rejected": false,
+  "source": {
+    "finite_source_pixels": 4122044,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      3232,
+      3572,
+      54,
+      354
+    ],
+    "radiance_percentiles_kR": [
+      3.622999906539917,
+      4.339000225067139,
+      4.860000133514404,
+      7.090000152587891,
+      9.081000328063965,
+      14.081984786987407,
+      34.534000396728516
+    ],
+    "finite_fraction_in_analysis_cube": 0.7389662745098039
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 763,
+        "candidate_positions": 1400883,
+        "valid_candidate_positions": 1090746,
+        "patches_with_matches": 437,
+        "correlation_below_threshold": 259,
+        "reference_missing": 323,
+        "peaks_on_search_boundary": 62,
+        "boundary_only_patch": 3,
+        "no_valid_search_position": 64,
+        "retained_candidates": 852
+      },
+      "modes": [
+        {
+          "velocity": [
+            0.04716585670378229,
+            0.006511609449084977
+          ],
+          "support": 139,
+          "median_ncc": 0.45496496979693224,
+          "pair_count": 9
+        },
+        {
+          "velocity": [
+            0.7500190388261524,
+            -0.0018782330221530598
+          ],
+          "support": 112,
+          "median_ncc": 0.5685040140379658,
+          "pair_count": 9
+        }
+      ],
+      "reason": "two_modes",
+      "peak_stats": [
+        {
+          "center": [
+            0.75,
+            0.01
+          ],
+          "support": 112
+        },
+        {
+          "center": [
+            0.05000000000000004,
+            0.01
+          ],
+          "support": 139
+        },
+        {
+          "center": [
+            -0.11000000000000011,
+            0.1299999999999999
+          ],
+          "support": 60
+        }
+      ],
+      "median_noise_proxy_kR": 0.18870427494362196,
+      "texture_std_percentiles_kR": [
+        0.24340889605011015,
+        0.3000266011202441,
+        0.36454054079946757,
+        0.5982365476384117,
+        2.0833644097142736
+      ],
+      "best_ncc_percentiles": [
+        0.12951982943197984,
+        0.2466828572687001,
+        0.3997421668010375,
+        0.6416911735890021,
+        0.8979570724983513
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

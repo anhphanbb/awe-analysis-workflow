@@ -1,0 +1,112 @@
+{
+  "original_rejected_windows": 36,
+  "original_accepted_windows": 40,
+  "rejected_baseline_patch_counts": {
+    "patches_considered": 39096,
+    "reference_missing": 17160,
+    "patches_searched": 21936,
+    "candidate_positions": 40699016,
+    "valid_candidate_positions": 26384421,
+    "correlation_below_threshold": 16910,
+    "patches_with_matches": 2407,
+    "peaks_on_search_boundary": 147,
+    "no_valid_search_position": 2594,
+    "retained_candidates": 3440,
+    "boundary_only_patch": 25
+  },
+  "accepted_baseline_patch_counts": {
+    "patches_considered": 43440,
+    "reference_missing": 16081,
+    "patches_searched": 27359,
+    "candidate_positions": 51101607,
+    "valid_candidate_positions": 35955573,
+    "correlation_below_threshold": 10895,
+    "patches_with_matches": 13371,
+    "peaks_on_search_boundary": 2172,
+    "no_valid_search_position": 3011,
+    "boundary_only_patch": 82,
+    "retained_candidates": 23117
+  },
+  "radiance_out_of_range_count": 0,
+  "valid_patch_minimum_texture_std_kR": 0.22451137771657909,
+  "variant_motion_outcomes": {
+    "baseline": {
+      "only_non_slow_mode": 15,
+      "no_cluster_with_15_candidates": 11,
+      "fewer_than_20_candidates": 10
+    },
+    "lower_texture": {
+      "only_non_slow_mode": 15,
+      "no_cluster_with_15_candidates": 11,
+      "fewer_than_20_candidates": 10
+    },
+    "smooth_1px": {
+      "two_modes": 20,
+      "only_non_slow_mode": 3,
+      "single_slow_mode": 13
+    },
+    "larger_patch": {
+      "fewer_than_20_candidates": 22,
+      "only_non_slow_mode": 12,
+      "no_cluster_with_15_candidates": 2
+    }
+  },
+  "refitted_windows": 33,
+  "refit_model_classes": {
+    "two_motion": 19,
+    "single_slow": 14
+  },
+  "comparison_outcomes": {
+    "promising": 19,
+    "consistent_single_slow": 14
+  },
+  "common_sample_gain_percent_range": [
+    0.4253604982642045,
+    32.010806911786496
+  ],
+  "common_sample_gain_percent_median": 12.556502743198216,
+  "promising_starts": [
+    0,
+    25,
+    50,
+    100,
+    125,
+    150,
+    575,
+    625,
+    650,
+    825,
+    850,
+    875,
+    925,
+    950,
+    1275,
+    1350,
+    1375,
+    1400,
+    1675
+  ],
+  "consistent_single_slow_starts": [
+    675,
+    1000,
+    1025,
+    1300,
+    1325,
+    1450,
+    1475,
+    1500,
+    1525,
+    1550,
+    1575,
+    1600,
+    1625,
+    1650
+  ],
+  "not_confirmed_starts": [],
+  "not_refitted_starts": [
+    600,
+    900,
+    1425
+  ],
+  "notes": "No original orbit products changed. Smoothing is used only for even-frame motion estimation; original unsmoothed radiance is fitted and tested. Multiple variants and neighboring overlapping windows make this exploratory evidence, not independent validation. Counts across overlapping windows are not unique pixel counts."
+}

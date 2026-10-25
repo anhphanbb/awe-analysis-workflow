@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "fitted_windows": 4,
+  "checks": [
+    "Known translation and no edge wrapping",
+    "NCC displacement direction",
+    "Single-motion synthetic scene yields one mode without a forced fast layer",
+    "Disjoint training and held-out frames",
+    "Reconstruction identity",
+    "Saved templates match plotted reference maps",
+    "Fixed held-out evaluation masks",
+    "L3C pixel times within central-window limits",
+    "Master output shape and per-pixel provenance"
+  ]
+}

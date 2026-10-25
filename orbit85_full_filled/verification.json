@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Single-slow selection, ambiguous single-fast rejection, and predictive-benefit selection",
+    "Offset alignment sign and exact reconstruction invariance",
+    "Independent gauges for disconnected overlap groups",
+    "Small-hole interpolation recovers a planar field; large, edge and invalid-geometry gaps stay missing; observations unchanged",
+    "Per-window interpolation provenance checked; interpolated holdout pixels excluded from evaluation",
+    "All 1,908 frames included in the 76 completed windows",
+    "Training/selection separation and fixed evaluation masks",
+    "Map dimensions, support, finite values, status and window provenance",
+    "Single-layer modeled zero distinguished from missing estimates",
+    "Exact L3C source Epoch matching",
+    "Zero-mean gauge within each connected alignment group"
+  ]
+}

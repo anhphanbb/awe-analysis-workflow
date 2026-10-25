@@ -1,0 +1,6247 @@
+[
+  {
+    "start": 0,
+    "end": 49,
+    "reference_frame": 25,
+    "reference_epoch": 1384667014.2734375,
+    "bounds": [
+      154,
+      494,
+      208,
+      508
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.6893362936546634,
+          -0.07638754621357069
+        ],
+        "support": 18,
+        "median_ncc": 0.43240469579613583,
+        "pair_count": 8
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.39908120036125183,
+        "training_rmse_kR": 0.3936786651611328,
+        "heldout_pixels": 1505583
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.39908120036125183,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48
+    ],
+    "heldout_frames": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 25,
+    "end": 74,
+    "reference_frame": 50,
+    "reference_epoch": 1384667041.7773438,
+    "bounds": [
+      249,
+      589,
+      200,
+      500
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.6726744871412231,
+          -0.07065982096465177
+        ],
+        "support": 48,
+        "median_ncc": 0.4859563909959829,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.4015081822872162,
+        "training_rmse_kR": 0.39019596576690674,
+        "heldout_pixels": 1534083
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4015081822872162,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      51,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+    ],
+    "heldout_frames": [
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      58,
+      60,
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 50,
+    "end": 99,
+    "reference_frame": 75,
+    "reference_epoch": 1384667069.2773438,
+    "bounds": [
+      344,
+      684,
+      192,
+      492
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.6694659462256631,
+          -0.06259461125436355
+        ],
+        "support": 55,
+        "median_ncc": 0.4635580189797402,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.4004756808280945,
+        "training_rmse_kR": 0.39106297492980957,
+        "heldout_pixels": 1586255
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4004756808280945,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      50,
+      52,
+      54,
+      56,
+      58,
+      60,
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74,
+      76,
+      78,
+      80,
+      82,
+      84,
+      86,
+      88,
+      90,
+      92,
+      94,
+      96,
+      98
+    ],
+    "heldout_frames": [
+      51,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63,
+      65,
+      67,
+      69,
+      71,
+      73,
+      75,
+      77,
+      79,
+      81,
+      83,
+      85,
+      87,
+      89,
+      91,
+      93,
+      95,
+      97,
+      99
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 75,
+    "end": 124,
+    "reference_frame": 100,
+    "reference_epoch": 1384667096.78125,
+    "bounds": [
+      439,
+      779,
+      184,
+      484
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.021250309440257492,
+          0.015430225790800873
+        ],
+        "support": 15,
+        "median_ncc": 0.4091879375474276,
+        "pair_count": 7
+      },
+      {
+        "velocity": [
+          0.6778974201355369,
+          -0.05819646018060071
+        ],
+        "support": 38,
+        "median_ncc": 0.4202055879631361,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.37153854966163635,
+        "training_rmse_kR": 0.3543510138988495,
+        "heldout_pixels": 1588488
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.36007341742515564,
+        "training_rmse_kR": 0.3420524299144745,
+        "heldout_pixels": 1588488
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.35063621401786804,
+        "training_rmse_kR": 0.33205363154411316,
+        "heldout_pixels": 1588488
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.3431979715824127,
+        "training_rmse_kR": 0.32419639825820923,
+        "heldout_pixels": 1588488
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.33587881922721863,
+        "training_rmse_kR": 0.3165672719478607,
+        "heldout_pixels": 1588488
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.3288724720478058,
+        "training_rmse_kR": 0.30926862359046936,
+        "heldout_pixels": 1588488
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4187248647212982,
+    "heldout_improvement_fraction": 0.21458575843901184,
+    "training_frames": [
+      75,
+      77,
+      79,
+      81,
+      83,
+      85,
+      87,
+      89,
+      91,
+      93,
+      95,
+      97,
+      99,
+      101,
+      103,
+      105,
+      107,
+      109,
+      111,
+      113,
+      115,
+      117,
+      119,
+      121,
+      123
+    ],
+    "heldout_frames": [
+      76,
+      78,
+      80,
+      82,
+      84,
+      86,
+      88,
+      90,
+      92,
+      94,
+      96,
+      98,
+      100,
+      102,
+      104,
+      106,
+      108,
+      110,
+      112,
+      114,
+      116,
+      118,
+      120,
+      122,
+      124
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 100,
+    "end": 149,
+    "reference_frame": 125,
+    "reference_epoch": 1384667124.28125,
+    "bounds": [
+      535,
+      875,
+      176,
+      476
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 125,
+    "end": 174,
+    "reference_frame": 150,
+    "reference_epoch": 1384667151.7851562,
+    "bounds": [
+      630,
+      970,
+      168,
+      468
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 150,
+    "end": 199,
+    "reference_frame": 175,
+    "reference_epoch": 1384667179.2851562,
+    "bounds": [
+      725,
+      1065,
+      161,
+      461
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 175,
+    "end": 224,
+    "reference_frame": 200,
+    "reference_epoch": 1384667206.7890625,
+    "bounds": [
+      820,
+      1160,
+      154,
+      454
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.07446243934570616,
+          0.04165457776721592
+        ],
+        "support": 59,
+        "median_ncc": 0.42690823907058223,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3386816680431366,
+        "training_rmse_kR": 0.326535701751709,
+        "heldout_pixels": 1855317
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.3386816680431366,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      175,
+      177,
+      179,
+      181,
+      183,
+      185,
+      187,
+      189,
+      191,
+      193,
+      195,
+      197,
+      199,
+      201,
+      203,
+      205,
+      207,
+      209,
+      211,
+      213,
+      215,
+      217,
+      219,
+      221,
+      223
+    ],
+    "heldout_frames": [
+      176,
+      178,
+      180,
+      182,
+      184,
+      186,
+      188,
+      190,
+      192,
+      194,
+      196,
+      198,
+      200,
+      202,
+      204,
+      206,
+      208,
+      210,
+      212,
+      214,
+      216,
+      218,
+      220,
+      222,
+      224
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 200,
+    "end": 249,
+    "reference_frame": 225,
+    "reference_epoch": 1384667234.2890625,
+    "bounds": [
+      916,
+      1256,
+      147,
+      447
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.05828237909185009,
+          0.03149673487975468
+        ],
+        "support": 113,
+        "median_ncc": 0.4161115110353792,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.705850663152876,
+          -0.04018691846422262
+        ],
+        "support": 25,
+        "median_ncc": 0.4148466803201658,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.33081427216529846,
+        "training_rmse_kR": 0.30861780047416687,
+        "heldout_pixels": 1854078
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.3280292749404907,
+        "training_rmse_kR": 0.3052777051925659,
+        "heldout_pixels": 1854078
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.3255429267883301,
+        "training_rmse_kR": 0.3024957776069641,
+        "heldout_pixels": 1854078
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.3234119713306427,
+        "training_rmse_kR": 0.30017444491386414,
+        "heldout_pixels": 1854078
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.32158181071281433,
+        "training_rmse_kR": 0.2982522249221802,
+        "heldout_pixels": 1854078
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.32015886902809143,
+        "training_rmse_kR": 0.2968127131462097,
+        "heldout_pixels": 1854078
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.3491729199886322,
+    "heldout_improvement_fraction": 0.08309364586888746,
+    "training_frames": [
+      200,
+      202,
+      204,
+      206,
+      208,
+      210,
+      212,
+      214,
+      216,
+      218,
+      220,
+      222,
+      224,
+      226,
+      228,
+      230,
+      232,
+      234,
+      236,
+      238,
+      240,
+      242,
+      244,
+      246,
+      248
+    ],
+    "heldout_frames": [
+      201,
+      203,
+      205,
+      207,
+      209,
+      211,
+      213,
+      215,
+      217,
+      219,
+      221,
+      223,
+      225,
+      227,
+      229,
+      231,
+      233,
+      235,
+      237,
+      239,
+      241,
+      243,
+      245,
+      247,
+      249
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 225,
+    "end": 274,
+    "reference_frame": 250,
+    "reference_epoch": 1384667261.7890625,
+    "bounds": [
+      1011,
+      1351,
+      140,
+      440
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.06153408509220004,
+          0.0242780244238369
+        ],
+        "support": 105,
+        "median_ncc": 0.42483758021173057,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.7168104219344729,
+          -0.032221305451491475
+        ],
+        "support": 22,
+        "median_ncc": 0.448908787967943,
+        "pair_count": 8
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.32716742157936096,
+        "training_rmse_kR": 0.3107742965221405,
+        "heldout_pixels": 1854541
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.3233562707901001,
+        "training_rmse_kR": 0.30634206533432007,
+        "heldout_pixels": 1854541
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.3200627267360687,
+        "training_rmse_kR": 0.3026410937309265,
+        "heldout_pixels": 1854541
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.3172342777252197,
+        "training_rmse_kR": 0.29956814646720886,
+        "heldout_pixels": 1854541
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.3147967457771301,
+        "training_rmse_kR": 0.2969536781311035,
+        "heldout_pixels": 1854541
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.3127545416355133,
+        "training_rmse_kR": 0.2948169410228729,
+        "heldout_pixels": 1854541
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.35308340191841125,
+    "heldout_improvement_fraction": 0.11421907703329803,
+    "training_frames": [
+      225,
+      227,
+      229,
+      231,
+      233,
+      235,
+      237,
+      239,
+      241,
+      243,
+      245,
+      247,
+      249,
+      251,
+      253,
+      255,
+      257,
+      259,
+      261,
+      263,
+      265,
+      267,
+      269,
+      271,
+      273
+    ],
+    "heldout_frames": [
+      226,
+      228,
+      230,
+      232,
+      234,
+      236,
+      238,
+      240,
+      242,
+      244,
+      246,
+      248,
+      250,
+      252,
+      254,
+      256,
+      258,
+      260,
+      262,
+      264,
+      266,
+      268,
+      270,
+      272,
+      274
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 250,
+    "end": 299,
+    "reference_frame": 275,
+    "reference_epoch": 1384667289.2929688,
+    "bounds": [
+      1107,
+      1447,
+      134,
+      434
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.01750935286569888,
+          0.003511284496342554
+        ],
+        "support": 112,
+        "median_ncc": 0.4659465493099862,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.35205748677253723,
+        "training_rmse_kR": 0.3317109942436218,
+        "heldout_pixels": 1856127
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.35205748677253723,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      250,
+      252,
+      254,
+      256,
+      258,
+      260,
+      262,
+      264,
+      266,
+      268,
+      270,
+      272,
+      274,
+      276,
+      278,
+      280,
+      282,
+      284,
+      286,
+      288,
+      290,
+      292,
+      294,
+      296,
+      298
+    ],
+    "heldout_frames": [
+      251,
+      253,
+      255,
+      257,
+      259,
+      261,
+      263,
+      265,
+      267,
+      269,
+      271,
+      273,
+      275,
+      277,
+      279,
+      281,
+      283,
+      285,
+      287,
+      289,
+      291,
+      293,
+      295,
+      297,
+      299
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 275,
+    "end": 324,
+    "reference_frame": 300,
+    "reference_epoch": 1384667316.7929688,
+    "bounds": [
+      1202,
+      1542,
+      128,
+      428
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.01123643001776888,
+          -0.0010847914129394685
+        ],
+        "support": 188,
+        "median_ncc": 0.4848554900084088,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.32841014862060547,
+        "training_rmse_kR": 0.3257223069667816,
+        "heldout_pixels": 1856128
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.32841014862060547,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      275,
+      277,
+      279,
+      281,
+      283,
+      285,
+      287,
+      289,
+      291,
+      293,
+      295,
+      297,
+      299,
+      301,
+      303,
+      305,
+      307,
+      309,
+      311,
+      313,
+      315,
+      317,
+      319,
+      321,
+      323
+    ],
+    "heldout_frames": [
+      276,
+      278,
+      280,
+      282,
+      284,
+      286,
+      288,
+      290,
+      292,
+      294,
+      296,
+      298,
+      300,
+      302,
+      304,
+      306,
+      308,
+      310,
+      312,
+      314,
+      316,
+      318,
+      320,
+      322,
+      324
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 300,
+    "end": 349,
+    "reference_frame": 325,
+    "reference_epoch": 1384667344.296875,
+    "bounds": [
+      1298,
+      1638,
+      122,
+      422
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.018803789978196553,
+          0.0017506495269668143
+        ],
+        "support": 250,
+        "median_ncc": 0.5126598188058598,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.5665053129196167,
+        "training_rmse_kR": 0.3050629198551178,
+        "heldout_pixels": 1856037
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.5665053129196167,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      300,
+      302,
+      304,
+      306,
+      308,
+      310,
+      312,
+      314,
+      316,
+      318,
+      320,
+      322,
+      324,
+      326,
+      328,
+      330,
+      332,
+      334,
+      336,
+      338,
+      340,
+      342,
+      344,
+      346,
+      348
+    ],
+    "heldout_frames": [
+      301,
+      303,
+      305,
+      307,
+      309,
+      311,
+      313,
+      315,
+      317,
+      319,
+      321,
+      323,
+      325,
+      327,
+      329,
+      331,
+      333,
+      335,
+      337,
+      339,
+      341,
+      343,
+      345,
+      347,
+      349
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 325,
+    "end": 374,
+    "reference_frame": 350,
+    "reference_epoch": 1384667371.796875,
+    "bounds": [
+      1393,
+      1733,
+      116,
+      416
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.02538306432866776,
+          0.004991253487118915
+        ],
+        "support": 330,
+        "median_ncc": 0.5840047960074645,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3194882571697235,
+        "training_rmse_kR": 0.5612950921058655,
+        "heldout_pixels": 1856603
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.3194882571697235,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      325,
+      327,
+      329,
+      331,
+      333,
+      335,
+      337,
+      339,
+      341,
+      343,
+      345,
+      347,
+      349,
+      351,
+      353,
+      355,
+      357,
+      359,
+      361,
+      363,
+      365,
+      367,
+      369,
+      371,
+      373
+    ],
+    "heldout_frames": [
+      326,
+      328,
+      330,
+      332,
+      334,
+      336,
+      338,
+      340,
+      342,
+      344,
+      346,
+      348,
+      350,
+      352,
+      354,
+      356,
+      358,
+      360,
+      362,
+      364,
+      366,
+      368,
+      370,
+      372,
+      374
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 350,
+    "end": 399,
+    "reference_frame": 375,
+    "reference_epoch": 1384667399.3007812,
+    "bounds": [
+      1489,
+      1829,
+      110,
+      410
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.031736012767703416,
+          0.00790683267737383
+        ],
+        "support": 461,
+        "median_ncc": 0.6123226736583883,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3380085825920105,
+        "training_rmse_kR": 0.33126646280288696,
+        "heldout_pixels": 1855514
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.3380085825920105,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      350,
+      352,
+      354,
+      356,
+      358,
+      360,
+      362,
+      364,
+      366,
+      368,
+      370,
+      372,
+      374,
+      376,
+      378,
+      380,
+      382,
+      384,
+      386,
+      388,
+      390,
+      392,
+      394,
+      396,
+      398
+    ],
+    "heldout_frames": [
+      351,
+      353,
+      355,
+      357,
+      359,
+      361,
+      363,
+      365,
+      367,
+      369,
+      371,
+      373,
+      375,
+      377,
+      379,
+      381,
+      383,
+      385,
+      387,
+      389,
+      391,
+      393,
+      395,
+      397,
+      399
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 375,
+    "end": 424,
+    "reference_frame": 400,
+    "reference_epoch": 1384667426.8007812,
+    "bounds": [
+      1585,
+      1925,
+      105,
+      405
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.041480338819657396,
+          0.008233790342359498
+        ],
+        "support": 493,
+        "median_ncc": 0.6432134988004625,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.371995747089386,
+        "training_rmse_kR": 0.3572634160518646,
+        "heldout_pixels": 1856083
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.371995747089386,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      375,
+      377,
+      379,
+      381,
+      383,
+      385,
+      387,
+      389,
+      391,
+      393,
+      395,
+      397,
+      399,
+      401,
+      403,
+      405,
+      407,
+      409,
+      411,
+      413,
+      415,
+      417,
+      419,
+      421,
+      423
+    ],
+    "heldout_frames": [
+      376,
+      378,
+      380,
+      382,
+      384,
+      386,
+      388,
+      390,
+      392,
+      394,
+      396,
+      398,
+      400,
+      402,
+      404,
+      406,
+      408,
+      410,
+      412,
+      414,
+      416,
+      418,
+      420,
+      422,
+      424
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 400,
+    "end": 449,
+    "reference_frame": 425,
+    "reference_epoch": 1384667454.3046875,
+    "bounds": [
+      1680,
+      2020,
+      100,
+      400
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.04617533292303185,
+          0.0117805650574575
+        ],
+        "support": 491,
+        "median_ncc": 0.6618505761925366,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.40999355912208557,
+        "training_rmse_kR": 0.40257158875465393,
+        "heldout_pixels": 1854468
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.40999355912208557,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      400,
+      402,
+      404,
+      406,
+      408,
+      410,
+      412,
+      414,
+      416,
+      418,
+      420,
+      422,
+      424,
+      426,
+      428,
+      430,
+      432,
+      434,
+      436,
+      438,
+      440,
+      442,
+      444,
+      446,
+      448
+    ],
+    "heldout_frames": [
+      401,
+      403,
+      405,
+      407,
+      409,
+      411,
+      413,
+      415,
+      417,
+      419,
+      421,
+      423,
+      425,
+      427,
+      429,
+      431,
+      433,
+      435,
+      437,
+      439,
+      441,
+      443,
+      445,
+      447,
+      449
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 425,
+    "end": 474,
+    "reference_frame": 450,
+    "reference_epoch": 1384667481.8046875,
+    "bounds": [
+      1776,
+      2116,
+      95,
+      395
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          0.04874607919334119,
+          0.008895319849062939
+        ],
+        "support": 426,
+        "median_ncc": 0.6129708909191908,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.48096776008605957,
+        "training_rmse_kR": 0.4682510197162628,
+        "heldout_pixels": 1849750
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.48096776008605957,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      425,
+      427,
+      429,
+      431,
+      433,
+      435,
+      437,
+      439,
+      441,
+      443,
+      445,
+      447,
+      449,
+      451,
+      453,
+      455,
+      457,
+      459,
+      461,
+      463,
+      465,
+      467,
+      469,
+      471,
+      473
+    ],
+    "heldout_frames": [
+      426,
+      428,
+      430,
+      432,
+      434,
+      436,
+      438,
+      440,
+      442,
+      444,
+      446,
+      448,
+      450,
+      452,
+      454,
+      456,
+      458,
+      460,
+      462,
+      464,
+      466,
+      468,
+      470,
+      472,
+      474
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 450,
+    "end": 499,
+    "reference_frame": 475,
+    "reference_epoch": 1384667510.40625,
+    "bounds": [
+      1876,
+      2216,
+      91,
+      391
+    ],
+    "status": "fit",
+    "duration_seconds": 56.10546875,
+    "modes": [
+      {
+        "velocity": [
+          0.04865701370491554,
+          0.008727156879744857
+        ],
+        "support": 409,
+        "median_ncc": 0.5445189132318686,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.732496200795649,
+          -0.02813400935583684
+        ],
+        "support": 57,
+        "median_ncc": 0.5641059091567125,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.38667741417884827,
+        "training_rmse_kR": 0.374328076839447,
+        "heldout_pixels": 1834571
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.3703690767288208,
+        "training_rmse_kR": 0.35717514157295227,
+        "heldout_pixels": 1834571
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.35780301690101624,
+        "training_rmse_kR": 0.3440118134021759,
+        "heldout_pixels": 1834571
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.3517320454120636,
+        "training_rmse_kR": 0.33768320083618164,
+        "heldout_pixels": 1834571
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.3493141233921051,
+        "training_rmse_kR": 0.33515316247940063,
+        "heldout_pixels": 1834571
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.3482702970504761,
+        "training_rmse_kR": 0.3339546322822571,
+        "heldout_pixels": 1834571
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.5305043458938599,
+    "heldout_improvement_fraction": 0.3435109443567953,
+    "training_frames": [
+      450,
+      452,
+      454,
+      456,
+      458,
+      460,
+      462,
+      464,
+      466,
+      468,
+      470,
+      472,
+      474,
+      476,
+      478,
+      480,
+      482,
+      484,
+      486,
+      488,
+      490,
+      492,
+      494,
+      496,
+      498
+    ],
+    "heldout_frames": [
+      451,
+      453,
+      455,
+      457,
+      459,
+      461,
+      463,
+      465,
+      467,
+      469,
+      471,
+      473,
+      475,
+      477,
+      479,
+      481,
+      483,
+      485,
+      487,
+      489,
+      491,
+      493,
+      495,
+      497,
+      499
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 475,
+    "end": 524,
+    "reference_frame": 500,
+    "reference_epoch": 1384667539.0078125,
+    "bounds": [
+      1976,
+      2316,
+      86,
+      386
+    ],
+    "status": "fit",
+    "duration_seconds": 56.10546875,
+    "modes": [
+      {
+        "velocity": [
+          0.04364614036246187,
+          0.008816431572028667
+        ],
+        "support": 428,
+        "median_ncc": 0.594659209678459,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.7269941884603212,
+          -0.025396924830690015
+        ],
+        "support": 63,
+        "median_ncc": 0.6398954803561598,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3715633153915405,
+        "training_rmse_kR": 0.3536697030067444,
+        "heldout_pixels": 1844580
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.364124059677124,
+        "training_rmse_kR": 0.34537655115127563,
+        "heldout_pixels": 1844580
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.3574478030204773,
+        "training_rmse_kR": 0.337970107793808,
+        "heldout_pixels": 1844580
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.3524497151374817,
+        "training_rmse_kR": 0.3325004279613495,
+        "heldout_pixels": 1844580
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.34961098432540894,
+        "training_rmse_kR": 0.3294769823551178,
+        "heldout_pixels": 1844580
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.3484984040260315,
+        "training_rmse_kR": 0.32830652594566345,
+        "heldout_pixels": 1844580
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.5091409087181091,
+    "heldout_improvement_fraction": 0.31551678904870506,
+    "training_frames": [
+      475,
+      477,
+      479,
+      481,
+      483,
+      485,
+      487,
+      489,
+      491,
+      493,
+      495,
+      497,
+      499,
+      501,
+      503,
+      505,
+      507,
+      509,
+      511,
+      513,
+      515,
+      517,
+      519,
+      521,
+      523
+    ],
+    "heldout_frames": [
+      476,
+      478,
+      480,
+      482,
+      484,
+      486,
+      488,
+      490,
+      492,
+      494,
+      496,
+      498,
+      500,
+      502,
+      504,
+      506,
+      508,
+      510,
+      512,
+      514,
+      516,
+      518,
+      520,
+      522,
+      524
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 500,
+    "end": 549,
+    "reference_frame": 525,
+    "reference_epoch": 1384667567.609375,
+    "bounds": [
+      2075,
+      2415,
+      82,
+      382
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          0.030053842804429166,
+          0.007298773367566694
+        ],
+        "support": 412,
+        "median_ncc": 0.5987397697966446,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.4533982574939728,
+        "training_rmse_kR": 0.4487886428833008,
+        "heldout_pixels": 1850197
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4533982574939728,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      500,
+      502,
+      504,
+      506,
+      508,
+      510,
+      512,
+      514,
+      516,
+      518,
+      520,
+      522,
+      524,
+      526,
+      528,
+      530,
+      532,
+      534,
+      536,
+      538,
+      540,
+      542,
+      544,
+      546,
+      548
+    ],
+    "heldout_frames": [
+      501,
+      503,
+      505,
+      507,
+      509,
+      511,
+      513,
+      515,
+      517,
+      519,
+      521,
+      523,
+      525,
+      527,
+      529,
+      531,
+      533,
+      535,
+      537,
+      539,
+      541,
+      543,
+      545,
+      547,
+      549
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 525,
+    "end": 574,
+    "reference_frame": 550,
+    "reference_epoch": 1384667595.1132812,
+    "bounds": [
+      2171,
+      2511,
+      79,
+      379
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.03174651630013591,
+          0.0053577943260254895
+        ],
+        "support": 327,
+        "median_ncc": 0.5376633077378313,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3982183337211609,
+        "training_rmse_kR": 0.39335548877716064,
+        "heldout_pixels": 1854947
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.3982183337211609,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      525,
+      527,
+      529,
+      531,
+      533,
+      535,
+      537,
+      539,
+      541,
+      543,
+      545,
+      547,
+      549,
+      551,
+      553,
+      555,
+      557,
+      559,
+      561,
+      563,
+      565,
+      567,
+      569,
+      571,
+      573
+    ],
+    "heldout_frames": [
+      526,
+      528,
+      530,
+      532,
+      534,
+      536,
+      538,
+      540,
+      542,
+      544,
+      546,
+      548,
+      550,
+      552,
+      554,
+      556,
+      558,
+      560,
+      562,
+      564,
+      566,
+      568,
+      570,
+      572,
+      574
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 550,
+    "end": 599,
+    "reference_frame": 575,
+    "reference_epoch": 1384667622.6132812,
+    "bounds": [
+      2267,
+      2607,
+      75,
+      375
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.027034193355133677,
+          0.011007269307904313
+        ],
+        "support": 151,
+        "median_ncc": 0.45652270488176083,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.7165996622314422,
+          -0.017148456627799184
+        ],
+        "support": 83,
+        "median_ncc": 0.5202231575907086,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.33686402440071106,
+        "training_rmse_kR": 0.3186454176902771,
+        "heldout_pixels": 1853978
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.32685649394989014,
+        "training_rmse_kR": 0.30799898505210876,
+        "heldout_pixels": 1853978
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.31986239552497864,
+        "training_rmse_kR": 0.3006639778614044,
+        "heldout_pixels": 1853978
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.3160485625267029,
+        "training_rmse_kR": 0.29660889506340027,
+        "heldout_pixels": 1853978
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.3141239881515503,
+        "training_rmse_kR": 0.2944958209991455,
+        "heldout_pixels": 1853978
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.31319642066955566,
+        "training_rmse_kR": 0.2934401035308838,
+        "heldout_pixels": 1853978
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.42488783597946167,
+    "heldout_improvement_fraction": 0.2628727062812525,
+    "training_frames": [
+      550,
+      552,
+      554,
+      556,
+      558,
+      560,
+      562,
+      564,
+      566,
+      568,
+      570,
+      572,
+      574,
+      576,
+      578,
+      580,
+      582,
+      584,
+      586,
+      588,
+      590,
+      592,
+      594,
+      596,
+      598
+    ],
+    "heldout_frames": [
+      551,
+      553,
+      555,
+      557,
+      559,
+      561,
+      563,
+      565,
+      567,
+      569,
+      571,
+      573,
+      575,
+      577,
+      579,
+      581,
+      583,
+      585,
+      587,
+      589,
+      591,
+      593,
+      595,
+      597,
+      599
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 575,
+    "end": 624,
+    "reference_frame": 600,
+    "reference_epoch": 1384667650.1171875,
+    "bounds": [
+      2363,
+      2703,
+      72,
+      372
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.725188513681291,
+          -0.015485578397995822
+        ],
+        "support": 127,
+        "median_ncc": 0.6139301207271296,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.47161009907722473,
+        "training_rmse_kR": 0.46559029817581177,
+        "heldout_pixels": 1844677
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.47161009907722473,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      575,
+      577,
+      579,
+      581,
+      583,
+      585,
+      587,
+      589,
+      591,
+      593,
+      595,
+      597,
+      599,
+      601,
+      603,
+      605,
+      607,
+      609,
+      611,
+      613,
+      615,
+      617,
+      619,
+      621,
+      623
+    ],
+    "heldout_frames": [
+      576,
+      578,
+      580,
+      582,
+      584,
+      586,
+      588,
+      590,
+      592,
+      594,
+      596,
+      598,
+      600,
+      602,
+      604,
+      606,
+      608,
+      610,
+      612,
+      614,
+      616,
+      618,
+      620,
+      622,
+      624
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 600,
+    "end": 649,
+    "reference_frame": 625,
+    "reference_epoch": 1384667677.6171875,
+    "bounds": [
+      2459,
+      2799,
+      69,
+      369
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          0.7298120643791172,
+          -0.01778399386040813
+        ],
+        "support": 145,
+        "median_ncc": 0.5659132359249837,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.44742831587791443,
+        "training_rmse_kR": 0.4385122060775757,
+        "heldout_pixels": 1843298
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.44742831587791443,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      600,
+      602,
+      604,
+      606,
+      608,
+      610,
+      612,
+      614,
+      616,
+      618,
+      620,
+      622,
+      624,
+      626,
+      628,
+      630,
+      632,
+      634,
+      636,
+      638,
+      640,
+      642,
+      644,
+      646,
+      648
+    ],
+    "heldout_frames": [
+      601,
+      603,
+      605,
+      607,
+      609,
+      611,
+      613,
+      615,
+      617,
+      619,
+      621,
+      623,
+      625,
+      627,
+      629,
+      631,
+      633,
+      635,
+      637,
+      639,
+      641,
+      643,
+      645,
+      647,
+      649
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 625,
+    "end": 674,
+    "reference_frame": 650,
+    "reference_epoch": 1384667706.21875,
+    "bounds": [
+      2559,
+      2899,
+      66,
+      366
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          0.728498446498818,
+          -0.01672075189939216
+        ],
+        "support": 104,
+        "median_ncc": 0.5958430338817858,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.43551158905029297,
+        "training_rmse_kR": 0.4216010868549347,
+        "heldout_pixels": 1831740
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.43551158905029297,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      625,
+      627,
+      629,
+      631,
+      633,
+      635,
+      637,
+      639,
+      641,
+      643,
+      645,
+      647,
+      649,
+      651,
+      653,
+      655,
+      657,
+      659,
+      661,
+      663,
+      665,
+      667,
+      669,
+      671,
+      673
+    ],
+    "heldout_frames": [
+      626,
+      628,
+      630,
+      632,
+      634,
+      636,
+      638,
+      640,
+      642,
+      644,
+      646,
+      648,
+      650,
+      652,
+      654,
+      656,
+      658,
+      660,
+      662,
+      664,
+      666,
+      668,
+      670,
+      672,
+      674
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 650,
+    "end": 699,
+    "reference_frame": 675,
+    "reference_epoch": 1384667733.7226562,
+    "bounds": [
+      2655,
+      2995,
+      64,
+      364
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.7467895675833831,
+          -0.02561589983451291
+        ],
+        "support": 36,
+        "median_ncc": 0.5376981190023953,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.410011351108551,
+        "training_rmse_kR": 0.4108409285545349,
+        "heldout_pixels": 1844304
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.410011351108551,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      650,
+      652,
+      654,
+      656,
+      658,
+      660,
+      662,
+      664,
+      666,
+      668,
+      670,
+      672,
+      674,
+      676,
+      678,
+      680,
+      682,
+      684,
+      686,
+      688,
+      690,
+      692,
+      694,
+      696,
+      698
+    ],
+    "heldout_frames": [
+      651,
+      653,
+      655,
+      657,
+      659,
+      661,
+      663,
+      665,
+      667,
+      669,
+      671,
+      673,
+      675,
+      677,
+      679,
+      681,
+      683,
+      685,
+      687,
+      689,
+      691,
+      693,
+      695,
+      697,
+      699
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 675,
+    "end": 724,
+    "reference_frame": 700,
+    "reference_epoch": 1384667761.2226562,
+    "bounds": [
+      2751,
+      3091,
+      61,
+      361
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 700,
+    "end": 749,
+    "reference_frame": 725,
+    "reference_epoch": 1384667788.7265625,
+    "bounds": [
+      2847,
+      3187,
+      59,
+      359
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.002917641686008831,
+          0.028775694124323747
+        ],
+        "support": 65,
+        "median_ncc": 0.42501144489854153,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.7689147415430561,
+          -0.008270522665298072
+        ],
+        "support": 24,
+        "median_ncc": 0.545937391942785,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3138907551765442,
+        "training_rmse_kR": 0.29304876923561096,
+        "heldout_pixels": 1850870
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.31396201252937317,
+        "training_rmse_kR": 0.2926119565963745,
+        "heldout_pixels": 1850870
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.3137827515602112,
+        "training_rmse_kR": 0.2922287583351135,
+        "heldout_pixels": 1850870
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.3134657144546509,
+        "training_rmse_kR": 0.29181888699531555,
+        "heldout_pixels": 1850870
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.31315353512763977,
+        "training_rmse_kR": 0.2914680540561676,
+        "heldout_pixels": 1850870
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.31294432282447815,
+        "training_rmse_kR": 0.29125526547431946,
+        "heldout_pixels": 1850870
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.3323947787284851,
+    "heldout_improvement_fraction": 0.058516129460309485,
+    "training_frames": [
+      700,
+      702,
+      704,
+      706,
+      708,
+      710,
+      712,
+      714,
+      716,
+      718,
+      720,
+      722,
+      724,
+      726,
+      728,
+      730,
+      732,
+      734,
+      736,
+      738,
+      740,
+      742,
+      744,
+      746,
+      748
+    ],
+    "heldout_frames": [
+      701,
+      703,
+      705,
+      707,
+      709,
+      711,
+      713,
+      715,
+      717,
+      719,
+      721,
+      723,
+      725,
+      727,
+      729,
+      731,
+      733,
+      735,
+      737,
+      739,
+      741,
+      743,
+      745,
+      747,
+      749
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 725,
+    "end": 774,
+    "reference_frame": 750,
+    "reference_epoch": 1384667816.2265625,
+    "bounds": [
+      2943,
+      3283,
+      58,
+      358
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.029573979296503572,
+          0.014776547142653376
+        ],
+        "support": 197,
+        "median_ncc": 0.5112752733379342,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.7449413525999896,
+          -0.012735900728236075
+        ],
+        "support": 70,
+        "median_ncc": 0.5434061582138783,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3228472173213959,
+        "training_rmse_kR": 0.303295761346817,
+        "heldout_pixels": 1850903
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.32251450419425964,
+        "training_rmse_kR": 0.3025253415107727,
+        "heldout_pixels": 1850903
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.32219767570495605,
+        "training_rmse_kR": 0.30200108885765076,
+        "heldout_pixels": 1850903
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.3218757212162018,
+        "training_rmse_kR": 0.3015826344490051,
+        "heldout_pixels": 1850903
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.32159754633903503,
+        "training_rmse_kR": 0.30124446749687195,
+        "heldout_pixels": 1850903
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.3214298188686371,
+        "training_rmse_kR": 0.301025927066803,
+        "heldout_pixels": 1850903
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.36927056312561035,
+    "heldout_improvement_fraction": 0.12955471958564935,
+    "training_frames": [
+      725,
+      727,
+      729,
+      731,
+      733,
+      735,
+      737,
+      739,
+      741,
+      743,
+      745,
+      747,
+      749,
+      751,
+      753,
+      755,
+      757,
+      759,
+      761,
+      763,
+      765,
+      767,
+      769,
+      771,
+      773
+    ],
+    "heldout_frames": [
+      726,
+      728,
+      730,
+      732,
+      734,
+      736,
+      738,
+      740,
+      742,
+      744,
+      746,
+      748,
+      750,
+      752,
+      754,
+      756,
+      758,
+      760,
+      762,
+      764,
+      766,
+      768,
+      770,
+      772,
+      774
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 750,
+    "end": 799,
+    "reference_frame": 775,
+    "reference_epoch": 1384667843.7304688,
+    "bounds": [
+      3040,
+      3380,
+      56,
+      356
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.04419143015763562,
+          0.009025366284323605
+        ],
+        "support": 289,
+        "median_ncc": 0.5479310388541226,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.7411477816177181,
+          -0.008298820230493728
+        ],
+        "support": 92,
+        "median_ncc": 0.5456032694127022,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.33342015743255615,
+        "training_rmse_kR": 0.31081685423851013,
+        "heldout_pixels": 1848842
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.3322337567806244,
+        "training_rmse_kR": 0.3091661036014557,
+        "heldout_pixels": 1848842
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.3314213454723358,
+        "training_rmse_kR": 0.3081500232219696,
+        "heldout_pixels": 1848842
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.3309899568557739,
+        "training_rmse_kR": 0.30757105350494385,
+        "heldout_pixels": 1848842
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.3307795226573944,
+        "training_rmse_kR": 0.3072534203529358,
+        "heldout_pixels": 1848842
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.3306728005409241,
+        "training_rmse_kR": 0.3070906698703766,
+        "heldout_pixels": 1848842
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.39098870754241943,
+    "heldout_improvement_fraction": 0.15426508704206376,
+    "training_frames": [
+      750,
+      752,
+      754,
+      756,
+      758,
+      760,
+      762,
+      764,
+      766,
+      768,
+      770,
+      772,
+      774,
+      776,
+      778,
+      780,
+      782,
+      784,
+      786,
+      788,
+      790,
+      792,
+      794,
+      796,
+      798
+    ],
+    "heldout_frames": [
+      751,
+      753,
+      755,
+      757,
+      759,
+      761,
+      763,
+      765,
+      767,
+      769,
+      771,
+      773,
+      775,
+      777,
+      779,
+      781,
+      783,
+      785,
+      787,
+      789,
+      791,
+      793,
+      795,
+      797,
+      799
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 775,
+    "end": 824,
+    "reference_frame": 800,
+    "reference_epoch": 1384667871.2304688,
+    "bounds": [
+      3136,
+      3476,
+      55,
+      355
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.03172826878361019,
+          0.01336871715376327
+        ],
+        "support": 234,
+        "median_ncc": 0.5298218873618157,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.7467138751935116,
+          -0.005863861389432824
+        ],
+        "support": 100,
+        "median_ncc": 0.5509509618533632,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3432137370109558,
+        "training_rmse_kR": 0.32615363597869873,
+        "heldout_pixels": 1848839
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.3413856029510498,
+        "training_rmse_kR": 0.3237162232398987,
+        "heldout_pixels": 1848839
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.3400961458683014,
+        "training_rmse_kR": 0.3221267759799957,
+        "heldout_pixels": 1848839
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.3392368257045746,
+        "training_rmse_kR": 0.32107260823249817,
+        "heldout_pixels": 1848839
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.33868300914764404,
+        "training_rmse_kR": 0.3203796446323395,
+        "heldout_pixels": 1848839
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.3383784592151642,
+        "training_rmse_kR": 0.31997206807136536,
+        "heldout_pixels": 1848839
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.41099846363067627,
+    "heldout_improvement_fraction": 0.1766916688057708,
+    "training_frames": [
+      775,
+      777,
+      779,
+      781,
+      783,
+      785,
+      787,
+      789,
+      791,
+      793,
+      795,
+      797,
+      799,
+      801,
+      803,
+      805,
+      807,
+      809,
+      811,
+      813,
+      815,
+      817,
+      819,
+      821,
+      823
+    ],
+    "heldout_frames": [
+      776,
+      778,
+      780,
+      782,
+      784,
+      786,
+      788,
+      790,
+      792,
+      794,
+      796,
+      798,
+      800,
+      802,
+      804,
+      806,
+      808,
+      810,
+      812,
+      814,
+      816,
+      818,
+      820,
+      822,
+      824
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 800,
+    "end": 849,
+    "reference_frame": 825,
+    "reference_epoch": 1384667898.734375,
+    "bounds": [
+      3232,
+      3572,
+      54,
+      354
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.04716585670378229,
+          0.006511609449084977
+        ],
+        "support": 139,
+        "median_ncc": 0.45496496979693224,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.7500190388261524,
+          -0.0018782330221530598
+        ],
+        "support": 112,
+        "median_ncc": 0.5685040140379658,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3735535144805908,
+        "training_rmse_kR": 0.35353347659111023,
+        "heldout_pixels": 1845896
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.37035220861434937,
+        "training_rmse_kR": 0.34957143664360046,
+        "heldout_pixels": 1845896
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.3684789538383484,
+        "training_rmse_kR": 0.34736570715904236,
+        "heldout_pixels": 1845896
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.36722490191459656,
+        "training_rmse_kR": 0.34591755270957947,
+        "heldout_pixels": 1845896
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.3664568066596985,
+        "training_rmse_kR": 0.344997763633728,
+        "heldout_pixels": 1845896
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.3660777509212494,
+        "training_rmse_kR": 0.34450674057006836,
+        "heldout_pixels": 1845896
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.5231853127479553,
+    "heldout_improvement_fraction": 0.3002904668740052,
+    "training_frames": [
+      800,
+      802,
+      804,
+      806,
+      808,
+      810,
+      812,
+      814,
+      816,
+      818,
+      820,
+      822,
+      824,
+      826,
+      828,
+      830,
+      832,
+      834,
+      836,
+      838,
+      840,
+      842,
+      844,
+      846,
+      848
+    ],
+    "heldout_frames": [
+      801,
+      803,
+      805,
+      807,
+      809,
+      811,
+      813,
+      815,
+      817,
+      819,
+      821,
+      823,
+      825,
+      827,
+      829,
+      831,
+      833,
+      835,
+      837,
+      839,
+      841,
+      843,
+      845,
+      847,
+      849
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 825,
+    "end": 874,
+    "reference_frame": 850,
+    "reference_epoch": 1384667926.234375,
+    "bounds": [
+      3328,
+      3668,
+      53,
+      353
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.7527772862245874,
+          -0.005440548287373266
+        ],
+        "support": 117,
+        "median_ncc": 0.6417544072312591,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.4669026732444763,
+        "training_rmse_kR": 0.4574483036994934,
+        "heldout_pixels": 1838721
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4669026732444763,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      825,
+      827,
+      829,
+      831,
+      833,
+      835,
+      837,
+      839,
+      841,
+      843,
+      845,
+      847,
+      849,
+      851,
+      853,
+      855,
+      857,
+      859,
+      861,
+      863,
+      865,
+      867,
+      869,
+      871,
+      873
+    ],
+    "heldout_frames": [
+      826,
+      828,
+      830,
+      832,
+      834,
+      836,
+      838,
+      840,
+      842,
+      844,
+      846,
+      848,
+      850,
+      852,
+      854,
+      856,
+      858,
+      860,
+      862,
+      864,
+      866,
+      868,
+      870,
+      872,
+      874
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 850,
+    "end": 899,
+    "reference_frame": 875,
+    "reference_epoch": 1384667953.734375,
+    "bounds": [
+      3425,
+      3765,
+      52,
+      352
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.7485570415896782,
+          -0.009272783078368697
+        ],
+        "support": 86,
+        "median_ncc": 0.68373772172171,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.44771310687065125,
+        "training_rmse_kR": 0.4397018253803253,
+        "heldout_pixels": 1839507
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.44771310687065125,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      850,
+      852,
+      854,
+      856,
+      858,
+      860,
+      862,
+      864,
+      866,
+      868,
+      870,
+      872,
+      874,
+      876,
+      878,
+      880,
+      882,
+      884,
+      886,
+      888,
+      890,
+      892,
+      894,
+      896,
+      898
+    ],
+    "heldout_frames": [
+      851,
+      853,
+      855,
+      857,
+      859,
+      861,
+      863,
+      865,
+      867,
+      869,
+      871,
+      873,
+      875,
+      877,
+      879,
+      881,
+      883,
+      885,
+      887,
+      889,
+      891,
+      893,
+      895,
+      897,
+      899
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 875,
+    "end": 924,
+    "reference_frame": 900,
+    "reference_epoch": 1384667981.2382812,
+    "bounds": [
+      3521,
+      3861,
+      52,
+      352
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.7407094643553215,
+          -0.017861311657824192
+        ],
+        "support": 39,
+        "median_ncc": 0.7270353490132228,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.42488768696784973,
+        "training_rmse_kR": 0.4218616783618927,
+        "heldout_pixels": 1839813
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.42488768696784973,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      875,
+      877,
+      879,
+      881,
+      883,
+      885,
+      887,
+      889,
+      891,
+      893,
+      895,
+      897,
+      899,
+      901,
+      903,
+      905,
+      907,
+      909,
+      911,
+      913,
+      915,
+      917,
+      919,
+      921,
+      923
+    ],
+    "heldout_frames": [
+      876,
+      878,
+      880,
+      882,
+      884,
+      886,
+      888,
+      890,
+      892,
+      894,
+      896,
+      898,
+      900,
+      902,
+      904,
+      906,
+      908,
+      910,
+      912,
+      914,
+      916,
+      918,
+      920,
+      922,
+      924
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 900,
+    "end": 949,
+    "reference_frame": 925,
+    "reference_epoch": 1384668008.7382812,
+    "bounds": [
+      3618,
+      3958,
+      51,
+      351
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.7031179879882667,
+          -0.005461191274166524
+        ],
+        "support": 64,
+        "median_ncc": 0.510666669496983,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.40655651688575745,
+        "training_rmse_kR": 0.39645659923553467,
+        "heldout_pixels": 1837563
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.40655651688575745,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      900,
+      902,
+      904,
+      906,
+      908,
+      910,
+      912,
+      914,
+      916,
+      918,
+      920,
+      922,
+      924,
+      926,
+      928,
+      930,
+      932,
+      934,
+      936,
+      938,
+      940,
+      942,
+      944,
+      946,
+      948
+    ],
+    "heldout_frames": [
+      901,
+      903,
+      905,
+      907,
+      909,
+      911,
+      913,
+      915,
+      917,
+      919,
+      921,
+      923,
+      925,
+      927,
+      929,
+      931,
+      933,
+      935,
+      937,
+      939,
+      941,
+      943,
+      945,
+      947,
+      949
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 925,
+    "end": 974,
+    "reference_frame": 950,
+    "reference_epoch": 1384668036.2421875,
+    "bounds": [
+      3714,
+      4054,
+      51,
+      351
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          0.6804569716706367,
+          -0.01360553811987424
+        ],
+        "support": 76,
+        "median_ncc": 0.49446049931662694,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3983737826347351,
+        "training_rmse_kR": 0.38917163014411926,
+        "heldout_pixels": 1838132
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.3983737826347351,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      925,
+      927,
+      929,
+      931,
+      933,
+      935,
+      937,
+      939,
+      941,
+      943,
+      945,
+      947,
+      949,
+      951,
+      953,
+      955,
+      957,
+      959,
+      961,
+      963,
+      965,
+      967,
+      969,
+      971,
+      973
+    ],
+    "heldout_frames": [
+      926,
+      928,
+      930,
+      932,
+      934,
+      936,
+      938,
+      940,
+      942,
+      944,
+      946,
+      948,
+      950,
+      952,
+      954,
+      956,
+      958,
+      960,
+      962,
+      964,
+      966,
+      968,
+      970,
+      972,
+      974
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 950,
+    "end": 999,
+    "reference_frame": 975,
+    "reference_epoch": 1384668064.84375,
+    "bounds": [
+      3814,
+      4154,
+      51,
+      351
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          0.6917134030701421,
+          -0.0103864524679722
+        ],
+        "support": 41,
+        "median_ncc": 0.45944571199089734,
+        "pair_count": 7
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.413761168718338,
+        "training_rmse_kR": 0.4068148732185364,
+        "heldout_pixels": 1831175
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.413761168718338,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      950,
+      952,
+      954,
+      956,
+      958,
+      960,
+      962,
+      964,
+      966,
+      968,
+      970,
+      972,
+      974,
+      976,
+      978,
+      980,
+      982,
+      984,
+      986,
+      988,
+      990,
+      992,
+      994,
+      996,
+      998
+    ],
+    "heldout_frames": [
+      951,
+      953,
+      955,
+      957,
+      959,
+      961,
+      963,
+      965,
+      967,
+      969,
+      971,
+      973,
+      975,
+      977,
+      979,
+      981,
+      983,
+      985,
+      987,
+      989,
+      991,
+      993,
+      995,
+      997,
+      999
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 975,
+    "end": 1024,
+    "reference_frame": 1000,
+    "reference_epoch": 1384668092.34375,
+    "bounds": [
+      3911,
+      4251,
+      52,
+      352
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.014504606551065773,
+          0.0014442920028900675
+        ],
+        "support": 37,
+        "median_ncc": 0.37532002494565303,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.30809837579727173,
+        "training_rmse_kR": 0.29531633853912354,
+        "heldout_pixels": 1844120
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.30809837579727173,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      975,
+      977,
+      979,
+      981,
+      983,
+      985,
+      987,
+      989,
+      991,
+      993,
+      995,
+      997,
+      999,
+      1001,
+      1003,
+      1005,
+      1007,
+      1009,
+      1011,
+      1013,
+      1015,
+      1017,
+      1019,
+      1021,
+      1023
+    ],
+    "heldout_frames": [
+      976,
+      978,
+      980,
+      982,
+      984,
+      986,
+      988,
+      990,
+      992,
+      994,
+      996,
+      998,
+      1000,
+      1002,
+      1004,
+      1006,
+      1008,
+      1010,
+      1012,
+      1014,
+      1016,
+      1018,
+      1020,
+      1022,
+      1024
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 1000,
+    "end": 1049,
+    "reference_frame": 1025,
+    "reference_epoch": 1384668119.8476562,
+    "bounds": [
+      4007,
+      4347,
+      52,
+      352
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90625,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1025,
+    "end": 1074,
+    "reference_frame": 1050,
+    "reference_epoch": 1384668147.3476562,
+    "bounds": [
+      4104,
+      4444,
+      52,
+      352
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "Too few motion candidates",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1050,
+    "end": 1099,
+    "reference_frame": 1075,
+    "reference_epoch": 1384668174.8515625,
+    "bounds": [
+      4200,
+      4540,
+      53,
+      353
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.02390817937900324,
+          0.0073006556349864355
+        ],
+        "support": 31,
+        "median_ncc": 0.3815376217496255,
+        "pair_count": 8
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3018609881401062,
+        "training_rmse_kR": 0.2961618900299072,
+        "heldout_pixels": 1813511
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.3018609881401062,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1050,
+      1052,
+      1054,
+      1056,
+      1058,
+      1060,
+      1062,
+      1064,
+      1066,
+      1068,
+      1070,
+      1072,
+      1074,
+      1076,
+      1078,
+      1080,
+      1082,
+      1084,
+      1086,
+      1088,
+      1090,
+      1092,
+      1094,
+      1096,
+      1098
+    ],
+    "heldout_frames": [
+      1051,
+      1053,
+      1055,
+      1057,
+      1059,
+      1061,
+      1063,
+      1065,
+      1067,
+      1069,
+      1071,
+      1073,
+      1075,
+      1077,
+      1079,
+      1081,
+      1083,
+      1085,
+      1087,
+      1089,
+      1091,
+      1093,
+      1095,
+      1097,
+      1099
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 1075,
+    "end": 1124,
+    "reference_frame": 1100,
+    "reference_epoch": 1384668202.3515625,
+    "bounds": [
+      4297,
+      4637,
+      54,
+      354
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.012929009338744097,
+          0.008097434475448417
+        ],
+        "support": 68,
+        "median_ncc": 0.38244725883458186,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3108159005641937,
+        "training_rmse_kR": 0.295756459236145,
+        "heldout_pixels": 1801065
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.3108159005641937,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1075,
+      1077,
+      1079,
+      1081,
+      1083,
+      1085,
+      1087,
+      1089,
+      1091,
+      1093,
+      1095,
+      1097,
+      1099,
+      1101,
+      1103,
+      1105,
+      1107,
+      1109,
+      1111,
+      1113,
+      1115,
+      1117,
+      1119,
+      1121,
+      1123
+    ],
+    "heldout_frames": [
+      1076,
+      1078,
+      1080,
+      1082,
+      1084,
+      1086,
+      1088,
+      1090,
+      1092,
+      1094,
+      1096,
+      1098,
+      1100,
+      1102,
+      1104,
+      1106,
+      1108,
+      1110,
+      1112,
+      1114,
+      1116,
+      1118,
+      1120,
+      1122,
+      1124
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 1100,
+    "end": 1149,
+    "reference_frame": 1125,
+    "reference_epoch": 1384668229.8554688,
+    "bounds": [
+      4393,
+      4733,
+      55,
+      355
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.021727058060995307,
+          0.015614721380906882
+        ],
+        "support": 85,
+        "median_ncc": 0.4047717249911362,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.33081722259521484,
+        "training_rmse_kR": 0.3201442062854767,
+        "heldout_pixels": 1797991
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.33081722259521484,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1100,
+      1102,
+      1104,
+      1106,
+      1108,
+      1110,
+      1112,
+      1114,
+      1116,
+      1118,
+      1120,
+      1122,
+      1124,
+      1126,
+      1128,
+      1130,
+      1132,
+      1134,
+      1136,
+      1138,
+      1140,
+      1142,
+      1144,
+      1146,
+      1148
+    ],
+    "heldout_frames": [
+      1101,
+      1103,
+      1105,
+      1107,
+      1109,
+      1111,
+      1113,
+      1115,
+      1117,
+      1119,
+      1121,
+      1123,
+      1125,
+      1127,
+      1129,
+      1131,
+      1133,
+      1135,
+      1137,
+      1139,
+      1141,
+      1143,
+      1145,
+      1147,
+      1149
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 1125,
+    "end": 1174,
+    "reference_frame": 1150,
+    "reference_epoch": 1384668258.4570312,
+    "bounds": [
+      4491,
+      4831,
+      56,
+      356
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          0.01600601623754256,
+          0.018249870132187294
+        ],
+        "support": 122,
+        "median_ncc": 0.41111256921392797,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.6493216324372107,
+          0.015998862271997667
+        ],
+        "support": 66,
+        "median_ncc": 0.5879340155567873,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.38865840435028076,
+        "training_rmse_kR": 0.36940500140190125,
+        "heldout_pixels": 1785176
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.3640308082103729,
+        "training_rmse_kR": 0.3443335294723511,
+        "heldout_pixels": 1785176
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.3395233452320099,
+        "training_rmse_kR": 0.31972917914390564,
+        "heldout_pixels": 1785176
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.32378846406936646,
+        "training_rmse_kR": 0.30396804213523865,
+        "heldout_pixels": 1785176
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.3163986802101135,
+        "training_rmse_kR": 0.296414852142334,
+        "heldout_pixels": 1785176
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.3129577934741974,
+        "training_rmse_kR": 0.2928157150745392,
+        "heldout_pixels": 1785176
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4768928587436676,
+    "heldout_improvement_fraction": 0.34375659493275446,
+    "training_frames": [
+      1125,
+      1127,
+      1129,
+      1131,
+      1133,
+      1135,
+      1137,
+      1139,
+      1141,
+      1143,
+      1145,
+      1147,
+      1149,
+      1151,
+      1153,
+      1155,
+      1157,
+      1159,
+      1161,
+      1163,
+      1165,
+      1167,
+      1169,
+      1171,
+      1173
+    ],
+    "heldout_frames": [
+      1126,
+      1128,
+      1130,
+      1132,
+      1134,
+      1136,
+      1138,
+      1140,
+      1142,
+      1144,
+      1146,
+      1148,
+      1150,
+      1152,
+      1154,
+      1156,
+      1158,
+      1160,
+      1162,
+      1164,
+      1166,
+      1168,
+      1170,
+      1172,
+      1174
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 1150,
+    "end": 1199,
+    "reference_frame": 1175,
+    "reference_epoch": 1384668285.9570312,
+    "bounds": [
+      4590,
+      4930,
+      57,
+      357
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          -0.009731513754778567,
+          0.018524411998731796
+        ],
+        "support": 145,
+        "median_ncc": 0.49453653106283596,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.6512776307475979,
+          0.015006500834771426
+        ],
+        "support": 143,
+        "median_ncc": 0.6416545761564176,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.42725276947021484,
+        "training_rmse_kR": 0.4126688539981842,
+        "heldout_pixels": 1783198
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.393515944480896,
+        "training_rmse_kR": 0.3777923583984375,
+        "heldout_pixels": 1783198
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.36053594946861267,
+        "training_rmse_kR": 0.34394291043281555,
+        "heldout_pixels": 1783198
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.33621737360954285,
+        "training_rmse_kR": 0.31908538937568665,
+        "heldout_pixels": 1783198
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.3211412727832794,
+        "training_rmse_kR": 0.303373247385025,
+        "heldout_pixels": 1783198
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.31447532773017883,
+        "training_rmse_kR": 0.29628556966781616,
+        "heldout_pixels": 1783198
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.5877875089645386,
+    "heldout_improvement_fraction": 0.4649846705926661,
+    "training_frames": [
+      1150,
+      1152,
+      1154,
+      1156,
+      1158,
+      1160,
+      1162,
+      1164,
+      1166,
+      1168,
+      1170,
+      1172,
+      1174,
+      1176,
+      1178,
+      1180,
+      1182,
+      1184,
+      1186,
+      1188,
+      1190,
+      1192,
+      1194,
+      1196,
+      1198
+    ],
+    "heldout_frames": [
+      1151,
+      1153,
+      1155,
+      1157,
+      1159,
+      1161,
+      1163,
+      1165,
+      1167,
+      1169,
+      1171,
+      1173,
+      1175,
+      1177,
+      1179,
+      1181,
+      1183,
+      1185,
+      1187,
+      1189,
+      1191,
+      1193,
+      1195,
+      1197,
+      1199
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 1175,
+    "end": 1224,
+    "reference_frame": 1200,
+    "reference_epoch": 1384668314.5585938,
+    "bounds": [
+      4691,
+      5031,
+      58,
+      358
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          -0.02186328306941483,
+          0.02317971916366974
+        ],
+        "support": 206,
+        "median_ncc": 0.5065216328718245,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.6471533887279066,
+          0.021506841340881967
+        ],
+        "support": 148,
+        "median_ncc": 0.649407705338293,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.4077827036380768,
+        "training_rmse_kR": 0.39660418033599854,
+        "heldout_pixels": 1770978
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.3822856843471527,
+        "training_rmse_kR": 0.36929669976234436,
+        "heldout_pixels": 1770978
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.35448452830314636,
+        "training_rmse_kR": 0.33920806646347046,
+        "heldout_pixels": 1770978
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.331705242395401,
+        "training_rmse_kR": 0.31419581174850464,
+        "heldout_pixels": 1770978
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.3193837106227875,
+        "training_rmse_kR": 0.30076757073402405,
+        "heldout_pixels": 1770978
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.3136851191520691,
+        "training_rmse_kR": 0.2945844531059265,
+        "heldout_pixels": 1770978
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.5420523881912231,
+    "heldout_improvement_fraction": 0.4213011030192003,
+    "training_frames": [
+      1175,
+      1177,
+      1179,
+      1181,
+      1183,
+      1185,
+      1187,
+      1189,
+      1191,
+      1193,
+      1195,
+      1197,
+      1199,
+      1201,
+      1203,
+      1205,
+      1207,
+      1209,
+      1211,
+      1213,
+      1215,
+      1217,
+      1219,
+      1221,
+      1223
+    ],
+    "heldout_frames": [
+      1176,
+      1178,
+      1180,
+      1182,
+      1184,
+      1186,
+      1188,
+      1190,
+      1192,
+      1194,
+      1196,
+      1198,
+      1200,
+      1202,
+      1204,
+      1206,
+      1208,
+      1210,
+      1212,
+      1214,
+      1216,
+      1218,
+      1220,
+      1222,
+      1224
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 1200,
+    "end": 1249,
+    "reference_frame": 1225,
+    "reference_epoch": 1384668342.0625,
+    "bounds": [
+      4787,
+      5127,
+      60,
+      360
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          -0.0022161968608976003,
+          0.03207369570569328
+        ],
+        "support": 199,
+        "median_ncc": 0.4674965258117134,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.6613975587907608,
+          0.028235568094656802
+        ],
+        "support": 78,
+        "median_ncc": 0.6821541347879012,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.35558053851127625,
+        "training_rmse_kR": 0.3408258259296417,
+        "heldout_pixels": 1763988
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.34499967098236084,
+        "training_rmse_kR": 0.328836590051651,
+        "heldout_pixels": 1763988
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.334675669670105,
+        "training_rmse_kR": 0.3171684443950653,
+        "heldout_pixels": 1763988
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.32517480850219727,
+        "training_rmse_kR": 0.30640536546707153,
+        "heldout_pixels": 1763988
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.3178277909755707,
+        "training_rmse_kR": 0.2982860803604126,
+        "heldout_pixels": 1763988
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.31410500407218933,
+        "training_rmse_kR": 0.2942935824394226,
+        "heldout_pixels": 1763988
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.439134418964386,
+    "heldout_improvement_fraction": 0.28471786654085207,
+    "training_frames": [
+      1200,
+      1202,
+      1204,
+      1206,
+      1208,
+      1210,
+      1212,
+      1214,
+      1216,
+      1218,
+      1220,
+      1222,
+      1224,
+      1226,
+      1228,
+      1230,
+      1232,
+      1234,
+      1236,
+      1238,
+      1240,
+      1242,
+      1244,
+      1246,
+      1248
+    ],
+    "heldout_frames": [
+      1201,
+      1203,
+      1205,
+      1207,
+      1209,
+      1211,
+      1213,
+      1215,
+      1217,
+      1219,
+      1221,
+      1223,
+      1225,
+      1227,
+      1229,
+      1231,
+      1233,
+      1235,
+      1237,
+      1239,
+      1241,
+      1243,
+      1245,
+      1247,
+      1249
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 1225,
+    "end": 1274,
+    "reference_frame": 1250,
+    "reference_epoch": 1384668369.5625,
+    "bounds": [
+      4884,
+      5224,
+      61,
+      361
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          -0.02866487197477234,
+          0.0232220590682328
+        ],
+        "support": 159,
+        "median_ncc": 0.4830854211468727,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.6668535542143755,
+          0.03368678567231328
+        ],
+        "support": 42,
+        "median_ncc": 0.5692947367419037,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3588863015174866,
+        "training_rmse_kR": 0.33781710267066956,
+        "heldout_pixels": 1725078
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.34583887457847595,
+        "training_rmse_kR": 0.3238251805305481,
+        "heldout_pixels": 1725078
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.3325645327568054,
+        "training_rmse_kR": 0.30982720851898193,
+        "heldout_pixels": 1725078
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.32214969396591187,
+        "training_rmse_kR": 0.2989821135997772,
+        "heldout_pixels": 1725078
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.3168909549713135,
+        "training_rmse_kR": 0.2934335470199585,
+        "heldout_pixels": 1725078
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.31489381194114685,
+        "training_rmse_kR": 0.29120638966560364,
+        "heldout_pixels": 1725078
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4167250096797943,
+    "heldout_improvement_fraction": 0.24436065840371124,
+    "training_frames": [
+      1225,
+      1227,
+      1229,
+      1231,
+      1233,
+      1235,
+      1237,
+      1239,
+      1241,
+      1243,
+      1245,
+      1247,
+      1249,
+      1251,
+      1253,
+      1255,
+      1257,
+      1259,
+      1261,
+      1263,
+      1265,
+      1267,
+      1269,
+      1271,
+      1273
+    ],
+    "heldout_frames": [
+      1226,
+      1228,
+      1230,
+      1232,
+      1234,
+      1236,
+      1238,
+      1240,
+      1242,
+      1244,
+      1246,
+      1248,
+      1250,
+      1252,
+      1254,
+      1256,
+      1258,
+      1260,
+      1262,
+      1264,
+      1266,
+      1268,
+      1270,
+      1272,
+      1274
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 1250,
+    "end": 1299,
+    "reference_frame": 1275,
+    "reference_epoch": 1384668397.0664062,
+    "bounds": [
+      4980,
+      5320,
+      62,
+      362
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          -0.02923869892271355,
+          0.025855168104744298
+        ],
+        "support": 96,
+        "median_ncc": 0.42416648518329003,
+        "pair_count": 9
+      },
+      {
+        "velocity": [
+          0.6666973902269877,
+          0.0174413241087911
+        ],
+        "support": 50,
+        "median_ncc": 0.5404361397019168,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.3502494990825653,
+        "training_rmse_kR": 0.34064921736717224,
+        "heldout_pixels": 1717125
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.3356104791164398,
+        "training_rmse_kR": 0.3247164487838745,
+        "heldout_pixels": 1717125
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.32207080721855164,
+        "training_rmse_kR": 0.30995795130729675,
+        "heldout_pixels": 1717125
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.31371694803237915,
+        "training_rmse_kR": 0.3008553385734558,
+        "heldout_pixels": 1717125
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.31012988090515137,
+        "training_rmse_kR": 0.2969507575035095,
+        "heldout_pixels": 1717125
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.308824360370636,
+        "training_rmse_kR": 0.29554662108421326,
+        "heldout_pixels": 1717125
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4258388876914978,
+    "heldout_improvement_fraction": 0.27478591247315554,
+    "training_frames": [
+      1250,
+      1252,
+      1254,
+      1256,
+      1258,
+      1260,
+      1262,
+      1264,
+      1266,
+      1268,
+      1270,
+      1272,
+      1274,
+      1276,
+      1278,
+      1280,
+      1282,
+      1284,
+      1286,
+      1288,
+      1290,
+      1292,
+      1294,
+      1296,
+      1298
+    ],
+    "heldout_frames": [
+      1251,
+      1253,
+      1255,
+      1257,
+      1259,
+      1261,
+      1263,
+      1265,
+      1267,
+      1269,
+      1271,
+      1273,
+      1275,
+      1277,
+      1279,
+      1281,
+      1283,
+      1285,
+      1287,
+      1289,
+      1291,
+      1293,
+      1295,
+      1297,
+      1299
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 1275,
+    "end": 1324,
+    "reference_frame": 1300,
+    "reference_epoch": 1384668424.5664062,
+    "bounds": [
+      5077,
+      5417,
+      64,
+      364
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.6638080118222277,
+          0.030662305808139438
+        ],
+        "support": 21,
+        "median_ncc": 0.6083811452523071,
+        "pair_count": 7
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.4458340108394623,
+        "training_rmse_kR": 0.4391462504863739,
+        "heldout_pixels": 1698047
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4458340108394623,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1275,
+      1277,
+      1279,
+      1281,
+      1283,
+      1285,
+      1287,
+      1289,
+      1291,
+      1293,
+      1295,
+      1297,
+      1299,
+      1301,
+      1303,
+      1305,
+      1307,
+      1309,
+      1311,
+      1313,
+      1315,
+      1317,
+      1319,
+      1321,
+      1323
+    ],
+    "heldout_frames": [
+      1276,
+      1278,
+      1280,
+      1282,
+      1284,
+      1286,
+      1288,
+      1290,
+      1292,
+      1294,
+      1296,
+      1298,
+      1300,
+      1302,
+      1304,
+      1306,
+      1308,
+      1310,
+      1312,
+      1314,
+      1316,
+      1318,
+      1320,
+      1322,
+      1324
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 1300,
+    "end": 1349,
+    "reference_frame": 1325,
+    "reference_epoch": 1384668452.0703125,
+    "bounds": [
+      5174,
+      5514,
+      65,
+      365
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1325,
+    "end": 1374,
+    "reference_frame": 1350,
+    "reference_epoch": 1384668479.5703125,
+    "bounds": [
+      5270,
+      5610,
+      67,
+      367
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1350,
+    "end": 1399,
+    "reference_frame": 1375,
+    "reference_epoch": 1384668507.0703125,
+    "bounds": [
+      5367,
+      5707,
+      68,
+      368
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1375,
+    "end": 1424,
+    "reference_frame": 1400,
+    "reference_epoch": 1384668534.5742188,
+    "bounds": [
+      5464,
+      5804,
+      70,
+      370
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90625,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1400,
+    "end": 1449,
+    "reference_frame": 1425,
+    "reference_epoch": 1384668562.0742188,
+    "bounds": [
+      5560,
+      5900,
+      71,
+      371
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          0.6315846612885971,
+          0.015231234000967705
+        ],
+        "support": 15,
+        "median_ncc": 0.40873740279213894,
+        "pair_count": 7
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_motion_ambiguous",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.36782917380332947,
+        "training_rmse_kR": 0.3591959476470947,
+        "heldout_pixels": 1643700
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.36782917380332947,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1400,
+      1402,
+      1404,
+      1406,
+      1408,
+      1410,
+      1412,
+      1414,
+      1416,
+      1418,
+      1420,
+      1422,
+      1424,
+      1426,
+      1428,
+      1430,
+      1432,
+      1434,
+      1436,
+      1438,
+      1440,
+      1442,
+      1444,
+      1446,
+      1448
+    ],
+    "heldout_frames": [
+      1401,
+      1403,
+      1405,
+      1407,
+      1409,
+      1411,
+      1413,
+      1415,
+      1417,
+      1419,
+      1421,
+      1423,
+      1425,
+      1427,
+      1429,
+      1431,
+      1433,
+      1435,
+      1437,
+      1439,
+      1441,
+      1443,
+      1445,
+      1447,
+      1449
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "ambiguous_motion"
+  },
+  {
+    "start": 1425,
+    "end": 1474,
+    "reference_frame": 1450,
+    "reference_epoch": 1384668590.6757812,
+    "bounds": [
+      5661,
+      6001,
+      73,
+      373
+    ],
+    "status": "unresolved",
+    "duration_seconds": 55.00390625,
+    "reason": "Too few motion candidates",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1450,
+    "end": 1499,
+    "reference_frame": 1475,
+    "reference_epoch": 1384668618.1796875,
+    "bounds": [
+      5757,
+      6097,
+      75,
+      375
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90625,
+    "reason": "Too few motion candidates",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1475,
+    "end": 1524,
+    "reference_frame": 1500,
+    "reference_epoch": 1384668645.6796875,
+    "bounds": [
+      5854,
+      6194,
+      76,
+      376
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "Too few motion candidates",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1500,
+    "end": 1549,
+    "reference_frame": 1525,
+    "reference_epoch": 1384668673.1835938,
+    "bounds": [
+      5950,
+      6290,
+      77,
+      377
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90625,
+    "reason": "Too few motion candidates",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1525,
+    "end": 1574,
+    "reference_frame": 1550,
+    "reference_epoch": 1384668700.6835938,
+    "bounds": [
+      6047,
+      6387,
+      79,
+      379
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "Too few motion candidates",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1550,
+    "end": 1599,
+    "reference_frame": 1575,
+    "reference_epoch": 1384668728.1875,
+    "bounds": [
+      6143,
+      6483,
+      80,
+      380
+    ],
+    "status": "unresolved",
+    "duration_seconds": 55.00390625,
+    "reason": "Too few motion candidates",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1575,
+    "end": 1624,
+    "reference_frame": 1600,
+    "reference_epoch": 1384668756.7890625,
+    "bounds": [
+      6244,
+      6584,
+      81,
+      381
+    ],
+    "status": "unresolved",
+    "duration_seconds": 55.00390625,
+    "reason": "Too few motion candidates",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1600,
+    "end": 1649,
+    "reference_frame": 1625,
+    "reference_epoch": 1384668784.2890625,
+    "bounds": [
+      6340,
+      6680,
+      82,
+      382
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "Too few motion candidates",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1625,
+    "end": 1674,
+    "reference_frame": 1650,
+    "reference_epoch": 1384668811.7929688,
+    "bounds": [
+      6437,
+      6777,
+      83,
+      383
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90625,
+    "reason": "Too few motion candidates",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1650,
+    "end": 1699,
+    "reference_frame": 1675,
+    "reference_epoch": 1384668839.2929688,
+    "bounds": [
+      6533,
+      6873,
+      84,
+      384
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1675,
+    "end": 1724,
+    "reference_frame": 1700,
+    "reference_epoch": 1384668866.796875,
+    "bounds": [
+      6630,
+      6970,
+      85,
+      385
+    ],
+    "status": "unresolved",
+    "duration_seconds": 53.90234375,
+    "reason": "No supported motion mode was resolved",
+    "selected_model": "insufficient_evidence"
+  },
+  {
+    "start": 1700,
+    "end": 1749,
+    "reference_frame": 1725,
+    "reference_epoch": 1384668894.296875,
+    "bounds": [
+      6726,
+      7066,
+      85,
+      385
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.03535181089559098,
+          -0.0062647751193881645
+        ],
+        "support": 30,
+        "median_ncc": 0.39698939205515976,
+        "pair_count": 8
+      },
+      {
+        "velocity": [
+          0.6473875235477172,
+          0.000634689657151363
+        ],
+        "support": 19,
+        "median_ncc": 0.44385172981660037,
+        "pair_count": 7
+      }
+    ],
+    "model_components": 2,
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.41487398743629456,
+        "training_rmse_kR": 0.37769007682800293,
+        "heldout_pixels": 1557551
+      },
+      {
+        "iteration": 2,
+        "heldout_rmse_kR": 0.40842878818511963,
+        "training_rmse_kR": 0.37009111046791077,
+        "heldout_pixels": 1557551
+      },
+      {
+        "iteration": 4,
+        "heldout_rmse_kR": 0.4045705497264862,
+        "training_rmse_kR": 0.36558595299720764,
+        "heldout_pixels": 1557551
+      },
+      {
+        "iteration": 8,
+        "heldout_rmse_kR": 0.4027520418167114,
+        "training_rmse_kR": 0.3633127510547638,
+        "heldout_pixels": 1557551
+      },
+      {
+        "iteration": 16,
+        "heldout_rmse_kR": 0.40189558267593384,
+        "training_rmse_kR": 0.3622366487979889,
+        "heldout_pixels": 1557551
+      },
+      {
+        "iteration": 32,
+        "heldout_rmse_kR": 0.4015434682369232,
+        "training_rmse_kR": 0.3617731034755707,
+        "heldout_pixels": 1557551
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4554251730442047,
+    "heldout_improvement_fraction": 0.11831077418738023,
+    "training_frames": [
+      1700,
+      1702,
+      1704,
+      1706,
+      1708,
+      1710,
+      1712,
+      1714,
+      1716,
+      1718,
+      1720,
+      1722,
+      1724,
+      1726,
+      1728,
+      1730,
+      1732,
+      1734,
+      1736,
+      1738,
+      1740,
+      1742,
+      1744,
+      1746,
+      1748
+    ],
+    "heldout_frames": [
+      1701,
+      1703,
+      1705,
+      1707,
+      1709,
+      1711,
+      1713,
+      1715,
+      1717,
+      1719,
+      1721,
+      1723,
+      1725,
+      1727,
+      1729,
+      1731,
+      1733,
+      1735,
+      1737,
+      1739,
+      1741,
+      1743,
+      1745,
+      1747,
+      1749
+    ],
+    "minimum_template_support": 8,
+    "quality": "pilot_supported",
+    "checkpoint_iteration": 32,
+    "selected_model": "two_motion"
+  },
+  {
+    "start": 1725,
+    "end": 1774,
+    "reference_frame": 1750,
+    "reference_epoch": 1384668921.796875,
+    "bounds": [
+      6822,
+      7162,
+      86,
+      386
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90234375,
+    "modes": [
+      {
+        "velocity": [
+          0.03593782234385365,
+          -0.02662553351697208
+        ],
+        "support": 49,
+        "median_ncc": 0.4171212752283083,
+        "pair_count": 7
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.4622432291507721,
+        "training_rmse_kR": 0.4830179512500763,
+        "heldout_pixels": 1584879
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.4622432291507721,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1725,
+      1727,
+      1729,
+      1731,
+      1733,
+      1735,
+      1737,
+      1739,
+      1741,
+      1743,
+      1745,
+      1747,
+      1749,
+      1751,
+      1753,
+      1755,
+      1757,
+      1759,
+      1761,
+      1763,
+      1765,
+      1767,
+      1769,
+      1771,
+      1773
+    ],
+    "heldout_frames": [
+      1726,
+      1728,
+      1730,
+      1732,
+      1734,
+      1736,
+      1738,
+      1740,
+      1742,
+      1744,
+      1746,
+      1748,
+      1750,
+      1752,
+      1754,
+      1756,
+      1758,
+      1760,
+      1762,
+      1764,
+      1766,
+      1768,
+      1770,
+      1772,
+      1774
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 1750,
+    "end": 1799,
+    "reference_frame": 1775,
+    "reference_epoch": 1384668949.3007812,
+    "bounds": [
+      6919,
+      7259,
+      86,
+      386
+    ],
+    "status": "fit",
+    "duration_seconds": 53.90625,
+    "modes": [
+      {
+        "velocity": [
+          0.011140006264653926,
+          -0.018738539358856793
+        ],
+        "support": 106,
+        "median_ncc": 0.5089252799500328,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.5243312120437622,
+        "training_rmse_kR": 0.4906778335571289,
+        "heldout_pixels": 1570938
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.5243312120437622,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1750,
+      1752,
+      1754,
+      1756,
+      1758,
+      1760,
+      1762,
+      1764,
+      1766,
+      1768,
+      1770,
+      1772,
+      1774,
+      1776,
+      1778,
+      1780,
+      1782,
+      1784,
+      1786,
+      1788,
+      1790,
+      1792,
+      1794,
+      1796,
+      1798
+    ],
+    "heldout_frames": [
+      1751,
+      1753,
+      1755,
+      1757,
+      1759,
+      1761,
+      1763,
+      1765,
+      1767,
+      1769,
+      1771,
+      1773,
+      1775,
+      1777,
+      1779,
+      1781,
+      1783,
+      1785,
+      1787,
+      1789,
+      1791,
+      1793,
+      1795,
+      1797,
+      1799
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 1775,
+    "end": 1824,
+    "reference_frame": 1800,
+    "reference_epoch": 1384668976.8007812,
+    "bounds": [
+      7015,
+      7355,
+      86,
+      386
+    ],
+    "status": "fit",
+    "duration_seconds": 56.1015625,
+    "modes": [
+      {
+        "velocity": [
+          0.018952858614555132,
+          -0.015202818578339461
+        ],
+        "support": 165,
+        "median_ncc": 0.5883454730066212,
+        "pair_count": 9
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.5951315760612488,
+        "training_rmse_kR": 0.5975492000579834,
+        "heldout_pixels": 1568153
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.5951315760612488,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1775,
+      1777,
+      1779,
+      1781,
+      1783,
+      1785,
+      1787,
+      1789,
+      1791,
+      1793,
+      1795,
+      1797,
+      1799,
+      1801,
+      1803,
+      1805,
+      1807,
+      1809,
+      1811,
+      1813,
+      1815,
+      1817,
+      1819,
+      1821,
+      1823
+    ],
+    "heldout_frames": [
+      1776,
+      1778,
+      1780,
+      1782,
+      1784,
+      1786,
+      1788,
+      1790,
+      1792,
+      1794,
+      1796,
+      1798,
+      1800,
+      1802,
+      1804,
+      1806,
+      1808,
+      1810,
+      1812,
+      1814,
+      1816,
+      1818,
+      1820,
+      1822,
+      1824
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 1800,
+    "end": 1849,
+    "reference_frame": 1825,
+    "reference_epoch": 1384669006.5039062,
+    "bounds": [
+      7119,
+      7459,
+      86,
+      386
+    ],
+    "status": "fit",
+    "duration_seconds": 57.20703125,
+    "modes": [
+      {
+        "velocity": [
+          0.031010480834021553,
+          -0.020443170052443952
+        ],
+        "support": 129,
+        "median_ncc": 0.5744252126120946,
+        "pair_count": 7
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.7174111008644104,
+        "training_rmse_kR": 0.7022441625595093,
+        "heldout_pixels": 1433733
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.7174111008644104,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1800,
+      1802,
+      1804,
+      1806,
+      1808,
+      1810,
+      1812,
+      1814,
+      1816,
+      1818,
+      1820,
+      1822,
+      1824,
+      1826,
+      1828,
+      1830,
+      1832,
+      1834,
+      1836,
+      1838,
+      1840,
+      1842,
+      1844,
+      1846,
+      1848
+    ],
+    "heldout_frames": [
+      1801,
+      1803,
+      1805,
+      1807,
+      1809,
+      1811,
+      1813,
+      1815,
+      1817,
+      1819,
+      1821,
+      1823,
+      1825,
+      1827,
+      1829,
+      1831,
+      1833,
+      1835,
+      1837,
+      1839,
+      1841,
+      1843,
+      1845,
+      1847,
+      1849
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 1825,
+    "end": 1874,
+    "reference_frame": 1850,
+    "reference_epoch": 1384669035.1054688,
+    "bounds": [
+      7219,
+      7559,
+      86,
+      386
+    ],
+    "status": "fit",
+    "duration_seconds": 56.10546875,
+    "modes": [
+      {
+        "velocity": [
+          0.02778463266672454,
+          -0.013695022428524332
+        ],
+        "support": 81,
+        "median_ncc": 0.49217504417114855,
+        "pair_count": 8
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.7835602760314941,
+        "training_rmse_kR": 0.6845766305923462,
+        "heldout_pixels": 1392420
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.7835602760314941,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1825,
+      1827,
+      1829,
+      1831,
+      1833,
+      1835,
+      1837,
+      1839,
+      1841,
+      1843,
+      1845,
+      1847,
+      1849,
+      1851,
+      1853,
+      1855,
+      1857,
+      1859,
+      1861,
+      1863,
+      1865,
+      1867,
+      1869,
+      1871,
+      1873
+    ],
+    "heldout_frames": [
+      1826,
+      1828,
+      1830,
+      1832,
+      1834,
+      1836,
+      1838,
+      1840,
+      1842,
+      1844,
+      1846,
+      1848,
+      1850,
+      1852,
+      1854,
+      1856,
+      1858,
+      1860,
+      1862,
+      1864,
+      1866,
+      1868,
+      1870,
+      1872,
+      1874
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 1850,
+    "end": 1899,
+    "reference_frame": 1875,
+    "reference_epoch": 1384669063.7070312,
+    "bounds": [
+      7319,
+      7659,
+      85,
+      385
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          0.0120601537734067,
+          -0.01823267331152921
+        ],
+        "support": 64,
+        "median_ncc": 0.46014533468569496,
+        "pair_count": 7
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.6534921526908875,
+        "training_rmse_kR": 0.7539049386978149,
+        "heldout_pixels": 1506759
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.6534921526908875,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1850,
+      1852,
+      1854,
+      1856,
+      1858,
+      1860,
+      1862,
+      1864,
+      1866,
+      1868,
+      1870,
+      1872,
+      1874,
+      1876,
+      1878,
+      1880,
+      1882,
+      1884,
+      1886,
+      1888,
+      1890,
+      1892,
+      1894,
+      1896,
+      1898
+    ],
+    "heldout_frames": [
+      1851,
+      1853,
+      1855,
+      1857,
+      1859,
+      1861,
+      1863,
+      1865,
+      1867,
+      1869,
+      1871,
+      1873,
+      1875,
+      1877,
+      1879,
+      1881,
+      1883,
+      1885,
+      1887,
+      1889,
+      1891,
+      1893,
+      1895,
+      1897,
+      1899
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  },
+  {
+    "start": 1858,
+    "end": 1907,
+    "reference_frame": 1883,
+    "reference_epoch": 1384669072.5078125,
+    "bounds": [
+      7350,
+      7690,
+      85,
+      385
+    ],
+    "status": "fit",
+    "duration_seconds": 55.00390625,
+    "modes": [
+      {
+        "velocity": [
+          0.022176096081431836,
+          -0.021324666129971342
+        ],
+        "support": 62,
+        "median_ncc": 0.47608960954933693,
+        "pair_count": 5
+      }
+    ],
+    "model_components": 1,
+    "quality": "single_slow_motion",
+    "history": [
+      {
+        "iteration": 1,
+        "heldout_rmse_kR": 0.632591187953949,
+        "training_rmse_kR": 0.7351941466331482,
+        "heldout_pixels": 1514473
+      }
+    ],
+    "slow_only_heldout_rmse_kR": 0.632591187953949,
+    "heldout_improvement_fraction": 0.0,
+    "training_frames": [
+      1858,
+      1860,
+      1862,
+      1864,
+      1866,
+      1868,
+      1870,
+      1872,
+      1874,
+      1876,
+      1878,
+      1880,
+      1882,
+      1884,
+      1886,
+      1888,
+      1890,
+      1892,
+      1894,
+      1896,
+      1898,
+      1900,
+      1902,
+      1904,
+      1906
+    ],
+    "heldout_frames": [
+      1859,
+      1861,
+      1863,
+      1865,
+      1867,
+      1869,
+      1871,
+      1873,
+      1875,
+      1877,
+      1879,
+      1881,
+      1883,
+      1885,
+      1887,
+      1889,
+      1891,
+      1893,
+      1895,
+      1897,
+      1899,
+      1901,
+      1903,
+      1905,
+      1907
+    ],
+    "minimum_template_support": 8,
+    "checkpoint_iteration": 1,
+    "interpretation": "One supported motion mode; no fast component estimated. This is not proof of cloud absence.",
+    "selected_model": "single_slow"
+  }
+]

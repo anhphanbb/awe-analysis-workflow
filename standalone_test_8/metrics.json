@@ -1,0 +1,83 @@
+[
+  {
+    "iteration": 0,
+    "slow_contrast_rmse": 0.5417861126738531,
+    "fast_contrast_rmse": 0.6441002124829159,
+    "observation_rmse": 0.3914400184314007,
+    "shared_offset_for_truth_comparison": 0.4231566494312156,
+    "slow_updated_pixels": 25596,
+    "fast_updated_pixels": 0
+  },
+  {
+    "iteration": 1,
+    "slow_contrast_rmse": 0.5156760158227532,
+    "fast_contrast_rmse": 0.5260594552257525,
+    "observation_rmse": 0.2873490641349668,
+    "shared_offset_for_truth_comparison": 0.4088140547320739,
+    "slow_updated_pixels": 24946,
+    "fast_updated_pixels": 25560
+  },
+  {
+    "iteration": 2,
+    "slow_contrast_rmse": 0.4971694620518038,
+    "fast_contrast_rmse": 0.5059828697336997,
+    "observation_rmse": 0.26952384401534535,
+    "shared_offset_for_truth_comparison": 0.39750070020113726,
+    "slow_updated_pixels": 24946,
+    "fast_updated_pixels": 25560
+  },
+  {
+    "iteration": 3,
+    "slow_contrast_rmse": 0.4808626930020303,
+    "fast_contrast_rmse": 0.48865668676275137,
+    "observation_rmse": 0.2546269471136293,
+    "shared_offset_for_truth_comparison": 0.3870203029543694,
+    "slow_updated_pixels": 24946,
+    "fast_updated_pixels": 25560
+  },
+  {
+    "iteration": 4,
+    "slow_contrast_rmse": 0.46596754150306474,
+    "fast_contrast_rmse": 0.47308038247627004,
+    "observation_rmse": 0.24156873371200693,
+    "shared_offset_for_truth_comparison": 0.3771375801193541,
+    "slow_updated_pixels": 24946,
+    "fast_updated_pixels": 25560
+  },
+  {
+    "iteration": 5,
+    "slow_contrast_rmse": 0.4521355256099172,
+    "fast_contrast_rmse": 0.458733146460925,
+    "observation_rmse": 0.22987906291478075,
+    "shared_offset_for_truth_comparison": 0.3678249162896607,
+    "slow_updated_pixels": 24946,
+    "fast_updated_pixels": 25560
+  },
+  {
+    "iteration": 6,
+    "slow_contrast_rmse": 0.4392373205984639,
+    "fast_contrast_rmse": 0.4453736318653463,
+    "observation_rmse": 0.21925000166893463,
+    "shared_offset_for_truth_comparison": 0.3589024124634841,
+    "slow_updated_pixels": 24946,
+    "fast_updated_pixels": 25560
+  },
+  {
+    "iteration": 7,
+    "slow_contrast_rmse": 0.42717281119248296,
+    "fast_contrast_rmse": 0.43289963461739595,
+    "observation_rmse": 0.20953727244802267,
+    "shared_offset_for_truth_comparison": 0.35058619179895745,
+    "slow_updated_pixels": 24946,
+    "fast_updated_pixels": 25560
+  },
+  {
+    "iteration": 8,
+    "slow_contrast_rmse": 0.41578286127054176,
+    "fast_contrast_rmse": 0.42114057330931803,
+    "observation_rmse": 0.20057362557331399,
+    "shared_offset_for_truth_comparison": 0.3424696641185115,
+    "slow_updated_pixels": 24946,
+    "fast_updated_pixels": 25560
+  }
+]

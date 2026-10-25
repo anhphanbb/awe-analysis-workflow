@@ -1,0 +1,350 @@
+{
+  "components": [
+    {
+      "id": 0,
+      "window_starts": [
+        75
+      ],
+      "offsets_kR": [
+        0.0
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 1,
+      "window_starts": [
+        200,
+        225
+      ],
+      "offsets_kR": [
+        -0.0370463989675045,
+        0.0370463989675045
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 2,
+      "window_starts": [
+        450,
+        475
+      ],
+      "offsets_kR": [
+        -0.030744694173336033,
+        0.030744694173336033
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 3,
+      "window_starts": [
+        550
+      ],
+      "offsets_kR": [
+        0.0
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 4,
+      "window_starts": [
+        700,
+        725,
+        750,
+        775,
+        800
+      ],
+      "offsets_kR": [
+        -0.07644811416067544,
+        -0.02492960313357772,
+        -0.001264422003800717,
+        0.04098227749617638,
+        0.06165986180187746
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 5,
+      "window_starts": [
+        1125,
+        1150,
+        1175,
+        1200,
+        1225,
+        1250
+      ],
+      "offsets_kR": [
+        -0.1513848792148102,
+        -0.08268541774650562,
+        0.0023800584647039333,
+        0.04154106764017477,
+        0.06957414244166313,
+        0.12057502841477416
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 6,
+      "window_starts": [
+        1700
+      ],
+      "offsets_kR": [
+        0.0
+      ],
+      "gauge": "zero mean offset within this connected component"
+    }
+  ],
+  "edges": [
+    {
+      "i": 8,
+      "j": 9,
+      "starts": [
+        200,
+        225
+      ],
+      "pixels": 64176,
+      "correlation": 0.8557530695038085,
+      "median_difference_kR": 0.074092797935009,
+      "offset_removed_rmse_kR": 0.17836397886276245,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.0
+    },
+    {
+      "i": 18,
+      "j": 19,
+      "starts": [
+        450,
+        475
+      ],
+      "pixels": 63381,
+      "correlation": 0.9367296046941833,
+      "median_difference_kR": 0.06148938834667206,
+      "offset_removed_rmse_kR": 0.18731723725795746,
+      "accepted": true,
+      "remaining_median_difference_kR": -6.938893903907228e-18
+    },
+    {
+      "i": 28,
+      "j": 29,
+      "starts": [
+        700,
+        725
+      ],
+      "pixels": 64468,
+      "correlation": 0.5416659848639225,
+      "median_difference_kR": 0.0515185110270977,
+      "offset_removed_rmse_kR": 0.18108516931533813,
+      "accepted": true,
+      "remaining_median_difference_kR": -2.0816681711721685e-17
+    },
+    {
+      "i": 28,
+      "j": 30,
+      "starts": [
+        700,
+        750
+      ],
+      "pixels": 39799,
+      "correlation": 0.47393132599884297,
+      "median_difference_kR": 0.04531170800328255,
+      "offset_removed_rmse_kR": 0.19922325015068054,
+      "accepted": false
+    },
+    {
+      "i": 29,
+      "j": 30,
+      "starts": [
+        725,
+        750
+      ],
+      "pixels": 64204,
+      "correlation": 0.7298242596339516,
+      "median_difference_kR": 0.01733563095331192,
+      "offset_removed_rmse_kR": 0.17801575362682343,
+      "accepted": true,
+      "remaining_median_difference_kR": -0.006329550176465083
+    },
+    {
+      "i": 29,
+      "j": 31,
+      "starts": [
+        725,
+        775
+      ],
+      "pixels": 39739,
+      "correlation": 0.6333700889564597,
+      "median_difference_kR": 0.08538054674863815,
+      "offset_removed_rmse_kR": 0.21316052973270416,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.01946866611888405
+    },
+    {
+      "i": 30,
+      "j": 31,
+      "starts": [
+        750,
+        775
+      ],
+      "pixels": 64418,
+      "correlation": 0.7431257766267042,
+      "median_difference_kR": 0.0341699942946434,
+      "offset_removed_rmse_kR": 0.20314259827136993,
+      "accepted": true,
+      "remaining_median_difference_kR": -0.008076705205333698
+    },
+    {
+      "i": 30,
+      "j": 32,
+      "starts": [
+        750,
+        800
+      ],
+      "pixels": 40027,
+      "correlation": 0.6185181507084024,
+      "median_difference_kR": 0.06355186551809311,
+      "offset_removed_rmse_kR": 0.2698744237422943,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.0006275817124149347
+    },
+    {
+      "i": 31,
+      "j": 32,
+      "starts": [
+        775,
+        800
+      ],
+      "pixels": 63945,
+      "correlation": 0.7546033431768391,
+      "median_difference_kR": 0.020506054162979126,
+      "offset_removed_rmse_kR": 0.2175654172897339,
+      "accepted": true,
+      "remaining_median_difference_kR": -0.00017153014272194844
+    },
+    {
+      "i": 45,
+      "j": 46,
+      "starts": [
+        1125,
+        1150
+      ],
+      "pixels": 62417,
+      "correlation": 0.8924686683165728,
+      "median_difference_kR": 0.06594754010438919,
+      "offset_removed_rmse_kR": 0.3230065405368805,
+      "accepted": true,
+      "remaining_median_difference_kR": -0.0027519213639153883
+    },
+    {
+      "i": 45,
+      "j": 47,
+      "starts": [
+        1125,
+        1175
+      ],
+      "pixels": 37044,
+      "correlation": 0.765446952215925,
+      "median_difference_kR": 0.17243075370788574,
+      "offset_removed_rmse_kR": 0.5558356642723083,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.018665816028371612
+    },
+    {
+      "i": 46,
+      "j": 47,
+      "starts": [
+        1150,
+        1175
+      ],
+      "pixels": 62251,
+      "correlation": 0.9232074133328021,
+      "median_difference_kR": 0.09008848667144775,
+      "offset_removed_rmse_kR": 0.2968933582305908,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.005023010460238202
+    },
+    {
+      "i": 46,
+      "j": 48,
+      "starts": [
+        1150,
+        1200
+      ],
+      "pixels": 37118,
+      "correlation": 0.7951174251762982,
+      "median_difference_kR": 0.08918514102697372,
+      "offset_removed_rmse_kR": 0.4355420172214508,
+      "accepted": true,
+      "remaining_median_difference_kR": -0.03504134435970666
+    },
+    {
+      "i": 47,
+      "j": 48,
+      "starts": [
+        1175,
+        1200
+      ],
+      "pixels": 62026,
+      "correlation": 0.920928600540672,
+      "median_difference_kR": 0.04304524511098862,
+      "offset_removed_rmse_kR": 0.2348894625902176,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.003884235935517781
+    },
+    {
+      "i": 47,
+      "j": 49,
+      "starts": [
+        1175,
+        1225
+      ],
+      "pixels": 37396,
+      "correlation": 0.6708251001495695,
+      "median_difference_kR": 0.0718068778514862,
+      "offset_removed_rmse_kR": 0.35064423084259033,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.00461279387452701
+    },
+    {
+      "i": 48,
+      "j": 49,
+      "starts": [
+        1200,
+        1225
+      ],
+      "pixels": 61404,
+      "correlation": 0.8046830102635587,
+      "median_difference_kR": 0.03145451843738556,
+      "offset_removed_rmse_kR": 0.24648115038871765,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.0034214436358971922
+    },
+    {
+      "i": 48,
+      "j": 50,
+      "starts": [
+        1200,
+        1250
+      ],
+      "pixels": 35569,
+      "correlation": 0.7521211380493098,
+      "median_difference_kR": 0.06833121925592422,
+      "offset_removed_rmse_kR": 0.2738986611366272,
+      "accepted": true,
+      "remaining_median_difference_kR": -0.010702741518675174
+    },
+    {
+      "i": 49,
+      "j": 50,
+      "starts": [
+        1225,
+        1250
+      ],
+      "pixels": 59849,
+      "correlation": 0.926443858955311,
+      "median_difference_kR": 0.05286731943488121,
+      "offset_removed_rmse_kR": 0.18275639414787292,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.0018664334617701783
+    }
+  ],
+  "note": "Fast += offset; slow -= offset. Reconstruction is unchanged. Disconnected components have independent arbitrary absolute offsets."
+}

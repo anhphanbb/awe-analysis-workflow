@@ -1,0 +1,83 @@
+{
+  "start": 1750,
+  "rejected": false,
+  "source": {
+    "finite_source_pixels": 3534397,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      6919,
+      7259,
+      86,
+      386
+    ],
+    "radiance_percentiles_kR": [
+      2.0399999618530273,
+      6.47599983215332,
+      7.318999767303467,
+      9.76200008392334,
+      14.475000381469727,
+      15.77111795616175,
+      32.23099899291992
+    ],
+    "finite_fraction_in_analysis_cube": 0.645161568627451
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "reference_missing": 544,
+        "patches_searched": 542,
+        "candidate_positions": 1000422,
+        "valid_candidate_positions": 504790,
+        "correlation_below_threshold": 302,
+        "no_valid_search_position": 74,
+        "patches_with_matches": 166,
+        "peaks_on_search_boundary": 19,
+        "retained_candidates": 261
+      },
+      "modes": [
+        {
+          "velocity": [
+            0.011140006264653926,
+            -0.018738539358856793
+          ],
+          "support": 106,
+          "median_ncc": 0.5089252799500328,
+          "pair_count": 9
+        }
+      ],
+      "reason": "single_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            0.01,
+            -0.010000000000000018
+          ],
+          "support": 106
+        }
+      ],
+      "median_noise_proxy_kR": 0.23902531494937002,
+      "texture_std_percentiles_kR": [
+        0.33496167068743055,
+        0.40289258903956887,
+        0.5083327153336908,
+        0.6826173697088304,
+        1.2180847545266527
+      ],
+      "best_ncc_percentiles": [
+        -0.04409813801784659,
+        0.18390673192685794,
+        0.30055657020783577,
+        0.5949478067745833,
+        0.8157923185236714
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

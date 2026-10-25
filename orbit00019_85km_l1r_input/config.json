@@ -1,0 +1,9 @@
+{
+  "orbit": 19,
+  "prefix": "orbit00019_85km_l1r",
+  "source_label": "L1R",
+  "input": "E:\\soc\\l1r\\2023\\11\\awe_l1r_q20_2023327T0456_00019_v02.nc",
+  "original_source": "E:\\soc\\l1r\\2023\\11\\awe_l1r_q20_2023327T0456_00019_v02.nc",
+  "l3c": "E:\\soc\\l3c\\2023\\11\\awe_l3c_q20_2023327T0456_00019_v02.nc",
+  "master": "E:\\soc\\l1r\\2023\\11\\Master00019.mgf"
+}

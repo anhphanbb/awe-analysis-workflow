@@ -1,0 +1,230 @@
+{
+  "start": 1300,
+  "rejected": true,
+  "source": {
+    "finite_source_pixels": 3714279,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      5174,
+      5514,
+      65,
+      365
+    ],
+    "radiance_percentiles_kR": [
+      2.818000078201294,
+      3.931999921798706,
+      4.370999813079834,
+      6.13100004196167,
+      8.942000389099121,
+      10.447999954223633,
+      13.717000007629395
+    ],
+    "finite_fraction_in_analysis_cube": 0.6715103921568627
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 515,
+        "candidate_positions": 965915,
+        "valid_candidate_positions": 498877,
+        "patches_with_matches": 33,
+        "reference_missing": 571,
+        "correlation_below_threshold": 414,
+        "no_valid_search_position": 67,
+        "peaks_on_search_boundary": 1,
+        "boundary_only_patch": 1,
+        "retained_candidates": 37
+      },
+      "modes": [],
+      "reason": "no_cluster_with_15_candidates",
+      "peak_stats": [
+        {
+          "center": [
+            0.73,
+            0.01
+          ],
+          "support": 6
+        }
+      ],
+      "median_noise_proxy_kR": 0.19080133903692448,
+      "texture_std_percentiles_kR": [
+        0.26503948843719183,
+        0.2896252905987402,
+        0.32088552244354573,
+        0.3550903557684609,
+        0.5952758268399732
+      ],
+      "best_ncc_percentiles": [
+        -0.07343816616371637,
+        0.17116084805252907,
+        0.24310228632980735,
+        0.33753698099346857,
+        0.7060574200692313
+      ]
+    },
+    "lower_texture": {
+      "variant": "lower_texture",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.04
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 515,
+        "candidate_positions": 965915,
+        "valid_candidate_positions": 498877,
+        "patches_with_matches": 33,
+        "reference_missing": 571,
+        "correlation_below_threshold": 414,
+        "no_valid_search_position": 67,
+        "peaks_on_search_boundary": 1,
+        "boundary_only_patch": 1,
+        "retained_candidates": 37
+      },
+      "modes": [],
+      "reason": "no_cluster_with_15_candidates",
+      "peak_stats": [
+        {
+          "center": [
+            0.73,
+            0.01
+          ],
+          "support": 6
+        }
+      ],
+      "median_noise_proxy_kR": 0.19080133903692448,
+      "texture_std_percentiles_kR": [
+        0.26503948843719183,
+        0.2896252905987402,
+        0.32088552244354573,
+        0.3550903557684609,
+        0.5952758268399732
+      ],
+      "best_ncc_percentiles": [
+        -0.07343816616371637,
+        0.17116084805252907,
+        0.24310228632980735,
+        0.33753698099346857,
+        0.7060574200692313
+      ]
+    },
+    "smooth_1px": {
+      "variant": "smooth_1px",
+      "parameters": {
+        "half": 12,
+        "smooth": 1,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "patches_searched": 444,
+        "candidate_positions": 829404,
+        "valid_candidate_positions": 371321,
+        "patches_with_matches": 273,
+        "reference_missing": 642,
+        "peaks_on_search_boundary": 61,
+        "boundary_only_patch": 10,
+        "correlation_below_threshold": 86,
+        "no_valid_search_position": 75,
+        "retained_candidates": 479
+      },
+      "modes": [
+        {
+          "velocity": [
+            -0.08813177652259706,
+            0.012371598042582109
+          ],
+          "support": 63,
+          "median_ncc": 0.5490128890354846,
+          "pair_count": 9
+        }
+      ],
+      "reason": "single_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            -0.11000000000000011,
+            0.01
+          ],
+          "support": 63
+        },
+        {
+          "center": [
+            0.69,
+            0.01
+          ],
+          "support": 7
+        }
+      ],
+      "median_noise_proxy_kR": 0.19080133903692448,
+      "texture_std_percentiles_kR": [
+        0.13215888113946955,
+        0.16002083948460025,
+        0.1958542765956598,
+        0.24039346860235217,
+        0.43000594246540114
+      ],
+      "best_ncc_percentiles": [
+        -0.03589144620060577,
+        0.26876301653592133,
+        0.4324966327203521,
+        0.6226206888749692,
+        0.7798376044338191
+      ]
+    },
+    "larger_patch": {
+      "variant": "larger_patch",
+      "parameters": {
+        "half": 20,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 960,
+        "reference_missing": 610,
+        "patches_searched": 350,
+        "candidate_positions": 672190,
+        "valid_candidate_positions": 235948,
+        "no_valid_search_position": 85,
+        "correlation_below_threshold": 262,
+        "patches_with_matches": 3,
+        "retained_candidates": 3
+      },
+      "modes": [],
+      "reason": "fewer_than_20_candidates",
+      "peak_stats": [
+        {
+          "center": [
+            0.73,
+            0.01
+          ],
+          "support": 2
+        }
+      ],
+      "median_noise_proxy_kR": 0.19080133903692448,
+      "texture_std_percentiles_kR": [
+        0.2793906638407813,
+        0.29707196669491787,
+        0.32321202722365117,
+        0.3493048258633989,
+        0.4621932745688785
+      ],
+      "best_ncc_percentiles": [
+        -0.02650128641374884,
+        0.10764628731431483,
+        0.19134731609051017,
+        0.285577730954701,
+        0.458841991644164
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}

@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AWE · Orbit 19 · 05:23:40 UTC</title>
+<style>
+:root{--ink:#172d3c;--muted:#5d6e78;--teal:#006e73;--line:#dce4e5;--paper:#f4f6f5;--gold:#ba6a26}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}a{color:var(--teal)}.wrap{max-width:1200px;margin:auto;padding:0 32px}.top{background:#132d3b;color:#fff;padding:42px 0 34px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:700;color:#a8cbd0}.top h1{font-size:clamp(30px,4vw,47px);font-weight:650;letter-spacing:-.045em;margin:12px 0 6px;line-height:1.15}.top p{max-width:790px;color:#c4d3d9}.nav{display:flex;gap:24px;margin-top:24px}.nav a{color:#d0e8e9;font-size:13px;text-decoration:none}.chip{display:inline-block;border:1px solid #55717e;border-radius:20px;padding:3px 11px;font-size:12px;color:#d8e8eb;margin-left:12px;vertical-align:middle}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:26px}.stat{background:#fff;padding:17px 20px}.stat strong{display:block;font-size:24px;font-weight:650;letter-spacing:-.04em}.stat span{font-size:12px;color:var(--muted)}section{padding-top:38px;scroll-margin-top:15px}.section-title{display:flex;gap:16px;align-items:baseline;margin:0 0 10px}.section-title .number{font-size:12px;color:var(--gold);font-weight:700}.section-title h2{font-size:25px;letter-spacing:-.025em;margin:0}.intro{margin:0 0 20px;max-width:920px;color:var(--muted)}.card{background:white;border:1px solid var(--line);border-radius:12px;overflow:hidden}.controls{padding:16px 20px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}.controls button,.controls select{border:1px solid #c2d0d2;border-radius:7px;padding:8px 13px;background:white;color:var(--ink);font:inherit;font-size:13px;cursor:pointer}.controls button.primary{background:var(--teal);color:white;border-color:var(--teal);min-width:83px}.controls input{flex:1;min-width:150px;accent-color:var(--teal)}.time{min-width:220px;font-size:13px;font-variant-numeric:tabular-nums}.time strong{display:block}.time span{color:var(--muted)}.panelgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}.panel header{padding:14px 18px 9px;display:flex;justify-content:space-between;align-items:center}.panel h3{margin:0;font-size:15px}.tag{font-size:10px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}.panel .map{width:100%;display:block;aspect-ratio:0.9999596251072932;object-fit:contain;background:#e1e6e9}.legend{padding:10px 18px 14px;font-size:11px;color:var(--muted);display:flex;align-items:center;gap:10px}.gradient{height:8px;flex:1;border-radius:3px;background:linear-gradient(90deg,#111,#fff);border:1px solid #ddd}.gradient.diverge{background:linear-gradient(90deg,#053061,#f7f7f7,#67001f)}.caption{font-size:12px;color:var(--muted);margin:10px 0 0}.note{border-left:3px solid #b77d42;background:#f0ebe1;padding:12px 16px;margin:20px 0;color:#5b5143;font-size:13px}.fitgrid{display:grid;grid-template-columns:1.5fr 1fr;gap:18px}.figure{width:100%;display:block}.fitcopy{padding:20px}.fitcopy h3{margin:0 0 10px;font-size:17px}.fitcopy p{font-size:13px;color:var(--muted)}dl{margin:0}dt{font-size:12px;color:var(--muted);margin-top:12px}dd{font-size:14px;font-variant-numeric:tabular-nums;margin:2px 0 0}.cluster-head{display:flex;gap:14px;align-items:center;padding:18px 20px 0}.rank{color:var(--gold);font-size:28px;font-weight:300}.cluster h3{font-size:19px;margin:0;letter-spacing:-.025em}.cluster h3 span{font-size:15px;color:var(--muted);font-weight:400}.cluster-head p{font-size:11px;color:var(--muted);margin:0}.cluster img{width:100%;display:block}.cluster .caption{margin:0;padding:0 20px 18px}.subhead{margin:24px 0 12px;font-size:18px}.details{padding:18px 22px;margin-top:18px}summary{cursor:pointer;font-weight:600;font-size:14px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:11px;max-height:400px;overflow:auto;color:var(--muted)}footer{margin:40px 0 0;padding:22px 0 30px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #c7974c;outline-offset:3px}@media(max-width:700px){.wrap{padding:0 16px}.stats{grid-template-columns:1fr 1fr}.panelgrid,.fitgrid{grid-template-columns:1fr}.top{padding-top:30px}.time{min-width:190px}.controls{gap:10px}.nav{gap:15px}.chip{margin-left:0;margin-top:12px}.cluster h3{font-size:18px}}
+</style></head><body>
+<header class="top"><div class="wrap"><div class="eyebrow">AWE / actual-data study / v02 Q20 radiance</div><h1>Orbit 19, near 05:23:40 UTC</h1><p>Follow the observed frames through slow/fast layer separation, then inspect the spatial wave patterns in the fitted slow field.</p><span class="eyebrow">23 November 2023 · 85 km reference altitude</span><span class="chip">L1R source · standalone report</span><nav class="nav"><a href="#frames">Frame player</a><a href="#fit">Separation fit</a><a href="#crop">Concentric waves</a><a href="#wavelets">juwavelet results</a><a href="#angle-comparison">Angle steps</a><a href="#method">Method & provenance</a></nav></div></header>
+<main class="wrap"><div class="stats"><div class="stat"><strong>50 frames</strong><span>1442–1491 · 53.9 seconds</span></div><div class="stat"><strong>05:23:40.527</strong><span>UTC · reference frame 1467</span></div><div class="stat"><strong>64 iterations</strong><span>Freshly estimated motion velocities</span></div><div class="stat"><strong>1 wave patterns</strong><span>Strongest juwavelet coefficient clusters</span></div></div>
+<section id="frames"><div class="section-title"><span class="number">01</span><h2>Watch the separation</h2></div><p class="intro">All panels share a fixed geographic grid. Move through 05:23:13.023–05:24:06.925 UTC; the reference frame opens first. Observed and slow panels share a radiance scale. Gray marks missing data.</p>
+<div class="card controls"><button class="primary" id="play" aria-label="Play frame sequence">Play</button><button id="reference">Reference</button><input id="frame" type="range" min="0" max="49" value="25" aria-label="Frame index"><select id="speed" aria-label="Playback speed"><option value="300">3.3 frames/s</option><option value="150">6.7 frames/s</option><option value="600">1.7 frames/s</option></select><div class="time" aria-live="polite"><strong id="timestamp"></strong><span id="frame-label"></span></div></div>
+<div class="panelgrid"><article class="card panel"><header><h3>Observed</h3><span class="tag">L1R, projected</span></header><img class="map" id="map0" alt="Observed radiance at selected frame"><div class="legend"><span>3.57</span><span class="gradient"></span><span>7.89 kR</span></div></article><article class="card panel"><header><h3>Slow component</h3><span class="tag">Fitted layer</span></header><img class="map" id="map1" alt="Slow component at selected frame"><div class="legend"><span>3.57</span><span class="gradient"></span><span>7.89 kR</span></div></article><article class="card panel"><header><h3>Fast signed contrast</h3><span class="tag">Median-zero split</span></header><img class="map" id="map2" alt="Fast signed contrast at selected frame"><div class="legend"><span>−1.66</span><span class="gradient diverge"></span><span>+1.66 kR</span></div></article><article class="card panel"><header><h3>Unexplained residual</h3><span class="tag">Observed − slow − fast</span></header><img class="map" id="map3" alt="Reconstruction residual at selected frame"><div class="legend"><span>−0.61</span><span class="gradient diverge"></span><span>+0.61 kR</span></div></article></div>
+<p class="caption">North is up; east is right. Longitude -61.54 to -55.30°E; latitude -7.72 to -1.50°N. Display scales are fixed across the sequence; extreme values are clipped for display only. Playback uses a constant display interval; the fit uses the actual source timestamps.</p></section>
+<section id="fit"><div class="section-title"><span class="number">02</span><h2>How the fit behaved</h2></div><p class="intro">The original AWE_v02_actual_data notebook’s alternating-median method, run afresh for this interval. Each iteration estimates the fast template after subtracting slow, then updates slow after subtracting fast.</p><div class="fitgrid"><div class="card"><img class="figure" src="assets/c9039f47fa06e65b7f420f788dd21e9a49c11f1c4c809f431ed3f0390313fa04.png" alt="Reconstruction RMSE by iteration"></div><div class="card fitcopy"><h3>0.304 → 0.249 kR</h3><p>Reconstruction RMSE from iteration 1 to 64, over the same 10,492 pixels in every frame.</p><dl><dt>Slow velocity [east, north], grid pixels/s</dt><dd>+0.0013, +0.0146</dd><dt>Fast velocity [east, north], grid pixels/s</dt><dd>+0.3196, -0.4631</dd><dt>Motion-peak support</dt><dd>102 slow / 81 fast candidates</dd></dl></div></div><div class="note">This is a fit to all 50 frames, not held-out validation. “Slow” and “fast” describe apparent motion; they do not prove airglow or cloud identity. The absolute brightness division is ambiguous, and a smaller residual does not establish pure layers.</div></section>
+<section id="crop"><div class="section-title"><span class="number">03</span><h2>Concentric waves near the top</h2></div><p class="intro">A crop of the numerical slow component shown in the frame player, at reference frame 1467. The gold rectangle locates the crop; both panels use the same radiance scale. The wavelet results below are computed on this crop alone. Plane removal, normalization and boundary tapering are recomputed within the crop before the transform.</p><div class="card"><img class="figure" src="assets/574050a27d5f1a5b193dcac96609bfee0309358b5849511cb9386da1440c490b.png" alt="Full slow component with crop rectangle and enlarged concentric-wave region"></div></section><section id="wavelets"><div class="section-title"><span class="number">04</span><h2>Spatial waves in the cropped region</h2></div><p class="intro">juwavelet’s 2-D Morlet transform, applied only to the concentric-wave crop at 05:23:40.527 UTC: 59.4–56.4°W and 4.8–1.8°S. All finite fitted slow values inside this crop are used; intrinsic missing values remain missing. The search spans 12–74.0 km (strictly below 80 km), using 22 wavelength scales and 5° wave-normal angle steps. The cluster inclusion threshold is 0.05 (previously 0.10), with minimum peak amplitude 0.25. The panels below reconstruct the strongest coefficient clusters.</p><div class="card"><img class="figure" src="assets/34a04a71fd485f0cc425aaf738c456021cdeffb7ef007cba5e657f8332b2b262.png" alt="Wavelet power by wavelength and wave-normal angle, plus integrated scale spectrum"></div><p class="caption">Power is averaged over the tapered cropped grid after normalization. Angles describe the wave-normal axis counterclockwise from east, modulo 180°. A single frame does not determine propagation direction or speed.</p><div class="panelgrid"><article class="card cluster"><div class="cluster-head"><span class="rank">01</span><div><h3>37.0 km <span>· 54.1° axis</span></h3><p>Amplitude-weighted cluster estimates</p></div></div><img src="assets/d15d9f99cc7c84d197737539686a2aa07c88e2b12c9d6e525db2eb4f4eff7713.png" alt="Wavelet cluster 1: reconstructed signed contrast"><p class="caption">Peak coefficient at 28.5 km / 60°. Peak is 60 km from the nearest missing-data edge.  </p></article></div><div class="note">These clusters are ranked patterns, not significance-tested independent waves. All cluster maps share a color scale; circles mark coefficient peaks. Missing-data boundaries can influence the transform despite tapering. Reconstructions describe the tapered, detrended field, so their amplitudes are reduced near edges.</div></section>
+<section id="angle-comparison"><div class="section-title"><span class="number">05</span><h2>Compare angular step sizes</h2></div><p class="intro">The same 151 × 151 crop, 22 wavelength scales (12–74.0 km), 0.25 minimum peak amplitude, and 0.05 cluster threshold. Only the angular sampling changes: 5°, 10°, and 20°. The original 5° results above remain as the baseline.</p><div class="card"><img class="figure" src="assets/6ba60bf8e35b9451dcc512c3028e39fa12cfe6c4ebcd3da4ead832fc42bfbf8f.png" alt="Comparison of 5, 10 and 20 degree angular steps: wavelet spectra and strongest cluster reconstructions"></div><div class="card details" style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;text-align:left"><thead><tr><th>Step</th><th>Angles</th><th>Clusters</th><th>Spatial footprint*</th><th>Weighted wavelength / axis</th></tr></thead><tbody><tr><td>5°</td><td>36</td><td>1</td><td>21,232</td><td>37.0 km / 54.1°</td></tr><tr><td>10°</td><td>18</td><td>1</td><td>21,282</td><td>38.9 km / 51.8°</td></tr><tr><td>20°</td><td>9</td><td>1</td><td>20,332</td><td>37.9 km / 52.8°</td></tr></tbody></table><p class="caption">*Union of spatial grid pixels assigned to any cluster, before restricting displayed maps to finite slow values. Coefficient counts are not directly comparable across different numbers of angles. Top panels share one power scale; bottom panels share one contrast scale and show the strongest cluster per run.</p></div><p class="caption">Weighted axes can fall between sampled angles. Coarser angular sampling may merge or miss directional structure; a larger footprint alone does not establish a better physical wave estimate.</p></section><section id="method"><div class="section-title"><span class="number">05</span><h2>What went into the result</h2></div><div class="card"><img class="figure" src="assets/d255370755a7ae5ad9034ca1e3308ee0152ddc8c5e81ff86d10fe7861b0271f7.png" alt="Plane-removed slow field and its boundary taper"></div><p class="caption">A plane is removed from the cropped slow field; a cosine taper rises from zero to one over 40 km from missing-data edges. The transform uses local geographic kilometre spacing and the numerical radiance arrays, not rendered images.</p><details class="card details"><summary>Data selection, fitting, and wavelet settings</summary><p>Source: awe_l1r_q20_2023327T0456_00019_v02.nc. Frames 1442–1491, centered on 1467. All original Epoch values are retained; no frame is inserted. Radiance is linearly interpolated onto a 0.02° latitude–longitude grid with missing-radiance vertices preserved.</p><p>Motion estimation uses the existing notebook’s patch matching and thresholds. Templates require 10 usable frames; previous template values remain where an update lacks support. The wavelet analysis uses every finite pixel within the selected concentric-wave crop, including retained template values. No additional observed-frame or support-count mask is applied. Intrinsic NaNs remain missing; these fitted values do not restore masked detector measurements.</p><p>UTC follows the AWE processing code’s GPS anchor (1356566418 = 2023-01-01 00:00:00 UTC). Original source date labels are not used to interpolate frame times.</p><p>This local 64-iteration fit is separate from the whole-orbit 32-iteration model-selection run. It uses all frames and a geographic grid, so the two results need not be identical.</p><pre>{
+  &quot;fit&quot;: {
+    &quot;orbit&quot;: 19,
+    &quot;requested_utc&quot;: &quot;2023-11-23T05:23:40.000Z&quot;,
+    &quot;reference_frame&quot;: 1467,
+    &quot;reference_utc&quot;: &quot;2023-11-23T05:23:40.527Z&quot;,
+    &quot;first_frame&quot;: 1442,
+    &quot;last_frame&quot;: 1491,
+    &quot;first_utc&quot;: &quot;2023-11-23T05:23:13.023Z&quot;,
+    &quot;last_utc&quot;: &quot;2023-11-23T05:24:06.925Z&quot;,
+    &quot;frames&quot;: 50,
+    &quot;duration_seconds&quot;: 53.90234375,
+    &quot;epochs&quot;: [
+      1384752211.0234375,
+      1384752212.125,
+      1384752213.2226562,
+      1384752214.3242188,
+      1384752215.4257812,
+      1384752216.5234375,
+      1384752217.625,
+      1384752218.7265625,
+      1384752219.8242188,
+      1384752220.9257812,
+      1384752222.0234375,
+      1384752223.125,
+      1384752224.2265625,
+      1384752225.3242188,
+      1384752226.4257812,
+      1384752227.5234375,
+      1384752228.625,
+      1384752229.7265625,
+      1384752230.8242188,
+      1384752231.9257812,
+      1384752233.0273438,
+      1384752234.125,
+      1384752235.2265625,
+      1384752236.3242188,
+      1384752237.4257812,
+      1384752238.5273438,
+      1384752239.625,
+      1384752240.7265625,
+      1384752241.8242188,
+      1384752242.9257812,
+      1384752244.0273438,
+      1384752245.125,
+      1384752246.2265625,
+      1384752247.328125,
+      1384752248.4257812,
+      1384752249.5273438,
+      1384752250.625,
+      1384752251.7265625,
+      1384752252.828125,
+      1384752253.9257812,
+      1384752255.0273438,
+      1384752256.1289062,
+      1384752257.2265625,
+      1384752258.328125,
+      1384752259.4257812,
+      1384752260.5273438,
+      1384752261.6289062,
+      1384752262.7265625,
+      1384752263.828125,
+      1384752264.9257812
+    ],
+    &quot;utc&quot;: [
+      &quot;2023-11-23T05:23:13.023Z&quot;,
+      &quot;2023-11-23T05:23:14.125Z&quot;,
+      &quot;2023-11-23T05:23:15.222Z&quot;,
+      &quot;2023-11-23T05:23:16.324Z&quot;,
+      &quot;2023-11-23T05:23:17.425Z&quot;,
+      &quot;2023-11-23T05:23:18.523Z&quot;,
+      &quot;2023-11-23T05:23:19.625Z&quot;,
+      &quot;2023-11-23T05:23:20.726Z&quot;,
+      &quot;2023-11-23T05:23:21.824Z&quot;,
+      &quot;2023-11-23T05:23:22.925Z&quot;,
+      &quot;2023-11-23T05:23:24.023Z&quot;,
+      &quot;2023-11-23T05:23:25.125Z&quot;,
+      &quot;2023-11-23T05:23:26.226Z&quot;,
+      &quot;2023-11-23T05:23:27.324Z&quot;,
+      &quot;2023-11-23T05:23:28.425Z&quot;,
+      &quot;2023-11-23T05:23:29.523Z&quot;,
+      &quot;2023-11-23T05:23:30.625Z&quot;,
+      &quot;2023-11-23T05:23:31.726Z&quot;,
+      &quot;2023-11-23T05:23:32.824Z&quot;,
+      &quot;2023-11-23T05:23:33.925Z&quot;,
+      &quot;2023-11-23T05:23:35.027Z&quot;,
+      &quot;2023-11-23T05:23:36.125Z&quot;,
+      &quot;2023-11-23T05:23:37.226Z&quot;,
+      &quot;2023-11-23T05:23:38.324Z&quot;,
+      &quot;2023-11-23T05:23:39.425Z&quot;,
+      &quot;2023-11-23T05:23:40.527Z&quot;,
+      &quot;2023-11-23T05:23:41.625Z&quot;,
+      &quot;2023-11-23T05:23:42.726Z&quot;,
+      &quot;2023-11-23T05:23:43.824Z&quot;,
+      &quot;2023-11-23T05:23:44.925Z&quot;,
+      &quot;2023-11-23T05:23:46.027Z&quot;,
+      &quot;2023-11-23T05:23:47.125Z&quot;,
+      &quot;2023-11-23T05:23:48.226Z&quot;,
+      &quot;2023-11-23T05:23:49.328Z&quot;,
+      &quot;2023-11-23T05:23:50.425Z&quot;,
+      &quot;2023-11-23T05:23:51.527Z&quot;,
+      &quot;2023-11-23T05:23:52.625Z&quot;,
+      &quot;2023-11-23T05:23:53.726Z&quot;,
+      &quot;2023-11-23T05:23:54.828Z&quot;,
+      &quot;2023-11-23T05:23:55.925Z&quot;,
+      &quot;2023-11-23T05:23:57.027Z&quot;,
+      &quot;2023-11-23T05:23:58.128Z&quot;,
+      &quot;2023-11-23T05:23:59.226Z&quot;,
+      &quot;2023-11-23T05:24:00.328Z&quot;,
+      &quot;2023-11-23T05:24:01.425Z&quot;,
+      &quot;2023-11-23T05:24:02.527Z&quot;,
+      &quot;2023-11-23T05:24:03.628Z&quot;,
+      &quot;2023-11-23T05:24:04.726Z&quot;,
+      &quot;2023-11-23T05:24:05.828Z&quot;,
+      &quot;2023-11-23T05:24:06.925Z&quot;
+    ],
+    &quot;source&quot;: &quot;E:\\soc\\l1r\\2023\\11\\awe_l1r_q20_2023327T0456_00019_v02.nc&quot;,
+    &quot;source_size&quot;: 818857821,
+    &quot;source_mtime_ns&quot;: 1792789198954221100,
+    &quot;reference_altitude_km&quot;: 85,
+    &quot;grid_shape&quot;: [
+      312,
+      313
+    ],
+    &quot;grid_step_degrees&quot;: 0.02,
+    &quot;slow_velocity_pixels_per_s&quot;: [
+      0.0012825284122046693,
+      0.014645014755246105
+    ],
+    &quot;fast_velocity_pixels_per_s&quot;: [
+      0.31960842501500397,
+      -0.46306949701386496
+    ],
+    &quot;slow_peak_support&quot;: 102,
+    &quot;fast_peak_support&quot;: 81,
+    &quot;slow_median_ncc&quot;: 0.44488970934357075,
+    &quot;fast_median_ncc&quot;: 0.6332334374268687,
+    &quot;iterations&quot;: 64,
+    &quot;initial_rmse_kR&quot;: 0.3044937799532664,
+    &quot;final_rmse_kR&quot;: 0.24924112997253986,
+    &quot;evaluation_pixels_per_frame&quot;: 10492,
+    &quot;notebook_sha256&quot;: &quot;f38c2856327180f3c179ddf461214e278d1b0588cd1354eed3362830a044ce95&quot;,
+    &quot;method&quot;: &quot;Same matching and 64-iteration alternating-median fit as the original v02 notebook. Fresh velocities. All 50 frames fit; no heldout validation. Minimum 10-frame template support; retain prior template where updates lack support; fast median fixed to zero.&quot;,
+    &quot;projection&quot;: &quot;0.02-degree latitude/longitude grid covering the reference frame. Linear interpolation retains NaN radiance vertices. No temporal interpolation.&quot;,
+    &quot;utc_conversion&quot;: &quot;AWE processing-code anchor: GPS Epoch 1356566418 = 2023-01-01T00:00:00 UTC; GPS-UTC = 18 s for this acquisition.&quot;
+  },
+  &quot;wavelet&quot;: {
+    &quot;source&quot;: &quot;Concentric-wave crop of fitted slow component, frame 1467 at iteration 64&quot;,
+    &quot;footprint&quot;: &quot;all_finite_slow&quot;,
+    &quot;finite_pixels&quot;: 21854,
+    &quot;missing_pixels&quot;: 947,
+    &quot;clusters&quot;: [
+      {
+        &quot;rank&quot;: 1,
+        &quot;peak_normalized_amplitude&quot;: 0.2616938054561615,
+        &quot;weighted_wavelength_km&quot;: 36.96869650553953,
+        &quot;selected_coefficients&quot;: 962679,
+        &quot;spatial_pixels&quot;: 21232,
+        &quot;wave_normal_axis_degrees&quot;: 54.08311049932669,
+        &quot;peak_wavelength_km&quot;: 28.540970760065306,
+        &quot;peak_axis_degrees&quot;: 59.99999999999999,
+        &quot;peak_longitude&quot;: -57.46,
+        &quot;peak_latitude&quot;: -2.32,
+        &quot;peak_edge_distance_km&quot;: 60.04526038806172,
+        &quot;search_edge&quot;: false
+      }
+    ],
+    &quot;cluster_expansion&quot;: {
+      &quot;baseline&quot;: {
+        &quot;threshold&quot;: 0.1,
+        &quot;clusters&quot;: 1,
+        &quot;selected_coefficients&quot;: 199224,
+        &quot;spatial_pixels&quot;: 9008
+      },
+      &quot;selected_coefficients&quot;: 962679,
+      &quot;spatial_pixels&quot;: 21232
+    },
+    &quot;settings&quot;: {
+      &quot;min_wavelength_km&quot;: 12.0,
+      &quot;max_wavelength_km&quot;: 74.02611961958115,
+      &quot;scale_step_octaves&quot;: 0.125,
+      &quot;angle_step_degrees&quot;: 5,
+      &quot;dx_km&quot;: 2.220210901291848,
+      &quot;dy_km&quot;: 2.223898532891175,
+      &quot;taper_km&quot;: 40,
+      &quot;min_amplitude&quot;: 0.25,
+      &quot;cluster_threshold&quot;: 0.05,
+      &quot;max_wavelength_exclusive_km&quot;: 80.0,
+      &quot;wavelength_steps&quot;: 22,
+      &quot;angle_steps&quot;: 36,
+      &quot;mode&quot;: &quot;scaled&quot;,
+      &quot;normalization_std_kR&quot;: 0.6023914492224947
+    },
+    &quot;checks&quot;: [
+      &quot;Synthetic 48 km / 30 degree wave recovered within scale and angle resolution&quot;
+    ],
+    &quot;transform_sha256&quot;: &quot;226aa342c42ffc932dccf95fbd8eb3dc815e3e314cb96a494777d057606f4b3b&quot;,
+    &quot;notes&quot;: &quot;Plane removed; cosine taper over 40 km from missing-data edges; zero outside valid footprint for FFT. Up to four strongest coefficient clusters, not significance-tested independent waves. Wavelength uses local geographic spacing. Axis is wave normal counterclockwise from east modulo 180 degrees; no travel direction or speed inferred.&quot;,
+    &quot;crop_bounds&quot;: {
+      &quot;longitude&quot;: [
+        -59.4,
+        -56.4
+      ],
+      &quot;latitude&quot;: [
+        -4.8,
+        -1.8
+      ]
+    },
+    &quot;input_shape&quot;: [
+      151,
+      151
+    ],
+    &quot;analysis_scope&quot;: &quot;Crop only; plane removal, edge taper and normalization computed on the crop before juwavelet.&quot;
+  }
+}</pre></details></section>
+<footer>AWE · Orbit 00019 · Q20 v02 · Every displayed frame and result is embedded in this HTML. No network access required.</footer></main>
+<script>
+const DATA={"frames":[{"frame":1442,"utc":"2023-11-23T05:23:13.023Z","images":["assets/7c6edc7ca91c6b9f9c2143d333f7adb32747d317e7fb9bfb41aa10aa254256e8.png","assets/be1fd8ed23ee34a5a2af018d0c164ff1fee734c9a48a6f4be6ca4fdeb43ef2e1.png","assets/bea2c8b838232f3b2e155b6c2ea71f63984e981f28645c05e5847bd25109f883.png","assets/cf4ba23e4cd2529c84ff1dedc2116089e4de503767b2e859b3f6c96c73dcf469.png"]},{"frame":1443,"utc":"2023-11-23T05:23:14.125Z","images":["assets/32920917b66e9c743dea1eaec5df863b2088725aec7d798056bdf7a64b8247f3.png","assets/383d9e3080d7a2555cff2b491acb55c0c1d94d19384e01f4ea52fefea364910a.png","assets/450ba8fd490f202c65d76ad294e440323d4f1109822691f161dc9570b9649fc2.png","assets/a445dfae45852de7857a4ff64b5af9d1d91a5f695fbe9d9c6f4873bcf800f5d9.png"]},{"frame":1444,"utc":"2023-11-23T05:23:15.222Z","images":["assets/e3b0d4710f868814eb745ecac5bc5f1f3d21a9ed3f1ee3c48752bcb39296995f.png","assets/a71f26573cbd10a82152bdff5ef879789c559c265597121c42150ec63cf00d0d.png","assets/a0ca20869f3ca29b7173000f3096ee6da4b37461308222f4e1e76b273ebf1970.png","assets/1f2cf8180ec81f3f1ff973f8ae1a41951a983b672e6397af3461be766c549bed.png"]},{"frame":1445,"utc":"2023-11-23T05:23:16.324Z","images":["assets/fb35c8e4766e8d01ce2e86bef7b5ede0899aace3ded239f6177933c947e87d6f.png","assets/76df7c8c8a6220cbf6be9f7cccbcea9af45e8dd5145610d9051ba4e623dcf1c3.png","assets/96715333b2218b9491342ad2b90d8e3a62db44a01a27805a2003664d17c0e88d.png","assets/93c6d4b489f02ee2e7c77910e7dbf42ed9305f97e552c079ac27b915e71e1f85.png"]},{"frame":1446,"utc":"2023-11-23T05:23:17.425Z","images":["assets/747197e0868b4b3928ef89eb78083afbec0c1c0e78629efdc075df4bab4bd4aa.png","assets/a0e956520187fc7bcd6c146ea728872e2a590ad8e729f9e1c69e22288eaa7871.png","assets/8e269a81f691c54015db0a1536b89b89816c8f230b645095604e8363edc8dedb.png","assets/ce5923947fcfc10adbbf33cd170d0122ec81bb9c9477db81982f62a62854afc1.png"]},{"frame":1447,"utc":"2023-11-23T05:23:18.523Z","images":["assets/a9100a380008d4fb4e37dfb7fee2174eee935214f53d91ec0ea9116677d9fe78.png","assets/a4a91fe5f91e03acab07458451c5731a78d8e48e7bf42dbd1044980e3c046fe8.png","assets/2a84d5f0052ad1c4d1bee88c50d6e11e1ed22359fc279360a1afe8864d7b928d.png","assets/c972d53c00a7e2b8aa92867b37ab97b5ba940a352483c983efbae9c3a8520bc2.png"]},{"frame":1448,"utc":"2023-11-23T05:23:19.625Z","images":["assets/696a17170abc2029b39e067f36b6809b48150614e995946fe5b183fb4b30e2b9.png","assets/37bd2a603d82a426261848d3061da9f9c36e46982245504d78f2ba8a90523a3c.png","assets/18f045eda40737461aee38982a7f19d5512f01348592e6a1b391f0367a68978b.png","assets/10786b3a9254ff8ca0925567c21ba89f4ddea730d82cb949cc3deb6bc1011069.png"]},{"frame":1449,"utc":"2023-11-23T05:23:20.726Z","images":["assets/9e8e7319caa2b0bcb5f7ee81981c18058462761ab49a8de7e635957f9c4f5ef7.png","assets/f39c415d889f6f9bdfd8fd3017e083a3fa2be5c08e8aed0e69e8d49dbcc5a447.png","assets/b36c6b91bea05d7d4f3d4f76e9fdd9992eaa8a627feef1b09b1ebb48cafd53db.png","assets/a20c4cc2865f3fecbdbf6b98e6a85a1f973d8edb7a193324c5fb5b56cdf449d3.png"]},{"frame":1450,"utc":"2023-11-23T05:23:21.824Z","images":["assets/f31a36e705189e850a063175dd3fd2ce3674bd7b8723bc924619c9ab050d288c.png","assets/ad11066791c517109c9221ed7f42b50146cf1dda6719ec52e07a18b6ff745bb9.png","assets/c182464b979e1d2c3835b73cffce1e213314f61978d62d70cbee6faf70a0070d.png","assets/fb1b8a77c2be83e8a0106a9b0334eb6bef6ff364e4d5be22226a5c108a4901a0.png"]},{"frame":1451,"utc":"2023-11-23T05:23:22.925Z","images":["assets/536be28ae943ff951dda7905905d330f0398d17a4eeb067c0ea9b50366f8c6d8.png","assets/2648a568e8b09e56d02cc38e1a6552f0beb5cae86ff7a7c48142084adce80313.png","assets/f01ad09b2ac76921b71f686ce38130620e5d53204b27cb8f790d8035f6c31434.png","assets/11221e8a5b5ee853fddf814686dc8ad95386de1835e41dce0e1d19fa5a635fb1.png"]},{"frame":1452,"utc":"2023-11-23T05:23:24.023Z","images":["assets/dcae92cd7d9c3303998e315c30240193d6a9b09e611a4ff9b198d87d4e6244ee.png","assets/2cca778d88c30bd18d7f9bd8d44fec1060bbbb897feec20f68318189e91ba245.png","assets/c68885a24808f892a31dc07c4fed79c1cdbac8e7d47751fe368df2d462b3b01c.png","assets/3b1d145fd5f96e4e727e93b1757b244a90912506a23cd326bf4dd6fd032663d1.png"]},{"frame":1453,"utc":"2023-11-23T05:23:25.125Z","images":["assets/af76dcd52aa49fe90f776f9db5f4f99e6a4f2ca2ec1528e8a09d91bf8520f0f3.png","assets/49a9f740b6164e0f91522871f1ec43401b4b2af1adf69bf9dd315b1c8b811214.png","assets/f4f2b5d803eb5dbbbda38dfb5ffa3b61f2325f41b817d60bad7bb5880162d51a.png","assets/b8fd40b73f8c76bc37478665d500f9e13c04a70ee70ab96899cccc1bb2f059c1.png"]},{"frame":1454,"utc":"2023-11-23T05:23:26.226Z","images":["assets/d6d4bf0a164593fbeb99e42e1a556c1e19b6ec45b80a618b02855d10ff91a5f5.png","assets/9deaa60dba04fb40fc4b456a7c46fae277f901d76a1428028a8fc565cf0856d5.png","assets/60e4b3bba5ac589115619031a8c4c206fb6ee67a84b96ff43406f18fcc4afc96.png","assets/9f9730c444168c2614b31972ff3da8a6125d52c526ccd15ce6c75a9c495c8318.png"]},{"frame":1455,"utc":"2023-11-23T05:23:27.324Z","images":["assets/f06e1efac638bf8ed3df4f936813586bbd001ff1ca31d1aa35016b2b5dba2b15.png","assets/7dc6929ade371636b23039b146ac5c8dd03c8b46da2a46038d57ffe0be7d9702.png","assets/df84865390594751f79e35b77ff25e687a05b16f1f877153365b9a7cb56c28fd.png","assets/bdaf2c745ffac071d4e2919da2501646dd4654356318bae8462aad67d77943f0.png"]},{"frame":1456,"utc":"2023-11-23T05:23:28.425Z","images":["assets/1e7d01ccf7676704aa5cfee8d590c71162a6349e987f314e8190e4276a1ec35e.png","assets/dc52ab5e690a6d86f6615c374c737a4eeca6dc56581ff943e05187f7de23654a.png","assets/750ac68062503a99db4d650057ebe49a4115c0bd53b2a192ff1284d7200e17c6.png","assets/b055e091c1e82ecc03f7853139a29e3b62a08d73320a7d68bfa8c2079c729411.png"]},{"frame":1457,"utc":"2023-11-23T05:23:29.523Z","images":["assets/1dfc0d169037052f131a202fc7f3711eacc3e82ae945c3bfa3705324d1228f96.png","assets/3a2aab2e8ad6eb34b497faf602c74382138ce524ee18e74385a671e4ef393757.png","assets/c2c527e1ae902bd75e8965967b71abd1d6d5ffe7c2a30db6afee629c1a5e9cea.png","assets/3b9e0e0fe3e388d3cb9d6efd0793b5a6014763d3219a91374d8e4913d44bc43f.png"]},{"frame":1458,"utc":"2023-11-23T05:23:30.625Z","images":["assets/2bb45959559f94def3a2ca913587d9f01028a894978908d851833d42fca47317.png","assets/4f870923bcf935f1ce7c4e628de003123f0e6c8cc26545cd30b74be194b7d89f.png","assets/19bc2a3aa987c3274fdf324ee46a9e1591392bb116f35fecde519536adfcb5f6.png","assets/1772d6ae9d158aae63705fd6b9b39d2444b6c790aeb300dbb6c1eb8cf82b6b1c.png"]},{"frame":1459,"utc":"2023-11-23T05:23:31.726Z","images":["assets/fb6fef75f60a01e608776ef407a6faef6ddc01e37c142de96c2fb645c95c7fa0.png","assets/25c7a0654432e7219a6ab195f087f20f16d9079ee09efc116cb500a94cd3319c.png","assets/28dc58274eac819fdb6d2aa90fd4ebdaee527b15c775e5826428e05d755340eb.png","assets/a087c2d7ee71b9eb029908c9afb857a251a495bac3c28c58266ed2de8b8cc0df.png"]},{"frame":1460,"utc":"2023-11-23T05:23:32.824Z","images":["assets/438b3e737b351de3fcbc1ed9155cbe49d296e8669f8f9aafa17b0125e264e9a8.png","assets/760877d4744d2b28d7bcfc988ce8e5902698154bf7f3827c89ebc84223d30a84.png","assets/22e2bbf19616378d60046b0244ec317166e3d8486fecdb877bc6c5e9c026f7d6.png","assets/66ea6d98ad29174f7470bb37a93700a06ffdb75856e3c98594c87b6e8ed6506e.png"]},{"frame":1461,"utc":"2023-11-23T05:23:33.925Z","images":["assets/0468b0f7f2563add1067a288a5dbee81b2cd229defe5d300aff031974921efa6.png","assets/6c7fe6cff80fb49802cbd3114c9bafae762845bca363eab2fffcd1ce121f3e89.png","assets/174a6880f93555e52f23069d7efa0e10b73825927ac44de6ca93de331df7da5c.png","assets/7734735fea5f63d977c67cbeaa1f494eb646a7ad6c05301c031dbf6ed1b02bcf.png"]},{"frame":1462,"utc":"2023-11-23T05:23:35.027Z","images":["assets/0c66e69491f489aac5caa3b79f40cdf7e3528b5904830726459c6e93b1276689.png","assets/96866263fe9ddcfdfcb0deb0bc6a2a1b5d6dd6f37cd099a301ff4d5e2d880cad.png","assets/5732e367cda8b0d6f3faadf54e4bf16e43b6966935f60196bb498713aebf4adf.png","assets/5dddf7d94609b49c3d6e651052e8e7a8583669313aba502c0eb459bb1488e714.png"]},{"frame":1463,"utc":"2023-11-23T05:23:36.125Z","images":["assets/38035d93d47be356f6ef43e1ed0aafd3e471db60efa226f109b786bb2702510c.png","assets/e540bb962a3cb20146d75d1a5c0e506d86bd6b0799173ebb123cbc0f184f7524.png","assets/70ba8cd309d63959e62628697a20a081e3e71a0b1d0625fe612e088b06214381.png","assets/3d1157afc4b960f8fdef900f891f723208cd6991ffdb123633b8000e7f8d4ecf.png"]},{"frame":1464,"utc":"2023-11-23T05:23:37.226Z","images":["assets/378836414074b029d17d09da21419f1c069e9bc78030173ba67191479895ae55.png","assets/ba8b0f8118c0218cd7ad2eb5dd8a314bbb579c5dee3133eb205455b8e8490f29.png","assets/654a648a3c191f43f14a05b004134d1cfdcc3b63c011c51bcbb938d7dd1c7a1c.png","assets/71e5e3c2c0f41e7d45761e0066f80b9e9fda710213ce36b663c29cd47feb2e82.png"]},{"frame":1465,"utc":"2023-11-23T05:23:38.324Z","images":["assets/446ee30db2dc9b05a2118c86b1da7772e557a4388e3fea988705f197d1a25817.png","assets/f202706f25cd6c16058b17c3bdef598117ae2d7cfc6e8d1220eab28619c5d930.png","assets/f92cc0c136a53aeccc67fc3a543a7a364ec82e55f6743bcb9287d733dd7d3d16.png","assets/620d63d041620f7e2e8dcba2f31e383e2920493ee218687e1f4c503dd7d2ebdb.png"]},{"frame":1466,"utc":"2023-11-23T05:23:39.425Z","images":["assets/58d8439da9cf4765dba6075c11ab057563401e53418183e64eea89456c678254.png","assets/874c15e9ec96aec451989e41429035345e99f6ce00541049e85bfbca030f63c5.png","assets/7820b914d43151868c9b5bf8d5d5ead7f7755d497a2b46339f1fc3407440de1b.png","assets/a21d5dbe889256838b24b793a1c0ee966e9276c50ab2f27c3ba3d5d3a977e115.png"]},{"frame":1467,"utc":"2023-11-23T05:23:40.527Z","images":["assets/080ddfea98a3137ac606b52f1a8f662e4a841be46e701acf4f920bc053978f06.png","assets/eb35028ea9ec285d0c7a7741135921e3f2239d4c72d78303763ab8a35d926125.png","assets/8c6c22fada4b2c73052579483c9054c4c084b7d7b53133ab81c555ad1aa8e0da.png","assets/cb63ffedc9ee436f313b20a170a338acbdba47449fefa723858fbe639cc8dd06.png"]},{"frame":1468,"utc":"2023-11-23T05:23:41.625Z","images":["assets/a87e84d4f7564fc5fe4c201bb9ceda0f851c899bb02b268734b10c00bac13122.png","assets/874764659d4e18df47e1b5d3aaaee390f193fd5b41e9869c76f6ca97c8f342a5.png","assets/4859dd3ce5d6906b903b6efa89cf981c689f7c2bd137fbc1906c6b693930175a.png","assets/3d657c7b4b237dfb95db6938ae2f6225f2d704abd77c236290ad805d0378ceb9.png"]},{"frame":1469,"utc":"2023-11-23T05:23:42.726Z","images":["assets/6ef06f50a049a1724635a283b964df415c88cc50cbdee9636017a047a064ab05.png","assets/64cc08eda151b61c4544cfdce65555e790850f6dbefc59e544435bbcaaa4c2de.png","assets/1537ddcdd663384e684d25b7641b2c27801eb5015ab88dd951006ee64b402303.png","assets/4e43758513bcedbe71e01d6882666f1b002e6c9be4db7bf92ce5100c5eeb4244.png"]},{"frame":1470,"utc":"2023-11-23T05:23:43.824Z","images":["assets/d1d3e1b482e1e340aaef04a77740de6645662c20ae7da14450a3726c53207313.png","assets/692dc4c009e18c255bbfcb940fac880ed4bbda4554784c206a7b268a8909e2fa.png","assets/ff5e6ce1010896da7c45128002a45049d50aa11b5117f519d6cccd307a88ffed.png","assets/b24f98664ed03ba7426e7c607e25c897c1933fe1c847025118481e42e909f88d.png"]},{"frame":1471,"utc":"2023-11-23T05:23:44.925Z","images":["assets/e27f4612bcb57044e33dba9ccb5c1ebe73e93f9593504807ffb0f11e342d6e7a.png","assets/e308ee6565f1c5b14837face88760b8c3dacefec90089fb30ddf25c1bfc81b18.png","assets/eb8245c2e169af34c9a6f4125dcd43d6c3e9a14bf09fec3770b0dd7913577381.png","assets/604ef3c9ab6eca567509ad3c9a96539cf9a6c35877eb7e59841adc314f91414e.png"]},{"frame":1472,"utc":"2023-11-23T05:23:46.027Z","images":["assets/8ab6b569bdc2fbb34717eec279ef2fe69b14aa8a9eb901132b3c0c2cf4ab85a4.png","assets/ac644bbd9eecd32d07883eca2d707c9ec2780075dc234acdd7d626a4982430de.png","assets/e6720fd5a67b9adc3fab36c98e73d3ca51661acd381cc0dc1f1d181ae1b31d03.png","assets/e8238291a8df43f82fdfaf33e501f71ad067da3cda46cdf8ee9409fd35c7be54.png"]},{"frame":1473,"utc":"2023-11-23T05:23:47.125Z","images":["assets/13bbd19a4371dc47dd26c3198ac6abadd2f78a7b62552403929afcb62f3298d9.png","assets/ad172ebfa29458b42495264c5423628148e83d3e2c961201636ac1f87048837a.png","assets/3873342eebd6d18adb32882a5a89b706198be6ead1b4cccd97782865873fd1f8.png","assets/daef0461e91fd831938779d00bbf2bce4e109b17f7a631290e406251aabbac0d.png"]},{"frame":1474,"utc":"2023-11-23T05:23:48.226Z","images":["assets/6a475044d91803db034b5e354d405fad456329a67829874261a980d9b38a1fe9.png","assets/f9c10a9991cccc3b0443591f3a38c4ac687035348f003fc7551500d0217f1fea.png","assets/c39401219248a112732a4a213207718fb3d0a96b72a7368f3ab568a2de9261a8.png","assets/42a4e55569972cc121b43b05c6807c9368b4177470a6d32508768abbe1fbec10.png"]},{"frame":1475,"utc":"2023-11-23T05:23:49.328Z","images":["assets/d0efb26765e6b82300edeeeb123e9c398dada2a86f0033006dcec9c5faf59df9.png","assets/719bb1279bb308acf8553cdfe00d068894ab8b7be0a501eff3bbd14278647acf.png","assets/3f4a9e10189a3be8d4845300184279e527e108d74af790c1fd08654bcebd70e6.png","assets/6f56e757329f917057dfc44587d80bd78a275a1972c069793c8be040302d7c91.png"]},{"frame":1476,"utc":"2023-11-23T05:23:50.425Z","images":["assets/cbd7e1c29ddae9d67cc196466f2caf6100f98729ad67a16b9c1c7f76ff1f9a87.png","assets/3a628528cdeb8043a77d98f96971cb8d22845be893f9a9ff15a1a3d1db60d81b.png","assets/9a16a59186a420766bdb1d1ce356e6749468d3b8ecfe16ae255ebed3f624719c.png","assets/22520321203be32cfcfaf4289fb3a8efc04f682f9b49428204456c938276cd5d.png"]},{"frame":1477,"utc":"2023-11-23T05:23:51.527Z","images":["assets/9f1001b3d11d794230709050f873cc64d024bc7a0ed63b89eea87822b7351cb8.png","assets/a73e8b2851896ab696fed299a3972b926e8e5a6a17bd5bdfb785123e85aca0e3.png","assets/90932422e032c6bac794b5379fbbacf15249bd43fd5869b75c4a791f83471f12.png","assets/cc55181db8ae27381cdd34fbdaa8df3c7a0be6c527eadac212b7ae6eacdc8f09.png"]},{"frame":1478,"utc":"2023-11-23T05:23:52.625Z","images":["assets/73507eec18b9c4065a1b9a1a0671df027b0d4f57366a4991758ac22a710ccacb.png","assets/a2cbc09c41ed38e036f0f3dfc66a739d0ecb5ed5a2ea35e26e1ca8ef12216929.png","assets/ed947ba945285a4d43aa0b5fa55626563630dd8865785a9ded8f4213939e4b18.png","assets/d97cb00a4d729c94d0eac14f9eeaae3663c58a13739556fe01076347bb5dcc80.png"]},{"frame":1479,"utc":"2023-11-23T05:23:53.726Z","images":["assets/9e04c06541015b5c9af5c877171c8a7f21ceeec0ba50609b44a3fbe716994b14.png","assets/02821b6a5178169997dee0b80ad8d51b62b2b0b99de31bf7be2d7135d2267795.png","assets/9525baf7c15dd1e8d2f2b950e4f8d87282e20651c59b52e65b345d44c785e950.png","assets/43c7bb5d155ef6e0ba07c284b6f575a89212e75738a6ba85fb04625e4fc911b8.png"]},{"frame":1480,"utc":"2023-11-23T05:23:54.828Z","images":["assets/010ea732245f782515d620cdc3e19ff380c56e1874893bf1d4dedd3ec9dbbb35.png","assets/af64bb7423b076c80fd6d74a9e9c84568e2793e006bba6c4538cbb37866de530.png","assets/6e2f66cdd37c50c2ee8fc291be3c598a692724a0eb1708d32a2c384db663e058.png","assets/c2d89747d7acac25c5ac050aaaa208a3098f4b315d54324c25caa5b4be5ef802.png"]},{"frame":1481,"utc":"2023-11-23T05:23:55.925Z","images":["assets/b5f2f15796777b7b484ed19752a69538b4d360a4761cb3138831d2a5392c3cf8.png","assets/01afef01f45c8c578996ef2f64f37f322369faedd5edbd16971ebf0fa273186a.png","assets/72de8d862f79cf62bee7680ff0f921a429ae832b0da60b3e21a24cad16439c0d.png","assets/36eab8f62f39ab25262eb94107ef07da35781bb7d37ddba0618fc074d3e25096.png"]},{"frame":1482,"utc":"2023-11-23T05:23:57.027Z","images":["assets/b71c7f92637f0462c56f1e3a85a874184e0e01c21bdb261ac7a79fc1e2b71f6a.png","assets/36f5f3665446bdfa44705016dbd0d4fbebb74ad0a0ecfd35a4a1f07db1a68c19.png","assets/a86388d9a054109801459f587775bde200440ad09d155b44fc2ead494fe0b316.png","assets/68b6538ecceca0f9202b6879f77b7e0b33f9203eb60a003362177affba279ec6.png"]},{"frame":1483,"utc":"2023-11-23T05:23:58.128Z","images":["assets/66d8bec8cfc55a774c51d237f2e753d13ebc5dacd3026c388d651e11394c4efd.png","assets/c1d6cdd607e6f0221c04be7f16e13a4cc3e412978668437f9460f9c752e8e99a.png","assets/3c0ff17343d0e131bafec976c849cd44ea2acc4e3de210c6c975780f9febce12.png","assets/0e01e72852f156f63126fdd7890ea642a8435857735fafe5eb04b57fc2ca0c1c.png"]},{"frame":1484,"utc":"2023-11-23T05:23:59.226Z","images":["assets/9553c3b7d607da39ae5ae9f32b9c5f965de89c27efd319bab222aca52633f505.png","assets/05532d16357d5983fb8a6564c08586f52205afc11f05a01e562abf63c6c76fa8.png","assets/533cc05d903f5d25c01dd04be7e5bac650819313ad8cf988f390f703a46b63be.png","assets/013eaf5b385a11b0cd00e91dc81f19ea175faebf1c1306a9b91273350d69b197.png"]},{"frame":1485,"utc":"2023-11-23T05:24:00.328Z","images":["assets/e3b15461698aac37490525652f8e3acb3ed42e8655ccc6659ed3c0b5e78eafb7.png","assets/12729ec46797690a51a335a474c85114d6c772801dfd9a2605f81e93df113ad5.png","assets/33335819419bf1e74fc4ae56b3e9c167ca2de85c100a925dec2054518f4a28e2.png","assets/a1f818069d63034523ad63038e0de70b98489aeadd833bc9a8e2c82f1404d2e3.png"]},{"frame":1486,"utc":"2023-11-23T05:24:01.425Z","images":["assets/b40c2f808b97ee6e156b75651916b9d0af682f06326d9f99b76d57be1934d96c.png","assets/8f9b774d977b667710dc44a215ed3c4d96c42a2c428e658389a42ebf0a4f64a0.png","assets/a88b8ebcc15811d9fdbc841bf45efa16df26308efd6d8c81890d7b87da71f172.png","assets/58e9877163de53e3d6d3883b30ca11c9d721c556fac245ad06906eb2536c7364.png"]},{"frame":1487,"utc":"2023-11-23T05:24:02.527Z","images":["assets/397acca3c367710ef82e6ff1276265ed7419a460d1b96607cb20bba9e09cf111.png","assets/c23ad315057d0dc2efd2f90978234d29137f59cb35b348c4957de63b1a9bd9cb.png","assets/c98cb44666522dfe3fc58848ba55fc208fa92de999f22a5376733bfcadf0725a.png","assets/a30e5786347cc6be416664a81092919c7b314a6d85922b415d7c35378647ef97.png"]},{"frame":1488,"utc":"2023-11-23T05:24:03.628Z","images":["assets/0f336ce373ff9b6f57ae1effccc3a43645e342c91013cfaa853747d0ef6e5eb0.png","assets/b9b79e4762f420565cccfe35654173838e0963acf28b6311dfef467243f5428a.png","assets/d4281da5299feb11cf7e3e79dc0e23f0a96e3c86b421037768d3c5b262d50332.png","assets/496ad0a99dcf19c9277a82b5bf4397b0607ab1e56a12c4d68ecb06ffc5f296d3.png"]},{"frame":1489,"utc":"2023-11-23T05:24:04.726Z","images":["assets/875cee4763c9907342200ce54e705081a6b177097b9bfec11d43cadde3a8cd8e.png","assets/f4a2e40fbf0b671fd2e0c21706bde437bec3d4ddf9a116c74f6a6591e434629b.png","assets/480751daba870a204a7fce4391c44996b0a575c315cc59f342d7968c28ddd313.png","assets/79a33d790782ffaed05a8bb95153d02c75e2dbd5d49d0dfbb3c5965f9fafd3b5.png"]},{"frame":1490,"utc":"2023-11-23T05:24:05.828Z","images":["assets/aac085c0a8944271d7bc81f77bafb0df8b5ef6dfc334d91214b779c38e184d89.png","assets/689f8a8d90fc3db3e658fc32e7bb749a56c9ada65ca52fd1c46ff8239b96b33b.png","assets/72edc35dbce38d814d9d8d4102771c52c6cd50f6ca5b97a9bec773c17b23bd3f.png","assets/ed78ab4c83593b6dedc5eea24c4f4b27313b3c066292d32ffec6405bb226c9ee.png"]},{"frame":1491,"utc":"2023-11-23T05:24:06.925Z","images":["assets/99590f0244073777b5d3fb85d1ba7845f533323243bc9ac3b52382f6d4cdb988.png","assets/cfe6ff29b9026541ce29d4afa1f4ac08b30efab48ce2cffaf24dc2abd03d36bf.png","assets/8dc6c7337d580a71aae4e741816c6c028da5f3af83b35dd384da65b93a16f0b5.png","assets/6b814ce72496edf2799cb84b2e872134ae9c319f394227fa1e6330864985ffa6.png"]}],"reference":25};let current=DATA.reference,timer=null;const slider=document.getElementById('frame'),play=document.getElementById('play');
+function show(i){current=Number(i);slider.value=current;const item=DATA.frames[current];for(let k=0;k<4;k++)document.getElementById('map'+k).src=item.images[k];document.getElementById('timestamp').textContent=item.utc.slice(11,-1)+' UTC';document.getElementById('frame-label').textContent='Frame '+item.frame+' · '+(current+1)+' / '+DATA.frames.length+(current===DATA.reference?' · reference':'');}
+function stop(){if(timer)clearInterval(timer);timer=null;play.textContent='Play';play.setAttribute('aria-label','Play frame sequence');}
+function start(){stop();play.textContent='Pause';play.setAttribute('aria-label','Pause frame sequence');timer=setInterval(()=>show((current+1)%DATA.frames.length),Number(document.getElementById('speed').value));}
+play.onclick=()=>timer?stop():start();slider.oninput=()=>{stop();show(slider.value)};document.getElementById('reference').onclick=()=>{stop();show(DATA.reference)};document.getElementById('speed').onchange=()=>{if(timer)start()};document.addEventListener('visibilitychange',()=>{if(document.hidden)stop()});show(current);
+</script></body></html>

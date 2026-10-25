@@ -1,0 +1,642 @@
+[
+  {
+    "iteration": 1,
+    "reconstruction_rmse_kR": 0.3044937799532664,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 2,
+    "reconstruction_rmse_kR": 0.29131860140694643,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 3,
+    "reconstruction_rmse_kR": 0.28327081375221497,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 4,
+    "reconstruction_rmse_kR": 0.2775814857566012,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 5,
+    "reconstruction_rmse_kR": 0.2732786440259211,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 6,
+    "reconstruction_rmse_kR": 0.26995333475820005,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 7,
+    "reconstruction_rmse_kR": 0.2673280040840891,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 8,
+    "reconstruction_rmse_kR": 0.26524441448423275,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 9,
+    "reconstruction_rmse_kR": 0.2635465806177949,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 10,
+    "reconstruction_rmse_kR": 0.2621555699883215,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 11,
+    "reconstruction_rmse_kR": 0.261000715280398,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 12,
+    "reconstruction_rmse_kR": 0.26002222874291514,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 13,
+    "reconstruction_rmse_kR": 0.2591775612856247,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 14,
+    "reconstruction_rmse_kR": 0.2584382469122828,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 15,
+    "reconstruction_rmse_kR": 0.2577801227825471,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 16,
+    "reconstruction_rmse_kR": 0.2571987558977251,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 17,
+    "reconstruction_rmse_kR": 0.2566740558078934,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 18,
+    "reconstruction_rmse_kR": 0.2561924904556026,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 19,
+    "reconstruction_rmse_kR": 0.25575277882127656,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 20,
+    "reconstruction_rmse_kR": 0.2553492118291605,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 21,
+    "reconstruction_rmse_kR": 0.2549809458238782,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 22,
+    "reconstruction_rmse_kR": 0.25463872680722976,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 23,
+    "reconstruction_rmse_kR": 0.25431769337516574,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 24,
+    "reconstruction_rmse_kR": 0.25401948209023534,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 25,
+    "reconstruction_rmse_kR": 0.2537407276907608,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 26,
+    "reconstruction_rmse_kR": 0.25347993553751436,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 27,
+    "reconstruction_rmse_kR": 0.25323363984099595,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 28,
+    "reconstruction_rmse_kR": 0.25300146773477195,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 29,
+    "reconstruction_rmse_kR": 0.2527825743097139,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 30,
+    "reconstruction_rmse_kR": 0.25257621781740497,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 31,
+    "reconstruction_rmse_kR": 0.25238151917761376,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 32,
+    "reconstruction_rmse_kR": 0.25219740125161005,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 33,
+    "reconstruction_rmse_kR": 0.25202330512846344,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 34,
+    "reconstruction_rmse_kR": 0.2518571007027732,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 35,
+    "reconstruction_rmse_kR": 0.251698067760804,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 36,
+    "reconstruction_rmse_kR": 0.2515475496494415,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 37,
+    "reconstruction_rmse_kR": 0.2514051177305017,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 38,
+    "reconstruction_rmse_kR": 0.2512694386259072,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 39,
+    "reconstruction_rmse_kR": 0.25114100777877846,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 40,
+    "reconstruction_rmse_kR": 0.2510186049824316,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 41,
+    "reconstruction_rmse_kR": 0.2509010696311547,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 42,
+    "reconstruction_rmse_kR": 0.2507892144065595,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 43,
+    "reconstruction_rmse_kR": 0.25068251719220885,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 44,
+    "reconstruction_rmse_kR": 0.2505804373675641,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 45,
+    "reconstruction_rmse_kR": 0.25048314299157964,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 46,
+    "reconstruction_rmse_kR": 0.25038991299403723,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 47,
+    "reconstruction_rmse_kR": 0.2503008650567554,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 48,
+    "reconstruction_rmse_kR": 0.2502158431457362,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 49,
+    "reconstruction_rmse_kR": 0.2501346598947257,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 50,
+    "reconstruction_rmse_kR": 0.25005672955554076,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 51,
+    "reconstruction_rmse_kR": 0.2499820188278296,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 52,
+    "reconstruction_rmse_kR": 0.24991018179745847,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 53,
+    "reconstruction_rmse_kR": 0.24984121814072802,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 54,
+    "reconstruction_rmse_kR": 0.24977537485070442,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 55,
+    "reconstruction_rmse_kR": 0.24971229189977356,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 56,
+    "reconstruction_rmse_kR": 0.24965166585563678,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 57,
+    "reconstruction_rmse_kR": 0.24959346085479864,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 58,
+    "reconstruction_rmse_kR": 0.2495376491310627,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 59,
+    "reconstruction_rmse_kR": 0.24948413147588236,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 60,
+    "reconstruction_rmse_kR": 0.24943228055839295,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 61,
+    "reconstruction_rmse_kR": 0.24938174672484198,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 62,
+    "reconstruction_rmse_kR": 0.24933312253451323,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 63,
+    "reconstruction_rmse_kR": 0.24928638301701453,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 64,
+    "reconstruction_rmse_kR": 0.24924112997253986,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 65,
+    "reconstruction_rmse_kR": 0.24919751994735356,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 66,
+    "reconstruction_rmse_kR": 0.24915556566793082,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 67,
+    "reconstruction_rmse_kR": 0.24911496446076653,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 68,
+    "reconstruction_rmse_kR": 0.24907570384586075,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 69,
+    "reconstruction_rmse_kR": 0.24903756385329934,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 70,
+    "reconstruction_rmse_kR": 0.2490007017428787,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 71,
+    "reconstruction_rmse_kR": 0.24896499214614218,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 72,
+    "reconstruction_rmse_kR": 0.24893038384657865,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 73,
+    "reconstruction_rmse_kR": 0.24889719404375488,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 74,
+    "reconstruction_rmse_kR": 0.248865044130916,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 75,
+    "reconstruction_rmse_kR": 0.24883410029032332,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 76,
+    "reconstruction_rmse_kR": 0.2488040905012466,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 77,
+    "reconstruction_rmse_kR": 0.24877496496433746,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 78,
+    "reconstruction_rmse_kR": 0.24874685016496845,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 79,
+    "reconstruction_rmse_kR": 0.2487195972365198,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 80,
+    "reconstruction_rmse_kR": 0.24869326428215147,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 81,
+    "reconstruction_rmse_kR": 0.24866778997012393,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 82,
+    "reconstruction_rmse_kR": 0.24864290328088265,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 83,
+    "reconstruction_rmse_kR": 0.24861853067929762,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 84,
+    "reconstruction_rmse_kR": 0.2485946530571698,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 85,
+    "reconstruction_rmse_kR": 0.2485716128314234,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 86,
+    "reconstruction_rmse_kR": 0.24854947229786953,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 87,
+    "reconstruction_rmse_kR": 0.24852832763143043,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 88,
+    "reconstruction_rmse_kR": 0.2485080564878383,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 89,
+    "reconstruction_rmse_kR": 0.24848848341210406,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 90,
+    "reconstruction_rmse_kR": 0.24846956911494875,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 91,
+    "reconstruction_rmse_kR": 0.24845132262882896,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 92,
+    "reconstruction_rmse_kR": 0.2484336923392676,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 93,
+    "reconstruction_rmse_kR": 0.2484167532893025,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 94,
+    "reconstruction_rmse_kR": 0.24840044934019115,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 95,
+    "reconstruction_rmse_kR": 0.24838477024159128,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 96,
+    "reconstruction_rmse_kR": 0.2483696122277559,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 97,
+    "reconstruction_rmse_kR": 0.24835491944105714,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 98,
+    "reconstruction_rmse_kR": 0.24834071086771645,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 99,
+    "reconstruction_rmse_kR": 0.24832701774477356,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 100,
+    "reconstruction_rmse_kR": 0.24831375594200103,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 101,
+    "reconstruction_rmse_kR": 0.24830102237332635,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 102,
+    "reconstruction_rmse_kR": 0.24828881650964796,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 103,
+    "reconstruction_rmse_kR": 0.2482770680090094,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 104,
+    "reconstruction_rmse_kR": 0.24826567860326712,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 105,
+    "reconstruction_rmse_kR": 0.24825468728067376,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 106,
+    "reconstruction_rmse_kR": 0.24824413404575213,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 107,
+    "reconstruction_rmse_kR": 0.2482339972537953,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 108,
+    "reconstruction_rmse_kR": 0.2482242003012893,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 109,
+    "reconstruction_rmse_kR": 0.24821478685079193,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 110,
+    "reconstruction_rmse_kR": 0.24820578943293012,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 111,
+    "reconstruction_rmse_kR": 0.2481970648408696,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 112,
+    "reconstruction_rmse_kR": 0.2481885430248293,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 113,
+    "reconstruction_rmse_kR": 0.24818027182441404,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 114,
+    "reconstruction_rmse_kR": 0.2481722581145955,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 115,
+    "reconstruction_rmse_kR": 0.24816449773828061,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 116,
+    "reconstruction_rmse_kR": 0.2481570312579754,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 117,
+    "reconstruction_rmse_kR": 0.24814983012611166,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 118,
+    "reconstruction_rmse_kR": 0.24814286712791744,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 119,
+    "reconstruction_rmse_kR": 0.24813613987037206,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 120,
+    "reconstruction_rmse_kR": 0.24812961835706218,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 121,
+    "reconstruction_rmse_kR": 0.24812329177445575,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 122,
+    "reconstruction_rmse_kR": 0.24811711816748933,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 123,
+    "reconstruction_rmse_kR": 0.24811114282028227,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 124,
+    "reconstruction_rmse_kR": 0.2481053414945018,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 125,
+    "reconstruction_rmse_kR": 0.2480996898846623,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 126,
+    "reconstruction_rmse_kR": 0.24809419094866855,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 127,
+    "reconstruction_rmse_kR": 0.24808881990948167,
+    "evaluation_pixels_per_frame": 10492
+  },
+  {
+    "iteration": 128,
+    "reconstruction_rmse_kR": 0.24808356284522357,
+    "evaluation_pixels_per_frame": 10492
+  }
+]

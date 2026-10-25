@@ -1,0 +1,80 @@
+{
+  "location": {
+    "latitude": 25.872174261580717,
+    "longitude": -87.82662537675508,
+    "master_x": 3903,
+    "master_y": 201,
+    "frame": 955,
+    "pixel_x": 150,
+    "pixel_y": 150,
+    "pixel_convention": "zero-based native cutout after reversing disk y, consistent with Mastergrid"
+  },
+  "source_l1r": "E:\\soc\\l1r\\2023\\11\\awe_l1r_q20_2023326T0542_00004_v02.nc",
+  "orbit_results": "C:\\Users\\domin\\OneDrive\\Documents\\ChatGPT\\Cloud_advanced\\orbit85_full_filled",
+  "separation_window": [
+    925,
+    974
+  ],
+  "selected_model": "two_motion",
+  "frames": [
+    943,
+    944,
+    945,
+    946,
+    947,
+    948,
+    949,
+    950,
+    951,
+    952,
+    953,
+    954,
+    955,
+    956,
+    957,
+    958,
+    959,
+    960,
+    961,
+    962,
+    963,
+    964,
+    965,
+    966,
+    967
+  ],
+  "duration_seconds": 26.3984375,
+  "source": "observation-minus-fast",
+  "common_valid_fraction": 1.0,
+  "wavelength_nominal_km": 16.0,
+  "wavelength_local_geographic_km": 15.784454977878791,
+  "wave_axis_native_degrees": 65.0,
+  "positive_axis_bearing_deg": 204.16254433405416,
+  "wavelet_signed_phase_speed_m_s": 414.34843774329596,
+  "wavelet_propagation_bearing_deg": 204.16254433405416,
+  "layer_split_axis_projected_speed_m_s": 41.28100754969515,
+  "layer_split_full_speed_m_s": 58.44167688678815,
+  "layer_split_east_north_m_s": [
+    20.846207562224162,
+    -54.5973005524304
+  ],
+  "shifted_slow_template_control_speed_m_s": 37.71960462373406,
+  "phase_change_deg": 249.4691446004701,
+  "phase_scatter_deg": 92.23140119778351,
+  "flags": [
+    "Dominant wavelength is at a search boundary; extend the range before interpretation.",
+    "Fitted phase change is small relative to scatter; wavelet speed/direction is poorly constrained.",
+    "Large adjacent phase changes; possible phase wrapping or changing wave structure."
+  ],
+  "checks": "PASS: automatic wavelength/direction search; positive/negative 80 m/s waves; nonuniform timestamps; phase sign and units",
+  "method": "Automatic local wavelet power peak over wavelengths and 0..175-degree axes; lock that wave filter and seven fixed points across frames; unwrap relative complex phase; linear fit versus actual Epoch seconds. This differs from the previous PNG/cosine-amplitude workflow.",
+  "limitations": "Observation-minus-fast retains temporal variability but depends on the layer-splitting estimate and includes its fitting frames. Not independent validation or a pure-airglow retrieval. A short interval and weak phase change can limit speed accuracy. Template-control speed largely reflects imposed translation. Speeds are signed normal-to-wave phase speeds, not necessarily a full flow velocity.",
+  "search": {
+    "min_km": 16,
+    "max_km": 64,
+    "scale_step_octaves": 0.125,
+    "angle_step_deg": 5,
+    "crop_radius_cells": 40
+  },
+  "juwavelet_transform_sha256": "226aa342c42ffc932dccf95fbd8eb3dc815e3e314cb96a494777d057606f4b3b"
+}

@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "id": 0,
+      "window_starts": [
+        275
+      ],
+      "offsets_kR": [
+        0.0
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 1,
+      "window_starts": [
+        500,
+        525
+      ],
+      "offsets_kR": [
+        -0.08618197590112686,
+        0.08618197590112689
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 2,
+      "window_starts": [
+        650,
+        675
+      ],
+      "offsets_kR": [
+        -0.07735331356525421,
+        0.07735331356525424
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 3,
+      "window_starts": [
+        725
+      ],
+      "offsets_kR": [
+        0.0
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 4,
+      "window_starts": [
+        800
+      ],
+      "offsets_kR": [
+        0.0
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 5,
+      "window_starts": [
+        1425,
+        1475
+      ],
+      "offsets_kR": [
+        -0.053945638239383704,
+        0.053945638239383704
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 6,
+      "window_starts": [
+        1600
+      ],
+      "offsets_kR": [
+        0.0
+      ],
+      "gauge": "zero mean offset within this connected component"
+    },
+    {
+      "id": 7,
+      "window_starts": [
+        1775,
+        1800,
+        1825
+      ],
+      "offsets_kR": [
+        -0.16478028223932834,
+        0.026088090927390686,
+        0.13869219131193772
+      ],
+      "gauge": "zero mean offset within this connected component"
+    }
+  ],
+  "edges": [
+    {
+      "i": 20,
+      "j": 21,
+      "starts": [
+        500,
+        525
+      ],
+      "pixels": 64482,
+      "correlation": 0.8421679786496857,
+      "median_difference_kR": 0.17236395180225372,
+      "offset_removed_rmse_kR": 0.1882190853357315,
+      "accepted": true,
+      "remaining_median_difference_kR": -2.7755575615628914e-17
+    },
+    {
+      "i": 26,
+      "j": 27,
+      "starts": [
+        650,
+        675
+      ],
+      "pixels": 64090,
+      "correlation": 0.7211050256926891,
+      "median_difference_kR": 0.15470662713050842,
+      "offset_removed_rmse_kR": 0.18823668360710144,
+      "accepted": true,
+      "remaining_median_difference_kR": -2.7755575615628914e-17
+    },
+    {
+      "i": 27,
+      "j": 29,
+      "starts": [
+        675,
+        725
+      ],
+      "pixels": 39912,
+      "correlation": 0.4181556103890929,
+      "median_difference_kR": 0.40753883123397827,
+      "offset_removed_rmse_kR": 0.28576239943504333,
+      "accepted": false
+    },
+    {
+      "i": 57,
+      "j": 59,
+      "starts": [
+        1425,
+        1475
+      ],
+      "pixels": 34258,
+      "correlation": 0.5930483809040321,
+      "median_difference_kR": 0.1078912764787674,
+      "offset_removed_rmse_kR": 0.4008019268512726,
+      "accepted": true,
+      "remaining_median_difference_kR": -1.3877787807814457e-17
+    },
+    {
+      "i": 71,
+      "j": 72,
+      "starts": [
+        1775,
+        1800
+      ],
+      "pixels": 54839,
+      "correlation": 0.8520441674861094,
+      "median_difference_kR": 0.19991889595985413,
+      "offset_removed_rmse_kR": 0.3567638099193573,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.009050522793135105
+    },
+    {
+      "i": 71,
+      "j": 73,
+      "starts": [
+        1775,
+        1825
+      ],
+      "pixels": 27371,
+      "correlation": 0.7812179148384611,
+      "median_difference_kR": 0.27659153938293457,
+      "offset_removed_rmse_kR": 0.39826926589012146,
+      "accepted": true,
+      "remaining_median_difference_kR": -0.026880934168331483
+    },
+    {
+      "i": 72,
+      "j": 73,
+      "starts": [
+        1800,
+        1825
+      ],
+      "pixels": 52815,
+      "correlation": 0.8366301687538538,
+      "median_difference_kR": 0.11826102435588837,
+      "offset_removed_rmse_kR": 0.2717937231063843,
+      "accepted": true,
+      "remaining_median_difference_kR": 0.005656923971341321
+    }
+  ],
+  "note": "Fast += offset; slow -= offset. Reconstruction is unchanged. Disconnected components have independent arbitrary absolute offsets."
+}

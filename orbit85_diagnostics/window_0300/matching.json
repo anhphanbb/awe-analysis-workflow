@@ -1,0 +1,83 @@
+{
+  "start": 300,
+  "rejected": false,
+  "source": {
+    "finite_source_pixels": 4152558,
+    "pixels_rejected_by_radiance_range": 0,
+    "bounds": [
+      1298,
+      1638,
+      122,
+      422
+    ],
+    "radiance_percentiles_kR": [
+      5.627999782562256,
+      6.835999965667725,
+      7.336999893188477,
+      9.369000434875488,
+      12.789999961853027,
+      13.736000061035156,
+      17.23699951171875
+    ],
+    "finite_fraction_in_analysis_cube": 0.7402109803921568
+  },
+  "variants": {
+    "baseline": {
+      "variant": "baseline",
+      "parameters": {
+        "half": 12,
+        "smooth": 0,
+        "threshold": 0.08
+      },
+      "counts": {
+        "patches_considered": 1086,
+        "reference_missing": 334,
+        "patches_searched": 752,
+        "candidate_positions": 1389472,
+        "valid_candidate_positions": 1083532,
+        "correlation_below_threshold": 271,
+        "patches_with_matches": 417,
+        "peaks_on_search_boundary": 42,
+        "no_valid_search_position": 64,
+        "retained_candidates": 704
+      },
+      "modes": [
+        {
+          "velocity": [
+            0.018803789978196553,
+            0.0017506495269668143
+          ],
+          "support": 250,
+          "median_ncc": 0.5126598188058598,
+          "pair_count": 9
+        }
+      ],
+      "reason": "single_slow_mode",
+      "peak_stats": [
+        {
+          "center": [
+            0.01,
+            -0.010000000000000018
+          ],
+          "support": 250
+        }
+      ],
+      "median_noise_proxy_kR": 0.19289890302631602,
+      "texture_std_percentiles_kR": [
+        0.25480391658503215,
+        0.29320148981078675,
+        0.361272583096353,
+        0.477049377252402,
+        0.6272897716931257
+      ],
+      "best_ncc_percentiles": [
+        0.008868836671215848,
+        0.243342828425558,
+        0.397836326424707,
+        0.6299042264970249,
+        0.7929423543841051
+      ]
+    }
+  },
+  "baseline_candidate_reproduction": "PASS"
+}
